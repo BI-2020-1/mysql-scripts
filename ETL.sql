@@ -150,7 +150,7 @@ FROM
         left join tienda_db.t_promocion as prom on vdet.id_promocion = prom.id_promocion
 	) AS G
     inner join DPRODUCTO AS DPROD ON G.codigo = DPROD.codigo_producto AND G.talla = DPROD.talla
-    left join DTIEMPO AS DT ON G.Fecha=DT.fecha AND G.Turno = DT.turno_dia
+    inner join DTIEMPO AS DT ON G.Fecha=DT.fecha AND G.Turno = DT.turno_dia
     inner join DCLIENTE AS DCLI ON G.genero = DCLI.genero_cliente
     inner join DATENDEDOR AS DATEND ON G.nombreAtend = DATEND.atendedor_nombre
     left join DPROMOCION AS DPROM ON G.nombreProm = DPROM.promocion_nombre
