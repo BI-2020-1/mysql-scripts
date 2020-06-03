@@ -2,6 +2,7 @@ CREATE SCHEMA tienda_db DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 
 USE tienda_db;
 
+
 CREATE TABLE t_sistema_conf (
                 id_sistema_conf INT NOT NULL,
                 titulo VARCHAR(50) NOT NULL,
@@ -10,6 +11,7 @@ CREATE TABLE t_sistema_conf (
                 provincia VARCHAR(20) NOT NULL,
                 PRIMARY KEY (id_sistema_conf)
 );
+
 
 CREATE TABLE t_almacen (
                 id_almacen INT AUTO_INCREMENT NOT NULL,
@@ -177,13 +179,16 @@ ALTER TABLE t_venta MODIFY COLUMN tipo_pago VARCHAR(10) COMMENT 'efectivo,credit
 CREATE TABLE t_venta_detalle (
                 id_venta_detalle INT AUTO_INCREMENT NOT NULL,
                 cantidad INT NOT NULL,
-                precio_unid NUMERIC(6,2) NOT NULL,
+                precio_venta_unid NUMERIC(6,2) NOT NULL,
+                precio_compra_unid NUMERIC(6,2) NOT NULL,
                 descuento NUMERIC(6,2) NOT NULL,
                 id_producto INT NOT NULL,
                 id_venta INT NOT NULL,
-                id_promocion INT,
+                id_promocion INT NOT NULL,
                 PRIMARY KEY (id_venta_detalle)
 );
+
+ALTER TABLE t_venta_detalle MODIFY COLUMN descuento NUMERIC(6, 2) COMMENT 'Por unidad';
 
 
 ALTER TABLE t_almacen_detalle ADD CONSTRAINT almacen_almacen_detalle_fk

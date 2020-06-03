@@ -28,7 +28,7 @@
     <folder id="FOLTAB12" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX5" populated="true" UUID="b7fff763-0bc6-4c90-a1f7-653bb2358651" clustered="false" name="t_cliente_pk" physicalName="vt_cliente_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX5" populated="true" UUID="b7fff763-0bc6-4c90-a1f7-653bb2358651" clustered="false" name="t_cliente_pk" physicalName="t_cliente_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC6" populated="true" UUID="5546724f-4f27-484e-90f4-4e82630f221d" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="id_cliente" physicalName="id_cliente" />
     </index>
    </folder>
@@ -63,7 +63,7 @@
     <folder id="FOLTAB72" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB74" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX15" populated="true" UUID="8735ed39-0bcd-4968-9efc-9e789b481998" clustered="false" name="t_venta_pk" physicalName="vt_venta_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX15" populated="true" UUID="8735ed39-0bcd-4968-9efc-9e789b481998" clustered="false" name="t_venta_pk" physicalName="t_venta_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC16" populated="true" UUID="b6a05ab7-707b-4f4b-8b05-ad4b9c0227cb" ascendingOrDescending="UNSPECIFIED" column-ref="COL8" name="id_venta" physicalName="id_venta" />
     </index>
    </folder>
@@ -92,7 +92,7 @@
     <column id="COL24" populated="true" UUID="33f6b2af-bd99-483e-b17f-cd4aaa1bf764" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_id_venta_seq" defaultValue="" name="id_venta" nullable="0" physicalName="id_venta" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL25" populated="true" UUID="9d12ba66-15cb-40ad-85cb-8fc5047213c7" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_id_promocion_seq" defaultValue="" name="id_promocion" nullable="1" physicalName="id_promocion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL25" populated="true" UUID="9d12ba66-15cb-40ad-85cb-8fc5047213c7" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_id_promocion_seq" defaultValue="" name="id_promocion" nullable="0" physicalName="id_promocion" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -101,7 +101,7 @@
     <folder id="FOLTAB172" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB174" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX26" populated="true" UUID="b627b89a-5ad4-4e60-a1af-fbae9fb2e7d0" clustered="false" name="t_venta_detalle_pk" physicalName="vt_venta_detalle_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX26" populated="true" UUID="b627b89a-5ad4-4e60-a1af-fbae9fb2e7d0" clustered="false" name="t_venta_detalle_pk" physicalName="t_venta_detalle_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC27" populated="true" UUID="f0f3e782-9ed0-402b-967b-405863b61a38" ascendingOrDescending="UNSPECIFIED" column-ref="COL18" name="id_venta_detalle" physicalName="id_venta_detalle" />
     </index>
    </folder>
@@ -136,7 +136,7 @@
     <folder id="FOLTAB282" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB284" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX36" populated="true" UUID="e5e57684-63d8-47a8-ba83-5856f9832e16" clustered="false" name="t_usuario_pk" physicalName="vt_usuario_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX36" populated="true" UUID="e5e57684-63d8-47a8-ba83-5856f9832e16" clustered="false" name="t_usuario_pk" physicalName="t_usuario_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC37" populated="true" UUID="5d3eaeaf-3eb8-4b49-bd34-ea2d25adedad" ascendingOrDescending="UNSPECIFIED" column-ref="COL29" name="id_usuario" physicalName="id_usuario" />
     </index>
    </folder>
@@ -168,7 +168,7 @@
     <folder id="FOLTAB382" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB384" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX45" populated="true" UUID="8802e50e-7564-456d-a54b-4018298b1521" clustered="false" name="t_promotor_pk" physicalName="vt_promotor_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX45" populated="true" UUID="8802e50e-7564-456d-a54b-4018298b1521" clustered="false" name="t_promotor_pk" physicalName="t_promotor_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC46" populated="true" UUID="f07f2e56-d006-423b-b88d-6892e9bbe712" ascendingOrDescending="UNSPECIFIED" column-ref="COL39" name="id_promotor" physicalName="id_promotor" />
     </index>
    </folder>
@@ -206,7 +206,7 @@
     <folder id="FOLTAB472" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB474" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX56" populated="true" UUID="7b65d43b-35e5-40f8-87b5-c42295233357" clustered="false" name="t_compra_pk" physicalName="vt_compra_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX56" populated="true" UUID="7b65d43b-35e5-40f8-87b5-c42295233357" clustered="false" name="t_compra_pk" physicalName="t_compra_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC57" populated="true" UUID="8b72d2f4-f56c-42cc-81b5-d5b1ff72b593" ascendingOrDescending="UNSPECIFIED" column-ref="COL48" name="id_compra" physicalName="id_compra" />
     </index>
    </folder>
@@ -229,7 +229,7 @@
     <folder id="FOLTAB582" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB584" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX62" populated="true" UUID="e19a9372-0ef0-418d-bf6f-95dbc44b17e2" clustered="false" name="t_categoria_pk" physicalName="vt_categoria_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX62" populated="true" UUID="e19a9372-0ef0-418d-bf6f-95dbc44b17e2" clustered="false" name="t_categoria_pk" physicalName="t_categoria_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC63" populated="true" UUID="34f084d6-4c86-4e50-873e-cf2cd9dafa71" ascendingOrDescending="UNSPECIFIED" column-ref="COL59" name="id_categoria" physicalName="id_categoria" />
     </index>
    </folder>
@@ -261,7 +261,7 @@
     <folder id="FOLTAB642" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB644" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX71" populated="true" UUID="5f0de429-c809-4162-bb6b-b690e1a77d46" clustered="false" name="t_proveedor_pk" physicalName="vt_proveedor_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX71" populated="true" UUID="5f0de429-c809-4162-bb6b-b690e1a77d46" clustered="false" name="t_proveedor_pk" physicalName="t_proveedor_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC72" populated="true" UUID="f3f84b6c-94b6-431a-8aa3-4843204df8d8" ascendingOrDescending="UNSPECIFIED" column-ref="COL65" name="id_proveedor" physicalName="id_proveedor" />
     </index>
    </folder>
@@ -290,7 +290,7 @@
     <folder id="FOLTAB732" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB734" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX79" populated="true" UUID="54a329bf-4eef-45b8-a497-8565ab48c1bd" clustered="false" name="t_compra_detalle_pk" physicalName="vt_compra_detalle_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX79" populated="true" UUID="54a329bf-4eef-45b8-a497-8565ab48c1bd" clustered="false" name="t_compra_detalle_pk" physicalName="t_compra_detalle_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC80" populated="true" UUID="bd7d508d-125b-4069-a1ee-075dbda1fc31" ascendingOrDescending="UNSPECIFIED" column-ref="COL74" name="id_compra_detalle" physicalName="id_compra_detalle" />
     </index>
    </folder>
@@ -313,7 +313,7 @@
     <folder id="FOLTAB812" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB814" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX85" populated="true" UUID="e33e7029-48d0-404a-b4e5-f1b616e1d86a" clustered="false" name="t_promocion_pk" physicalName="vt_promocion_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX85" populated="true" UUID="e33e7029-48d0-404a-b4e5-f1b616e1d86a" clustered="false" name="t_promocion_pk" physicalName="t_promocion_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC86" populated="true" UUID="949a00e0-50d8-4479-bdad-8d60ad4da0ed" ascendingOrDescending="UNSPECIFIED" column-ref="COL82" name="id_promocion" physicalName="id_promocion" />
     </index>
    </folder>
@@ -336,7 +336,7 @@
     <folder id="FOLTAB872" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB874" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX91" populated="true" UUID="615f90c3-af92-4db0-a460-6011e99174e9" clustered="false" name="t_marca_pk" physicalName="vt_marca_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX91" populated="true" UUID="615f90c3-af92-4db0-a460-6011e99174e9" clustered="false" name="t_marca_pk" physicalName="t_marca_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC92" populated="true" UUID="589e762b-f87c-4dc5-afc6-d52eba0a6576" ascendingOrDescending="UNSPECIFIED" column-ref="COL88" name="id_marca" physicalName="id_marca" />
     </index>
    </folder>
@@ -362,7 +362,7 @@
     <folder id="FOLTAB932" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB934" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX98" populated="true" UUID="67677fa6-afee-4bef-b15c-bbe0c5d209d6" clustered="false" name="t_almacen_pk" physicalName="vt_almacen_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX98" populated="true" UUID="67677fa6-afee-4bef-b15c-bbe0c5d209d6" clustered="false" name="t_almacen_pk" physicalName="t_almacen_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC99" populated="true" UUID="87720e99-b597-4435-8986-7fec43fad504" ascendingOrDescending="UNSPECIFIED" column-ref="COL94" name="id_almacen" physicalName="id_almacen" />
     </index>
    </folder>
@@ -391,7 +391,7 @@
     <folder id="FOLTAB1002" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB1004" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX106" populated="true" UUID="1f52b7d3-c33e-442c-af2d-71bde8aa046d" clustered="false" name="t_almacen_detalle_pk" physicalName="vt_almacen_detalle_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX106" populated="true" UUID="1f52b7d3-c33e-442c-af2d-71bde8aa046d" clustered="false" name="t_almacen_detalle_pk" physicalName="t_almacen_detalle_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC107" populated="true" UUID="3c9a0f47-3520-476f-8137-5ec5f257e4cf" ascendingOrDescending="UNSPECIFIED" column-ref="COL101" name="id_almacen_detalle" physicalName="id_almacen_detalle" />
     </index>
    </folder>
@@ -435,7 +435,7 @@
     <folder id="FOLTAB1082" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB1084" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX119" populated="true" UUID="614c96a6-da19-445f-8d6d-1a34f57ce733" clustered="false" name="t_articulo_pk" physicalName="vt_articulo_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX119" populated="true" UUID="614c96a6-da19-445f-8d6d-1a34f57ce733" clustered="false" name="t_articulo_pk" physicalName="t_articulo_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC120" populated="true" UUID="bc46c9f0-60e8-46ba-adc7-8efa15da0d73" ascendingOrDescending="UNSPECIFIED" column-ref="COL109" name="id_articulo" physicalName="id_articulo" />
     </index>
    </folder>
@@ -458,7 +458,7 @@
     <folder id="FOLTAB1212" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB1214" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX125" populated="true" UUID="a499cc58-4c1b-4066-a6eb-8c4f503de9db" clustered="false" name="t_producto_pk" physicalName="vt_producto_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX125" populated="true" UUID="a499cc58-4c1b-4066-a6eb-8c4f503de9db" clustered="false" name="t_producto_pk" physicalName="t_producto_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC126" populated="true" UUID="f0b86819-b6bf-498f-8cd5-f47de456c551" ascendingOrDescending="UNSPECIFIED" column-ref="COL122" name="id_producto" physicalName="id_producto" />
     </index>
    </folder>
@@ -487,7 +487,7 @@
     <folder id="FOLTAB1272" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB1274" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX133" populated="true" UUID="916c28ea-1fc2-49e9-b426-14af8a17a4e3" clustered="false" name="t_sistema_conf_pk" physicalName="vt_sistema_conf_pk" primaryKeyIndex="true" unique="false" >
+    <index id="IDX133" populated="true" UUID="916c28ea-1fc2-49e9-b426-14af8a17a4e3" clustered="false" name="t_sistema_conf_pk" physicalName="t_sistema_conf_pk" primaryKeyIndex="true" unique="false" >
      <index-column id="IDC134" populated="true" UUID="a879f362-91e2-48db-9fd2-a791c15fa87d" ascendingOrDescending="UNSPECIFIED" column-ref="COL128" name="id_sistema_conf" physicalName="id_sistema_conf" />
     </index>
    </folder>
@@ -543,10 +543,10 @@
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="true"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="false"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
- <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+ <play-pen zoom="1.0" viewportX="49" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
   <table-pane table-ref="TAB1" x="89" y="453" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB7" x="371" y="500" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB17" x="363" y="332" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>

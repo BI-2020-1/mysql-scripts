@@ -114,13 +114,14 @@ INSERT INTO t_venta VALUES
 (null,'2020-05-13 14:33','Efectivo',158.1,3,2,2);
 
 INSERT INTO t_promocion VALUES
+(1,'Sin promoción','A');
 (null,'10% descuento en abrigos','A');
 
 INSERT INTO t_venta_detalle VALUES
-(null,2,19.0,12.00,0,1,1,null),
-(null,1,120.0,90.00,0,11,2,null),
-(null,1,69.0,55.00,0,16,3,null),
-(null,1,99.0,89.00,9.9,21,3,1);
+(null,2,19.0,12.00,0,1,1,1),
+(null,1,120.0,90.00,0,11,2,1),
+(null,1,69.0,55.00,0,16,3,1),
+(null,1,99.0,89.00,9.9,21,3,2);
 
 INSERT INTO tienda_db.t_sistema_conf VALUES(
 	1,'Tienda Centro Comercial Juliaca','Puno','Juliaca','San Román'

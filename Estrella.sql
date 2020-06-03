@@ -2,6 +2,7 @@ CREATE SCHEMA venta_dm DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 
 USE venta_dm;
 
+
 CREATE TABLE DPROMOCION (
                 id_promocion INT AUTO_INCREMENT NOT NULL,
                 promocion_nombre VARCHAR(50) NOT NULL,
@@ -24,7 +25,7 @@ CREATE TABLE DTIENDA (
 
 ALTER TABLE DTIENDA MODIFY COLUMN id_tienda INTEGER COMMENT 'ID único de la tienda.';
 
-ALTER TABLE DTIENDA MODIFY COLUMN tienda_nombre VARCHAR(20) COMMENT 'Nombre de la tienda.';
+ALTER TABLE DTIENDA MODIFY COLUMN tienda_nombre VARCHAR(50) COMMENT 'Nombre de la tienda.';
 
 ALTER TABLE DTIENDA MODIFY COLUMN departamento VARCHAR(20) COMMENT 'Nombre del departamento donde se encuentra la tienda.';
 
@@ -120,12 +121,12 @@ CREATE TABLE H_VENTA (
                 id_cliente INT NOT NULL,
                 id_tienda INT NOT NULL,
                 id_tiempo INT NOT NULL,
-                id_promocion INT,
+                id_promocion INT NOT NULL,
                 venta_monto NUMERIC(10,2) NOT NULL,
                 compra_soles NUMERIC(10,2) NOT NULL,
                 cantidad_unidades_vendidas NUMERIC(10) NOT NULL,
                 descuento NUMERIC(10,2) NOT NULL,
-                PRIMARY KEY (id_producto, id_atendedor, id_cliente, id_tienda, id_tiempo)
+                PRIMARY KEY (id_producto, id_atendedor, id_cliente, id_tienda, id_tiempo, id_promocion)
 );
 
 ALTER TABLE H_VENTA MODIFY COLUMN id_producto INTEGER COMMENT 'ID único del producto.';
