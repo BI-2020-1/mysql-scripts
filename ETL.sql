@@ -71,10 +71,11 @@ INSERT INTO DTIENDA(
 	tienda_nombre,
     departamento,    
     provincia,
-    distrito,
+    distrito
 )
 SELECT
-	sis.local,
+	1 as id_tienda,
+	sis.tienda_nombre,
     sis.departamento,
     sis.provincia,
     sis.distrito
