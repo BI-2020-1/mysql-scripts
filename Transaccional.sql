@@ -5,7 +5,7 @@ USE tienda_db;
 
 CREATE TABLE t_sistema (
                 id_sistema INT NOT NULL,
-                local VARCHAR(200) NOT NULL,
+                tienda_nombre VARCHAR(200) NOT NULL,
                 departamento VARCHAR(50) NOT NULL,
                 provincia VARCHAR(100) NOT NULL,
                 distrito VARCHAR(100) NOT NULL,

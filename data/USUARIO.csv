@@ -1,0 +1,11 @@
+id_usuario,codigo,usuario,password,nombres,apellidos,rol,estado
+1,2019001,fcurueno,oy49zl44,Fabiola,Curueño Cañedo,vendedor,A
+2,2019002,lmurguiondo,ho34dn82,Lennin,Murguiondo Olaechea,vendedor,A
+3,2019003,sseron,yf11zi80,Susana,Seron Cabredo,vendedor,A
+4,2019004,alogrono,iv83hz91,Armando,Logroño Toribia,vendedor,A
+5,2019005,jtumiraos,pq80ws26,Javier,Tumiraos Carranceja,vendedor,A
+6,2019006,rcuenca,xm79mf21,Rosa,Cuenca Arteson,vendedor,A
+7,2019007,amendoza,hs66zs89,Ariel,Mendoza Rodriguez,vendedor,A
+8,2019008,etruebano,zi95cg52,Eric,Truebano Aramoyana,vendedor,A
+9,2019009,vrosa,fa24qi33,Valeria,Rosa Mariategui,vendedor,A
+10,2019010,bencinas,dk77lu92,Blanca ,Encinas Cordon,vendedor,A

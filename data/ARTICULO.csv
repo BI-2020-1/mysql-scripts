@@ -1,0 +1,101 @@
+id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,precio_venta,estado
+1,19000001,Polo blanco con cuello,Algodón,S,1,1,"21.00","25.00",A
+2,19000002,Polo blanco con cuello,Algodón,M,1,1,"21.00","25.00",A
+3,19000003,Polo negro StarWars,Algodón,S,1,4,"22.00","26.00",A
+4,19000004,Polo negro StarWars,Algodón,M,1,4,"22.00","26.00",A
+5,19000005,Polo negro StarWars,Algodón,L,1,4,"22.00","26.00",A
+6,19000006,Polo blanco básico,Algodón,S,1,1,"14.00","16.00",A
+7,19000007,Polo blanco básico,Algodón,M,1,1,"14.00","16.00",A
+8,19000008,Polo blanco básico,Algodón,L,1,1,"14.00","16.00",A
+9,19000009,Polo gris básico manga larga,Algodón,S,1,1,"16.00","18.00",A
+10,19000010,Polo gris básico manga larga,Algodón,M,1,1,"16.00","18.00",A
+11,19000011,Polo gris básico manga larga,Algodón,L,1,1,"16.00","18.00",A
+12,19000012,Polo verde con puntos,Algodón,S,1,4,"18.00","20.00",A
+13,19000012,Polo verde con puntos,Algodón,M,1,4,"18.00","20.00",A
+14,19000012,Polo verde con puntos,Algodón,L,1,4,"18.00","20.00",A
+15,19000012,Polo verde con puntos,Algodón,S,1,4,"18.00","20.00",A
+16,19000012,Polo verde con puntos,Algodón,M,1,4,"18.00","20.00",A
+17,19000012,Polo verde con puntos,Algodón,L,1,4,"18.00","20.00",A
+18,19000018,Blusa básica,Algodón,S,2,8,"18.00","20.00",A
+19,19000019,Blusa básica,Algodón,M,2,8,"18.00","20.00",A
+20,19000020,Blusa básica,Algodón,L,2,8,"18.00","20.00",A
+21,19000021,Blusa ,Algodón,S,2,8,"21.00","25.00",A
+22,19000022,Blusa ,Algodón,M,2,8,"21.00","25.00",A
+23,19000023,Blusa ,Algodón,L,2,8,"21.00","25.00",A
+24,19000024,Blusa ,Algodón,S,2,5,"24.00","28.00",A
+25,19000025,Blusa ,Algodón,M,2,5,"24.00","28.00",A
+26,19000026,Blusa ,Algodón,L,2,5,"24.00","28.00",A
+27,19000027,Blusa ,Algodón,S,2,5,"32.00","36.00",A
+28,19000028,Blusa ,Algodón,M,2,5,"32.00","36.00",A
+29,19000029,Blusa ,Algodón,L,2,5,"32.00","36.00",A
+30,19000030,Camisa varón blanca con azul manga larga,Algodón,S,3,10,"26.00","30.00",A
+31,19000031,Camisa varón blanca con azul manga larga,Algodón,M,3,10,"26.00","30.00",A
+32,19000032,Camisa varón blanca con azul manga larga,Algodón,L,3,10,"26.00","30.00",A
+33,19000033,Camisa varón blanca con azul manga larga,Algodón,S,3,10,"26.00","30.00",A
+34,19000034,Camisa varón blanca con azul manga larga,Algodón,M,3,10,"26.00","30.00",A
+35,19000035,Camisa varón blanca con azul manga larga,Algodón,L,3,10,"26.00","30.00",A
+36,19000036,Camisa varón blanca con azul manga larga,Algodón,S,3,10,"36.00","40.00",A
+37,19000037,Camisa varón blanca con azul manga larga,Algodón,M,3,10,"36.00","40.00",A
+38,19000038,Camisa varón blanca con azul manga larga,Algodón,L,3,10,"36.00","40.00",A
+39,19000039,Camisa varón blanca con azul manga larga,Algodón,S,3,10,"32.00","36.00",A
+40,19000040,Camisa varón blanca con azul manga larga,Algodón,M,3,10,"32.00","36.00",A
+41,19000041,Camisa varón blanca con azul manga larga,Algodón,L,3,10,"32.00","36.00",A
+42,19000042,Camisa varón blanca con azul manga larga,Algodón,S,3,2,"36.00","40.00",A
+43,19000043,Camisa varón blanca con azul manga larga,Algodón,M,3,2,"36.00","40.00",A
+44,19000044,Camisa varón blanca con azul manga larga,Algodón,L,3,2,"36.00","40.00",A
+45,19000045,Camisa varón blanca con azul manga larga,Algodón,S,3,2,"26.00","30.00",A
+46,19000046,Camisa varón blanca con azul manga larga,Algodón,M,3,2,"26.00","30.00",A
+47,19000047,Camisa varón blanca con azul manga larga,Algodón,L,3,2,"26.00","30.00",A
+48,19000048,Camisa varón blanca con azul manga larga,Algodón,S,3,2,"26.00","30.00",A
+49,19000049,Camisa varón blanca con azul manga larga,Algodón,M,3,2,"26.00","30.00",A
+50,19000050,Camisa varón blanca con azul manga larga,Algodón,L,3,2,"26.00","30.00",A
+51,19000051,Jean,Denim,30,7,9,"80.00","89.00",A
+52,19000052,Jean,Denim,32,7,9,"80.00","89.00",A
+53,19000053,Jean,Denim,34,7,9,"80.00","89.00",A
+54,19000054,Jean,Denim,36,7,9,"80.00","89.00",A
+55,19000055,Jean,Denim,30,7,9,"90.00","99.00",A
+56,19000056,Jean,Denim,32,7,9,"90.00","99.00",A
+57,19000057,Jean,Denim,34,7,9,"90.00","99.00",A
+58,19000058,Jean,Denim,36,7,9,"90.00","99.00",A
+59,19000059,Jean,Denim,30,7,9,"90.00","99.00",A
+60,19000060,Jean,Denim,32,7,9,"90.00","99.00",A
+61,19000061,Jean,Denim,34,7,9,"90.00","99.00",A
+62,19000062,Jean,Denim,36,7,9,"90.00","99.00",A
+63,19000063,Jean,Denim,30,7,5,"110.00","120.00",A
+64,19000064,Jean,Denim,32,7,5,"110.00","120.00",A
+65,19000065,Jean,Denim,34,7,5,"110.00","120.00",A
+66,19000066,Jean,Denim,36,7,5,"110.00","120.00",A
+67,19000067,Jean,Denim,30,7,5,"110.00","120.00",A
+68,19000068,Jean,Denim,32,7,5,"110.00","120.00",A
+69,19000069,Jean,Denim,34,7,5,"110.00","120.00",A
+70,19000070,Jean,Denim,36,7,5,"110.00","120.00",A
+71,19000071,Pantalon,Algodón,30,8,6,"90.00","99.00",A
+72,19000072,Pantalon,Algodón,32,8,6,"90.00","99.00",A
+73,19000073,Pantalon,Algodón,34,8,6,"90.00","99.00",A
+74,19000074,Pantalon,Algodón,36,8,6,"90.00","99.00",A
+75,19000075,Pantalon,Algodón,30,8,6,"90.00","99.00",A
+76,19000076,Pantalon,Algodón,32,8,6,"90.00","99.00",A
+77,19000077,Pantalon,Algodón,34,8,6,"90.00","99.00",A
+78,19000078,Pantalon,Algodón,36,8,6,"90.00","99.00",A
+79,19000079,Pantalon,Algodón,30,8,6,"140.00","149.00",A
+80,19000080,Pantalon,Algodón,32,8,6,"140.00","149.00",A
+81,19000081,Pantalon,Algodón,34,8,6,"140.00","149.00",A
+82,19000082,Pantalon,Algodón,36,8,6,"140.00","149.00",A
+83,19000083,Pantalon,Algodón,30,8,6,"140.00","149.00",A
+84,19000084,Pantalon,Algodón,32,8,6,"140.00","149.00",A
+85,19000085,Pantalon,Algodón,34,8,6,"140.00","149.00",A
+86,19000086,Pantalon,Algodón,36,8,6,"140.00","149.00",A
+87,19000087,Short,Algodón,30,9,4,"46.00","55.00",A
+88,19000088,Short,Algodón,32,9,4,"46.00","55.00",A
+89,19000089,Short,Algodón,34,9,4,"46.00","55.00",A
+90,19000090,Short,Algodón,36,9,4,"46.00","55.00",A
+91,19000091,Short,Algodón,30,9,4,"46.00","55.00",A
+92,19000092,Short,Algodón,32,9,4,"46.00","55.00",A
+93,19000093,Short,Algodón,34,9,4,"46.00","55.00",A
+94,19000094,Short,Algodón,36,9,4,"46.00","55.00",A
+95,19000095,Falda jean,Algodón,30,10,8,"50.00","59.00",A
+96,19000096,Falda jean,Algodón,32,10,8,"50.00","59.00",A
+97,19000097,Falda jean,Algodón,34,10,8,"50.00","59.00",A
+98,19000098,Falda jean,Algodón,36,10,8,"50.00","59.00",A
+99,19000099,Falda jean,Algodón,30,10,8,"50.00","59.00",A
+100,19000100,Falda jean,Algodón,32,10,8,"50.00","59.00",A

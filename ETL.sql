@@ -3,8 +3,6 @@ SET @@lc_time_names = 'es_ES';
 INSERT INTO DARTICULO (
 	codigo_articulo,
     articulo_nombre,
-    precio_compra,
-    precio_venta,
 	categoria_nombre,
     talla,
     marca,
@@ -12,9 +10,7 @@ INSERT INTO DARTICULO (
 )
 SELECT  
 	a.codigo,
-    a.nombre, 
-    a.precio_compra,
-    a.precio_venta,
+    a.nombre,
     c.nombre,
     a.talla,
 	m.nombre,
@@ -146,10 +142,10 @@ FROM
 	        inner join tienda_db.t_promotor as pr on v.id_promotor = pr.id_promotor
 	        inner join tienda_db.t_promocion as prom on vdet.id_promocion = prom.id_promocion
 	) AS G
-    inner join DARTICULO AS DART ON G.codigo = DPROD.codigo_articulo
+    inner join DARTICULO AS DART ON G.codigo = DART.codigo_articulo
     inner join DTIEMPO AS DT ON G.Fecha=DT.fecha AND G.Turno = DT.turno_dia
     inner join DCLIENTE AS DCLI ON G.genero = DCLI.genero_cliente
-    inner join DPROMOTOR AS DP ON G.nombrePromocion = DP.promotor_nombre
+    inner join DPROMOTOR AS DP ON G.nombrePromotor = DP.promotor_nombre
     inner join DPROMOCION AS DPROM ON G.nombrePromocion = DPROM.promocion_nombre
 	GROUP BY DART.id_articulo, DT.id_tiempo, DCLI.id_cliente, DP.id_promotor, DPROM.id_promocion
 ;

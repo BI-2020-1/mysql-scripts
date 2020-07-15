@@ -2,6 +2,7 @@ CREATE SCHEMA venta_dm DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 
 USE venta_dm;
 
+
 CREATE TABLE DPROMOCION (
                 id_promocion INT AUTO_INCREMENT NOT NULL,
                 promocion_nombre VARCHAR(50) NOT NULL,
@@ -86,8 +87,6 @@ CREATE TABLE DARTICULO (
                 id_articulo INT AUTO_INCREMENT NOT NULL,
                 codigo_articulo VARCHAR(10) NOT NULL,
                 articulo_nombre VARCHAR(50) NOT NULL,
-                precio_compra NUMERIC(10,2) NOT NULL,
-                precio_venta NUMERIC(10,2) NOT NULL,
                 categoria_nombre VARCHAR(25) NOT NULL,
                 talla VARCHAR(20) NOT NULL,
                 marca VARCHAR(20) NOT NULL,
@@ -100,10 +99,6 @@ ALTER TABLE DARTICULO MODIFY COLUMN id_articulo INTEGER COMMENT 'ID único del a
 ALTER TABLE DARTICULO MODIFY COLUMN codigo_articulo VARCHAR(10) COMMENT 'Código único del articulo.';
 
 ALTER TABLE DARTICULO MODIFY COLUMN articulo_nombre VARCHAR(50) COMMENT 'Nombre del producto.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN precio_compra NUMERIC(10, 2) COMMENT 'Precio de compra del producto.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN precio_venta NUMERIC(10, 2) COMMENT 'Precio de venta del producto.';
 
 ALTER TABLE DARTICULO MODIFY COLUMN categoria_nombre VARCHAR(25) COMMENT 'Nombre de categoría del producto.';
 
