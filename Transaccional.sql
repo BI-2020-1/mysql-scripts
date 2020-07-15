@@ -3,13 +3,13 @@ CREATE SCHEMA tienda_db DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 USE tienda_db;
 
 
-CREATE TABLE t_sistema_conf (
-                id_sistema_conf INT NOT NULL,
-                titulo VARCHAR(50) NOT NULL,
-                departamento VARCHAR(20) NOT NULL,
-                distrito VARCHAR(20) NOT NULL,
-                provincia VARCHAR(20) NOT NULL,
-                PRIMARY KEY (id_sistema_conf)
+CREATE TABLE t_sistema (
+                id_sistema INT NOT NULL,
+                local VARCHAR(200) NOT NULL,
+                departamento VARCHAR(50) NOT NULL,
+                provincia VARCHAR(100) NOT NULL,
+                distrito VARCHAR(100) NOT NULL,
+                PRIMARY KEY (id_sistema)
 );
 
 
@@ -63,39 +63,27 @@ CREATE TABLE t_categoria (
 
 CREATE TABLE t_articulo (
                 id_articulo INT AUTO_INCREMENT NOT NULL,
-                tipo VARCHAR(10) NOT NULL,
                 codigo VARCHAR(50) NOT NULL,
                 nombre VARCHAR(100) NOT NULL,
-                descripcion VARCHAR(200) NOT NULL,
-                precio_venta NUMERIC(6,2) NOT NULL,
-                precio_compra NUMERIC(6,2) NOT NULL,
+                material VARCHAR(100) NOT NULL,
                 id_categoria INT NOT NULL,
                 id_marca INT NOT NULL,
+                talla VARCHAR(10) NOT NULL,
+                precio_compra NUMERIC(6,2) NOT NULL,
+                precio_venta NUMERIC(6,2) NOT NULL,
                 estado CHAR(1) NOT NULL,
                 PRIMARY KEY (id_articulo)
 );
 
-ALTER TABLE t_articulo MODIFY COLUMN tipo VARCHAR(10) COMMENT 'Superior, Inferior, Cabeza, Pies, Otros articulos';
-
-ALTER TABLE t_articulo MODIFY COLUMN descripcion VARCHAR(200) COMMENT 'Material';
-
-
-CREATE TABLE t_producto (
-                id_producto INT AUTO_INCREMENT NOT NULL,
-                id_articulo INT NOT NULL,
-                variacion VARCHAR(20) NOT NULL,
-                PRIMARY KEY (id_producto)
-);
-
-ALTER TABLE t_producto MODIFY COLUMN variacion VARCHAR(20) COMMENT 'Talla';
+ALTER TABLE t_articulo MODIFY COLUMN material VARCHAR(100) COMMENT 'Material';
 
 
 CREATE TABLE t_almacen_detalle (
                 id_almacen_detalle INT AUTO_INCREMENT NOT NULL,
                 cantidad_actual INT NOT NULL,
                 id_almacen INT NOT NULL,
-                id_producto INT NOT NULL,
                 estado CHAR(1) NOT NULL,
+                id_articulo INT NOT NULL,
                 PRIMARY KEY (id_almacen_detalle)
 );
 
@@ -104,7 +92,7 @@ ALTER TABLE t_almacen_detalle MODIFY COLUMN estado CHAR(1) COMMENT 'A,I';
 
 CREATE TABLE t_promotor (
                 id_promotor INT AUTO_INCREMENT NOT NULL,
-                codigo VARCHAR(50) NOT NULL,
+                codigo VARCHAR(10) NOT NULL,
                 nombres VARCHAR(100) NOT NULL,
                 apellidos VARCHAR(200) NOT NULL,
                 genero CHAR(1) NOT NULL,
@@ -117,7 +105,8 @@ ALTER TABLE t_promotor MODIFY COLUMN genero CHAR(1) COMMENT 'M,F';
 
 CREATE TABLE t_usuario (
                 id_usuario INT AUTO_INCREMENT NOT NULL,
-                nusuario VARCHAR(50) NOT NULL,
+                codigo VARCHAR(10) NOT NULL,
+                usuario VARCHAR(50) NOT NULL,
                 password VARCHAR(200) NOT NULL,
                 nombres VARCHAR(100) NOT NULL,
                 apellidos VARCHAR(200) NOT NULL,
@@ -144,9 +133,9 @@ CREATE TABLE t_compra (
 
 CREATE TABLE t_compra_detalle (
                 id_compra_detalle INT AUTO_INCREMENT NOT NULL,
+                id_articulo INT NOT NULL,
                 cantidad INT NOT NULL,
                 precio_unid NUMERIC(6,2) NOT NULL,
-                id_producto INT NOT NULL,
                 id_compra INT NOT NULL,
                 PRIMARY KEY (id_compra_detalle)
 );
@@ -178,11 +167,11 @@ ALTER TABLE t_venta MODIFY COLUMN tipo_pago VARCHAR(10) COMMENT 'efectivo,credit
 
 CREATE TABLE t_venta_detalle (
                 id_venta_detalle INT AUTO_INCREMENT NOT NULL,
+                id_articulo INT NOT NULL,
                 cantidad INT NOT NULL,
                 precio_venta_unid NUMERIC(6,2) NOT NULL,
                 precio_compra_unid NUMERIC(6,2) NOT NULL,
                 descuento NUMERIC(6,2) NOT NULL,
-                id_producto INT NOT NULL,
                 id_venta INT NOT NULL,
                 id_promocion INT NOT NULL,
                 PRIMARY KEY (id_venta_detalle)
@@ -227,27 +216,21 @@ REFERENCES t_categoria (id_categoria)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE t_producto ADD CONSTRAINT articulo_producto_fk
+ALTER TABLE t_almacen_detalle ADD CONSTRAINT t_articulo_t_almacen_detalle_fk
 FOREIGN KEY (id_articulo)
 REFERENCES t_articulo (id_articulo)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE t_venta_detalle ADD CONSTRAINT producto_venta_detalle_fk
-FOREIGN KEY (id_producto)
-REFERENCES t_producto (id_producto)
+ALTER TABLE t_venta_detalle ADD CONSTRAINT t_articulo_t_venta_detalle_fk
+FOREIGN KEY (id_articulo)
+REFERENCES t_articulo (id_articulo)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE t_compra_detalle ADD CONSTRAINT producto_compra_detalle_fk
-FOREIGN KEY (id_producto)
-REFERENCES t_producto (id_producto)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION;
-
-ALTER TABLE t_almacen_detalle ADD CONSTRAINT producto_almacen_detalle_fk
-FOREIGN KEY (id_producto)
-REFERENCES t_producto (id_producto)
+ALTER TABLE t_compra_detalle ADD CONSTRAINT t_articulo_t_compra_detalle_fk
+FOREIGN KEY (id_articulo)
+REFERENCES t_articulo (id_articulo)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 

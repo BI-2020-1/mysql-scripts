@@ -2,7 +2,6 @@ CREATE SCHEMA venta_dm DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 
 USE venta_dm;
 
-
 CREATE TABLE DPROMOCION (
                 id_promocion INT AUTO_INCREMENT NOT NULL,
                 promocion_nombre VARCHAR(50) NOT NULL,
@@ -58,18 +57,18 @@ ALTER TABLE DTIEMPO MODIFY COLUMN mes VARCHAR(10) COMMENT 'Nombre del mes del a�
 ALTER TABLE DTIEMPO MODIFY COLUMN estacion_anio VARCHAR(20) COMMENT 'Año numérico.';
 
 
-CREATE TABLE DATENDEDOR (
-                id_atendedor INT AUTO_INCREMENT NOT NULL,
-                atendedor_nombre VARCHAR(20) NOT NULL,
+CREATE TABLE DPROMOTOR (
+                id_promotor INT AUTO_INCREMENT NOT NULL,
+                promotor_nombre VARCHAR(20) NOT NULL,
                 genero CHAR(1) NOT NULL,
-                PRIMARY KEY (id_atendedor)
+                PRIMARY KEY (id_promotor)
 );
 
-ALTER TABLE DATENDEDOR MODIFY COLUMN id_atendedor INTEGER COMMENT 'ID único del atendedor.';
+ALTER TABLE DPROMOTOR MODIFY COLUMN id_promotor INTEGER COMMENT 'ID único del atendedor.';
 
-ALTER TABLE DATENDEDOR MODIFY COLUMN atendedor_nombre VARCHAR(20) COMMENT 'Nombre del atendedor.';
+ALTER TABLE DPROMOTOR MODIFY COLUMN promotor_nombre VARCHAR(20) COMMENT 'Nombre del atendedor.';
 
-ALTER TABLE DATENDEDOR MODIFY COLUMN genero CHAR(1) COMMENT 'Género del atendedor.';
+ALTER TABLE DPROMOTOR MODIFY COLUMN genero CHAR(1) COMMENT 'Género del atendedor.';
 
 
 CREATE TABLE DCLIENTE (
@@ -83,41 +82,41 @@ ALTER TABLE DCLIENTE MODIFY COLUMN id_cliente INTEGER COMMENT 'ID único del cli
 ALTER TABLE DCLIENTE MODIFY COLUMN genero_cliente CHAR(1) COMMENT 'Género del cliente.';
 
 
-CREATE TABLE DPRODUCTO (
-                id_producto INT AUTO_INCREMENT NOT NULL,
-                codigo_producto VARCHAR(10) NOT NULL,
-                producto_nombre VARCHAR(50) NOT NULL,
+CREATE TABLE DARTICULO (
+                id_articulo INT AUTO_INCREMENT NOT NULL,
+                codigo_articulo VARCHAR(10) NOT NULL,
+                articulo_nombre VARCHAR(50) NOT NULL,
                 precio_compra NUMERIC(10,2) NOT NULL,
                 precio_venta NUMERIC(10,2) NOT NULL,
                 categoria_nombre VARCHAR(25) NOT NULL,
                 talla VARCHAR(20) NOT NULL,
                 marca VARCHAR(20) NOT NULL,
                 material VARCHAR(20) NOT NULL,
-                PRIMARY KEY (id_producto)
+                PRIMARY KEY (id_articulo)
 );
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN id_producto INTEGER COMMENT 'ID único del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN id_articulo INTEGER COMMENT 'ID único del articulo.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN codigo_producto VARCHAR(10) COMMENT 'Código único del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN codigo_articulo VARCHAR(10) COMMENT 'Código único del articulo.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN producto_nombre VARCHAR(50) COMMENT 'Nombre del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN articulo_nombre VARCHAR(50) COMMENT 'Nombre del producto.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN precio_compra NUMERIC(10, 2) COMMENT 'Precio de compra del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN precio_compra NUMERIC(10, 2) COMMENT 'Precio de compra del producto.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN precio_venta NUMERIC(10, 2) COMMENT 'Precio de venta del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN precio_venta NUMERIC(10, 2) COMMENT 'Precio de venta del producto.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN categoria_nombre VARCHAR(25) COMMENT 'Nombre de categoría del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN categoria_nombre VARCHAR(25) COMMENT 'Nombre de categoría del producto.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN talla VARCHAR(20) COMMENT 'Talla del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN talla VARCHAR(20) COMMENT 'Talla del producto.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN marca VARCHAR(20) COMMENT 'Marca del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN marca VARCHAR(20) COMMENT 'Marca del producto.';
 
-ALTER TABLE DPRODUCTO MODIFY COLUMN material VARCHAR(20) COMMENT 'Material predominante del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN material VARCHAR(20) COMMENT 'Material predominante del producto.';
 
 
 CREATE TABLE H_VENTA (
-                id_producto INT NOT NULL,
-                id_atendedor INT NOT NULL,
+                id_articulo INT NOT NULL,
+                id_promotor INT NOT NULL,
                 id_cliente INT NOT NULL,
                 id_tienda INT NOT NULL,
                 id_tiempo INT NOT NULL,
@@ -126,12 +125,12 @@ CREATE TABLE H_VENTA (
                 compra_soles NUMERIC(10,2) NOT NULL,
                 cantidad_unidades_vendidas NUMERIC(10) NOT NULL,
                 descuento NUMERIC(10,2) NOT NULL,
-                PRIMARY KEY (id_producto, id_atendedor, id_cliente, id_tienda, id_tiempo, id_promocion)
+                PRIMARY KEY (id_articulo, id_promotor, id_cliente, id_tienda, id_tiempo, id_promocion)
 );
 
-ALTER TABLE H_VENTA MODIFY COLUMN id_producto INTEGER COMMENT 'ID único del producto.';
+ALTER TABLE H_VENTA MODIFY COLUMN id_articulo INTEGER COMMENT 'ID único del producto.';
 
-ALTER TABLE H_VENTA MODIFY COLUMN id_atendedor INTEGER COMMENT 'ID único del atendedor.';
+ALTER TABLE H_VENTA MODIFY COLUMN id_promotor INTEGER COMMENT 'ID único del atendedor.';
 
 ALTER TABLE H_VENTA MODIFY COLUMN id_cliente INTEGER COMMENT 'ID único del cliente.';
 
@@ -167,8 +166,8 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
 ALTER TABLE H_VENTA ADD CONSTRAINT atendedor_venta_fk
-FOREIGN KEY (id_atendedor)
-REFERENCES DATENDEDOR (id_atendedor)
+FOREIGN KEY (id_promotor)
+REFERENCES DPROMOTOR (id_promotor)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
@@ -179,7 +178,7 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
 ALTER TABLE H_VENTA ADD CONSTRAINT producto_venta_fk
-FOREIGN KEY (id_producto)
-REFERENCES DPRODUCTO (id_producto)
+FOREIGN KEY (id_articulo)
+REFERENCES DARTICULO (id_articulo)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;

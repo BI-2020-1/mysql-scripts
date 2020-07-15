@@ -1,8 +1,8 @@
 SET @@lc_time_names = 'es_ES';
 /* DIMENSION PRODUCTO */
-INSERT INTO DPRODUCTO (
-	codigo_producto,
-    producto_nombre,
+INSERT INTO DARTICULO (
+	codigo_articulo,
+    articulo_nombre,
     precio_compra,
     precio_venta,
 	categoria_nombre,
@@ -16,11 +16,10 @@ SELECT
     a.precio_compra,
     a.precio_venta,
     c.nombre,
-    prod.variacion,
+    a.talla,
 	m.nombre,
-	a.descripcion
+	a.material
 FROM tienda_db.t_articulo as a
-	inner join tienda_db.t_producto as prod on prod.id_articulo = a.id_articulo
     inner join tienda_db.t_categoria as c on c.id_categoria = a.id_categoria
     inner join tienda_db.t_marca as m on m.id_marca = a.id_marca;
     
@@ -62,8 +61,8 @@ SELECT
 FROM tienda_db.t_cliente as v GROUP BY v.genero;
 
 /* DIMENSION ATENDEDOR */
-INSERT INTO DATENDEDOR(
-	atendedor_nombre,
+INSERT INTO DPROMOTOR(
+	promotor_nombre,
     genero
 )
 SELECT
@@ -74,23 +73,23 @@ FROM tienda_db.t_promotor p;
 /* DIMENSION TIENDA */
 INSERT INTO DTIENDA(
 	tienda_nombre,
-    departamento,
+    departamento,    
+    provincia,
     distrito,
-    provincia
 )
 SELECT
-	sc.titulo,
-    sc.departamento,
-    sc.distrito,
-    sc.provincia
-FROM tienda_db.t_sistema_conf sc;
+	sis.local,
+    sis.departamento,
+    sis.provincia,
+    sis.distrito
+FROM tienda_db.t_sistema sis;
 
 /* DIMENSION PROMOCION */
 INSERT INTO DPROMOCION(
 	promocion_nombre
 )SELECT
-	p.nombre
-FROM tienda_db.t_promocion p;
+	prom.nombre
+FROM tienda_db.t_promocion prom;
 
 
 SELECT @@lc_time_names;
@@ -99,8 +98,8 @@ SELECT @@lc_time_names;
 set collation_connection = latin1_spanish_ci;
 
 INSERT INTO H_VENTA (
-	id_producto,
-    id_atendedor,
+	id_articulo,
+    id_promotor,
     id_cliente,
     id_promocion,
 	id_tienda,
@@ -111,8 +110,8 @@ INSERT INTO H_VENTA (
     compra_soles
 )
 SELECT
-	DPROD.id_producto,
-    DATEND.id_atendedor,
+	DART.id_articulo,
+    DP.id_promotor,
     DCLI.id_cliente,
     DPROM.id_promocion,
     /*DT.id_tienda,*/
@@ -123,38 +122,36 @@ SELECT
     sum(G.Descuento) as DESCTO,
     sum(G.Costos) as COSTO
 FROM
-	 (
-	SELECT  
-		/*date_format(v.fecha, '%Y-%m-%d') AS Fecha,*/
-        DATE(v.fecha) AS Fecha,
-        CASE
-			WHEN HOUR(v.fecha)<12 THEN 'Turno mañana'
-			WHEN HOUR(v.fecha)<18 THEN 'Turno tarde'
-			ELSE 'Turno noche'
-		END AS Turno,
-		a.codigo,
-        vdet.cantidad as Cantidad,
-        p.variacion as Talla,
-        vdet.cantidad*vdet.precio_compra_unid as Costos,
-        vdet.cantidad*(vdet.precio_venta_unid - vdet.descuento) as Ventas,
-        vdet.cantidad*(vdet.descuento) as Descuento,
-        cli.genero,
-        pr.nombres as nombreAtend,
-        prom.nombre as nombreProm
-	FROM tienda_db.t_venta as v
-		inner join tienda_db.t_venta_detalle as vdet on v.id_venta = vdet.id_venta
-		inner join tienda_db.t_producto as p on vdet.id_producto = p.id_producto
-        inner join tienda_db.t_articulo as a on p.id_articulo = a.id_articulo
-        inner join tienda_db.t_cliente as cli on v.id_cliente = cli.id_cliente
-        inner join tienda_db.t_promotor as pr on v.id_promotor = pr.id_promotor
-        inner join tienda_db.t_promocion as prom on vdet.id_promocion = prom.id_promocion
+	(
+		SELECT 
+			/*date_format(v.fecha, '%Y-%m-%d') AS Fecha,*/
+	        DATE(v.fecha) AS Fecha,
+	        CASE
+				WHEN HOUR(v.fecha)<12 THEN 'Turno mañana'
+				WHEN HOUR(v.fecha)<18 THEN 'Turno tarde'
+				ELSE 'Turno noche'
+			END AS Turno,
+			a.codigo,
+	        vdet.cantidad as Cantidad,
+	        vdet.cantidad*vdet.precio_compra_unid as Costos,
+	        vdet.cantidad*(vdet.precio_venta_unid - vdet.descuento) as Ventas,
+	        vdet.cantidad*(vdet.descuento) as Descuento,
+	        cli.genero,
+	        pr.nombres as nombrePromotor,
+	        prom.nombre as nombrePromocion
+		FROM tienda_db.t_venta as v
+			inner join tienda_db.t_venta_detalle as vdet on v.id_venta = vdet.id_venta
+			inner join tienda_db.t_articulo as a on vdet.id_articulo = a.id_articulo
+	        inner join tienda_db.t_cliente as cli on v.id_cliente = cli.id_cliente
+	        inner join tienda_db.t_promotor as pr on v.id_promotor = pr.id_promotor
+	        inner join tienda_db.t_promocion as prom on vdet.id_promocion = prom.id_promocion
 	) AS G
-    inner join DPRODUCTO AS DPROD ON G.codigo = DPROD.codigo_producto AND G.talla = DPROD.talla
+    inner join DARTICULO AS DART ON G.codigo = DPROD.codigo_articulo
     inner join DTIEMPO AS DT ON G.Fecha=DT.fecha AND G.Turno = DT.turno_dia
     inner join DCLIENTE AS DCLI ON G.genero = DCLI.genero_cliente
-    inner join DATENDEDOR AS DATEND ON G.nombreAtend = DATEND.atendedor_nombre
-    inner join DPROMOCION AS DPROM ON G.nombreProm = DPROM.promocion_nombre
-	GROUP BY DPROD.id_producto, DT.id_tiempo, DCLI.id_cliente, DATEND.id_atendedor, DPROM.id_promocion
+    inner join DPROMOTOR AS DP ON G.nombrePromocion = DP.promotor_nombre
+    inner join DPROMOCION AS DPROM ON G.nombrePromocion = DPROM.promocion_nombre
+	GROUP BY DART.id_articulo, DT.id_tiempo, DCLI.id_cliente, DP.id_promotor, DPROM.id_promocion
 ;
 
 -- show variables like 'col%';
