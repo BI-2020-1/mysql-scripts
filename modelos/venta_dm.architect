@@ -228,31 +228,31 @@
    </folder>
   </table>
   <relationships>
-   <relationship id="REL65" populated="true" UUID="a7079c44-4c14-4de4-858c-bfeba58ec226" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="PRODUCTO_VENTA_fk" physicalName="producto_venta_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+   <relationship id="REL65" populated="true" UUID="a7079c44-4c14-4de4-858c-bfeba58ec226" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="PRODUCTO_VENTA_fk" physicalName="PRODUCTO_VENTA_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP66" populated="true" UUID="91595596-2f7b-4955-b9d4-45d87186e2da" fk-column-ref="COL25" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL67" populated="true" UUID="5e2c2aeb-57ec-402a-bb57-f5cb627a1641" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="CLIENTE_VENTA_fk" physicalName="cliente_venta_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
+   <relationship id="REL67" populated="true" UUID="5e2c2aeb-57ec-402a-bb57-f5cb627a1641" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="CLIENTE_VENTA_fk" physicalName="CLIENTE_VENTA_fk" pk-table-ref="TAB13" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP68" populated="true" UUID="5c6e8fac-15ac-493b-b767-f3f8773a638d" fk-column-ref="COL27" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL14" />
    </relationship>
-   <relationship id="REL69" populated="true" UUID="5b3c2ff2-7d5f-4a76-81bd-a1cb916b60bf" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="ATENDEDOR_VENTA_fk" physicalName="atendedor_venta_fk" pk-table-ref="TAB18" pkCardinality="2" updateRule="3" >
+   <relationship id="REL69" populated="true" UUID="5b3c2ff2-7d5f-4a76-81bd-a1cb916b60bf" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="ATENDEDOR_VENTA_fk" physicalName="ATENDEDOR_VENTA_fk" pk-table-ref="TAB18" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP70" populated="true" UUID="7016b6ce-b8be-4f00-b86c-d27a74a36eb7" fk-column-ref="COL26" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL19" />
    </relationship>
-   <relationship id="REL71" populated="true" UUID="be1f2f76-3b9b-4ed1-b6cf-b22d372a9ff2" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="FECHA_VENTA_fk" physicalName="fecha_venta_fk" pk-table-ref="TAB42" pkCardinality="2" updateRule="3" >
+   <relationship id="REL71" populated="true" UUID="be1f2f76-3b9b-4ed1-b6cf-b22d372a9ff2" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="FECHA_VENTA_fk" physicalName="FECHA_VENTA_fk" pk-table-ref="TAB42" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP72" populated="true" UUID="0aee5c7c-04ac-4cfe-9004-23863ccf3ffe" fk-column-ref="COL29" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL43" />
    </relationship>
-   <relationship id="REL73" populated="true" UUID="f8f4cbdb-99c2-471b-92d2-7d50d6be72e5" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="TIENDA_VENTA_fk" physicalName="tienda_venta_fk" pk-table-ref="TAB52" pkCardinality="2" updateRule="3" >
+   <relationship id="REL73" populated="true" UUID="f8f4cbdb-99c2-471b-92d2-7d50d6be72e5" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="TIENDA_VENTA_fk" physicalName="TIENDA_VENTA_fk" pk-table-ref="TAB52" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP74" populated="true" UUID="11678fe7-ab3d-4d12-b7aa-708b7855ec4e" fk-column-ref="COL28" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL53" />
    </relationship>
-   <relationship id="REL75" populated="true" UUID="1ea81af0-b53f-45f6-a268-6d2daab59369" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="PROMOCION_VENTA_fk" physicalName="promocion_venta_fk" pk-table-ref="TAB60" pkCardinality="2" updateRule="3" >
+   <relationship id="REL75" populated="true" UUID="1ea81af0-b53f-45f6-a268-6d2daab59369" deferrability="7" deleteRule="3" fk-table-ref="TAB24" fkCardinality="7" identifying="true" name="PROMOCION_VENTA_fk" physicalName="PROMOCION_VENTA_fk" pk-table-ref="TAB60" pkCardinality="2" updateRule="3" >
     <column-mapping id="CMP76" populated="true" UUID="c994ce46-f716-4557-bb8a-4ac0d0ea73e2" fk-column-ref="COL30" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL61" />
    </relationship>
   </relationships>
  </target-database>
- <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="false"> </ddl-generator>
+ <ddl-generator type="ca.sqlpower.architect.ddl.MySqlDDLGenerator" allow-connection="true"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="49" y="36" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB1" x="46" y="30" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB13" x="740" y="50" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB18" x="750" y="185" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB24" x="381" y="54" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
