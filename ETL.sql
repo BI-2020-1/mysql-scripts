@@ -68,6 +68,7 @@ FROM tienda_db.t_promotor p;
 
 /* DIMENSION TIENDA */
 INSERT INTO DTIENDA(
+	id_tienda,
 	tienda_nombre,
     departamento,    
     provincia,
