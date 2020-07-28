@@ -3,7 +3,7 @@ CREATE SCHEMA compra_dm DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 USE compra_dm;
 
 CREATE TABLE DTIENDA (
-                id_tienda INT NOT NULL,
+                id_tienda INT AUTO_INCREMENT NOT NULL,
                 tienda_nombre VARCHAR(50) NOT NULL,
                 departamento VARCHAR(20) NOT NULL,
                 distrito VARCHAR(20) NOT NULL,
@@ -23,7 +23,7 @@ ALTER TABLE DTIENDA MODIFY COLUMN provincia VARCHAR(20) COMMENT 'Nombre de la pr
 
 
 CREATE TABLE DTIEMPO (
-                id_tiempo INT NOT NULL,
+                id_tiempo INT AUTO_INCREMENT NOT NULL,
                 fecha DATE NOT NULL,
                 mes VARCHAR(10) NOT NULL,
                 estacion_anio VARCHAR(20) NOT NULL,
@@ -39,11 +39,11 @@ ALTER TABLE DTIEMPO MODIFY COLUMN mes VARCHAR(10) COMMENT 'Nombre del mes del a�
 
 ALTER TABLE DTIEMPO MODIFY COLUMN estacion_anio VARCHAR(20) COMMENT 'Año numerico.';
 
-ALTER TABLE DTIEMPO MODIFY COLUMN anio VARCHAR(10) COMMENT 'año.';
+ALTER TABLE DTIEMPO MODIFY COLUMN anio VARCHAR(10) COMMENT 'año';
 
 
 CREATE TABLE DPROVEEDOR (
-                id_proveedor INT NOT NULL,                
+                id_proveedor INT AUTO_INCREMENT NOT NULL,
                 proveedor_nombre VARCHAR(50) NOT NULL,
                 PRIMARY KEY (id_proveedor)
 );
@@ -54,7 +54,7 @@ ALTER TABLE DPROVEEDOR MODIFY COLUMN proveedor_nombre VARCHAR(50) COMMENT 'Nombr
 
 
 CREATE TABLE DARTICULO (
-                id_articulo INT NOT NULL,
+                id_articulo INT AUTO_INCREMENT NOT NULL,
                 talla VARCHAR(20) NOT NULL,
                 material VARCHAR(20) NOT NULL,
                 marca VARCHAR(20) NOT NULL,
@@ -80,8 +80,6 @@ CREATE TABLE H_COMPRA (
                 id_tienda INT NOT NULL,
                 compra_soles NUMERIC(10,2) NOT NULL,
                 cantidad_unidades_vendidas NUMERIC(10) NOT NULL,
-                descuento NUMERIC(10,2) NOT NULL,
-                venta_monto NUMERIC(10,2) NOT NULL,
                 PRIMARY KEY (id_tiempo, id_proveedor, id_articulo, id_tienda)
 );
 
@@ -96,10 +94,6 @@ ALTER TABLE H_COMPRA MODIFY COLUMN id_tienda INTEGER COMMENT 'id unico de la tie
 ALTER TABLE H_COMPRA MODIFY COLUMN compra_soles NUMERIC(10, 2) COMMENT 'Monto total de la transacción.';
 
 ALTER TABLE H_COMPRA MODIFY COLUMN cantidad_unidades_vendidas NUMERIC(10) COMMENT 'Número de unidades del producto de la transacción.';
-
-ALTER TABLE H_COMPRA MODIFY COLUMN descuento NUMERIC(10, 2) COMMENT 'Descuento aplicado en la transacción.';
-
-ALTER TABLE H_COMPRA MODIFY COLUMN venta_monto NUMERIC(10, 2) COMMENT 'Monto total de la transacción.';
 
 
 ALTER TABLE H_COMPRA ADD CONSTRAINT dtienda_hcompra_fk
