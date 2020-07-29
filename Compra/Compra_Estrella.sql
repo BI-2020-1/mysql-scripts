@@ -44,17 +44,18 @@ ALTER TABLE DTIEMPO MODIFY COLUMN anio VARCHAR(10) COMMENT 'año';
 
 CREATE TABLE DPROVEEDOR (
                 id_proveedor INT AUTO_INCREMENT NOT NULL,
-                proveedor_nombre VARCHAR(50) NOT NULL,
+                proveedor_nombre VARCHAR(60) NOT NULL,
                 PRIMARY KEY (id_proveedor)
 );
 
 ALTER TABLE DPROVEEDOR MODIFY COLUMN id_proveedor INTEGER COMMENT 'ID único del proveedor';
 
-ALTER TABLE DPROVEEDOR MODIFY COLUMN proveedor_nombre VARCHAR(50) COMMENT 'Nombre del proveedor';
+ALTER TABLE DPROVEEDOR MODIFY COLUMN proveedor_nombre VARCHAR(60) COMMENT 'Nombre del proveedor';
 
 
 CREATE TABLE DARTICULO (
                 id_articulo INT AUTO_INCREMENT NOT NULL,
+                codigo_articulo VARCHAR(10) NOT NULL,
                 talla VARCHAR(20) NOT NULL,
                 material VARCHAR(20) NOT NULL,
                 marca VARCHAR(20) NOT NULL,
@@ -79,7 +80,7 @@ CREATE TABLE H_COMPRA (
                 id_articulo INT NOT NULL,
                 id_tienda INT NOT NULL,
                 compra_soles NUMERIC(10,2) NOT NULL,
-                cantidad_unidades_vendidas NUMERIC(10) NOT NULL,
+                cantidad_unidades_compradas NUMERIC(10) NOT NULL,
                 PRIMARY KEY (id_tiempo, id_proveedor, id_articulo, id_tienda)
 );
 
@@ -93,7 +94,7 @@ ALTER TABLE H_COMPRA MODIFY COLUMN id_tienda INTEGER COMMENT 'id unico de la tie
 
 ALTER TABLE H_COMPRA MODIFY COLUMN compra_soles NUMERIC(10, 2) COMMENT 'Monto total de la transacción.';
 
-ALTER TABLE H_COMPRA MODIFY COLUMN cantidad_unidades_vendidas NUMERIC(10) COMMENT 'Número de unidades del producto de la transacción.';
+ALTER TABLE H_COMPRA MODIFY COLUMN cantidad_unidades_compradas NUMERIC(10) COMMENT 'Número de unidades del producto de la transacción.';
 
 
 ALTER TABLE H_COMPRA ADD CONSTRAINT dtienda_hcompra_fk
