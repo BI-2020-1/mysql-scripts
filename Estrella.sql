@@ -39,9 +39,12 @@ CREATE TABLE DTIEMPO (
                 fecha DATE NOT NULL,
                 turno_dia VARCHAR(20) NOT NULL,
                 dia_semana VARCHAR(20) NOT NULL,
+                num_dia_semana NUMERIC(1) NOT NULL,
                 mes VARCHAR(10) NOT NULL,
-                estacion_anio VARCHAR(20) NOT NULL,
-                anio VARCHAR(10) NOT NULL,
+                num_mes NUMERIC(2) NOT NULL,
+                trimestre VARCHAR(20) NOT NULL,
+                num_trimestre NUMERIC(1) NOT NULL,
+                num_anio NUMERIC(4) NOT NULL,
                 PRIMARY KEY (id_tiempo)
 );
 
@@ -55,7 +58,7 @@ ALTER TABLE DTIEMPO MODIFY COLUMN dia_semana VARCHAR(20) COMMENT 'Nombre del dí
 
 ALTER TABLE DTIEMPO MODIFY COLUMN mes VARCHAR(10) COMMENT 'Nombre del mes del año.';
 
-ALTER TABLE DTIEMPO MODIFY COLUMN estacion_anio VARCHAR(20) COMMENT 'Año numérico.';
+ALTER TABLE DTIEMPO MODIFY COLUMN trimestre VARCHAR(20) COMMENT 'Trimestre';
 
 
 CREATE TABLE DPROMOTOR (
@@ -88,7 +91,7 @@ CREATE TABLE DARTICULO (
                 codigo_articulo VARCHAR(10) NOT NULL,
                 articulo_nombre VARCHAR(50) NOT NULL,
                 categoria_nombre VARCHAR(25) NOT NULL,
-                talla VARCHAR(20) NOT NULL,
+                talla VARCHAR(10) NOT NULL,
                 marca VARCHAR(20) NOT NULL,
                 material VARCHAR(20) NOT NULL,
                 PRIMARY KEY (id_articulo)
@@ -102,7 +105,7 @@ ALTER TABLE DARTICULO MODIFY COLUMN articulo_nombre VARCHAR(50) COMMENT 'Nombre 
 
 ALTER TABLE DARTICULO MODIFY COLUMN categoria_nombre VARCHAR(25) COMMENT 'Nombre de categoría del producto.';
 
-ALTER TABLE DARTICULO MODIFY COLUMN talla VARCHAR(20) COMMENT 'Talla del producto.';
+ALTER TABLE DARTICULO MODIFY COLUMN talla VARCHAR(10) COMMENT 'Talla del producto.';
 
 ALTER TABLE DARTICULO MODIFY COLUMN marca VARCHAR(20) COMMENT 'Marca del producto.';
 
@@ -120,6 +123,7 @@ CREATE TABLE H_VENTA (
                 compra_soles NUMERIC(10,2) NOT NULL,
                 cantidad_unidades_vendidas NUMERIC(10) NOT NULL,
                 descuento NUMERIC(10,2) NOT NULL,
+                transaccion_id INT NOT NULL,
                 PRIMARY KEY (id_articulo, id_promotor, id_cliente, id_tienda, id_tiempo, id_promocion)
 );
 

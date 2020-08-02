@@ -24,29 +24,30 @@ INSERT INTO DTIEMPO (
 	fecha,
     turno_dia,
     dia_semana,
+    num_dia_semana,
     mes,
-    estacion_anio,
-    anio
+    num_mes,
+    trimestre,
+    num_trimestre,
+    num_anio
 )
 SELECT 
 	date_format(v.fecha, '%Y-%m-%d') as Fecha,
     CASE
-		WHEN HOUR(v.fecha)<12 THEN 'Turno mañana'
-		WHEN HOUR(v.fecha)<18 THEN 'Turno tarde'
+		WHEN HOUR(v.fecha)<13 THEN 'Turno mañana'
+		WHEN HOUR(v.fecha)<19 THEN 'Turno tarde'
 		ELSE 'Turno noche'
 	END AS Turno,
     DAYNAME(v.fecha) AS Dia_semana,
-	MONTHNAME(v.fecha ) AS Mes,
-    CASE
-		WHEN MONTH(v.fecha) <= 3 THEN 'Verano'
-		WHEN MONTH(v.fecha) <= 6 THEN 'Otoño'
-        WHEN MONTH(v.fecha) <= 9 THEN 'Invierno'
-		ELSE 'Primavera'
-    END AS Estacion,
-	YEAR(v.fecha) AS Anio
-FROM tienda_db.t_venta as v WHERE v.fecha IS NOT NULL
-	GROUP BY date_format(v.fecha, '%Y-%m-%d'), Turno, Dia_semana, Mes, Estacion, Anio
-	ORDER BY Fecha;  
+    DAYOFWEEK(v.fecha) AS Num_dia,
+	MONTHNAME(v.fecha) AS Mes,
+	MONTH(v.fecha) AS Num_mes,
+	CONCAT('Trimestre ', QUARTER(v.fecha)) AS Trimestre,
+	QUARTER(v.fecha) AS Num_trimestre,
+	YEAR(v.fecha) AS Num_Anio
+FROM tienda_db.t_venta AS v
+	GROUP BY date_format(v.fecha, '%Y-%m-%d'), Turno, Dia_semana, Num_dia, Mes, Num_mes, Trimestre, Num_trimestre, Num_Anio
+	ORDER BY Fecha;
 
 /* DIMENSION CLIENTE */
 INSERT INTO DCLIENTE(
@@ -105,7 +106,8 @@ INSERT INTO H_VENTA (
     venta_monto,
     cantidad_unidades_vendidas,    
     descuento,
-    compra_soles
+    compra_soles,
+    transaccion_id
 )
 SELECT
 	DART.id_articulo,
@@ -118,7 +120,8 @@ SELECT
     sum(G.Ventas) as VENTA,
     sum(G.Cantidad) as CANT_UNID,
     sum(G.Descuento) as DESCTO,
-    sum(G.Costos) as COSTO
+    sum(G.Costos) as COSTO,
+    G.transaccionId
 FROM
 	(
 		SELECT 
@@ -132,11 +135,12 @@ FROM
 			a.codigo,
 	        vdet.cantidad as Cantidad,
 	        vdet.cantidad*vdet.precio_compra_unid as Costos,
-	        (vdet.cantidad*vdet.precio_venta_unid) - vdet.descuento as Ventas,
-	        vdet.cantidad*(vdet.descuento) as Descuento,
+	        (vdet.cantidad*vdet.precio_venta_unid) - vdet.descuento_unid as Ventas,
+	        vdet.cantidad*(vdet.descuento_unid) as Descuento,
 	        cli.genero,
 	        pr.nombres as nombrePromotor,
-	        prom.nombre as nombrePromocion
+	        prom.nombre as nombrePromocion,
+	        v.id_venta as transaccionId
 		FROM tienda_db.t_venta as v
 			inner join tienda_db.t_venta_detalle as vdet on v.id_venta = vdet.id_venta
 			inner join tienda_db.t_articulo as a on vdet.id_articulo = a.id_articulo
@@ -149,7 +153,7 @@ FROM
     inner join DCLIENTE AS DCLI ON G.genero = DCLI.genero_cliente
     inner join DPROMOTOR AS DP ON G.nombrePromotor = DP.promotor_nombre
     inner join DPROMOCION AS DPROM ON G.nombrePromocion = DPROM.promocion_nombre
-	GROUP BY DART.id_articulo, DT.id_tiempo, DCLI.id_cliente, DP.id_promotor, DPROM.id_promocion
+	GROUP BY DART.id_articulo, DT.id_tiempo, DCLI.id_cliente, DP.id_promotor, DPROM.id_promocion, G.transaccionId
 ;
 
 -- show variables like 'col%';

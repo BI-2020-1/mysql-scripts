@@ -86,7 +86,7 @@
     <column id="COL22" populated="true" UUID="8aafbef4-ffce-4763-8a23-c5228a446969" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_precio_compra_unid_seq" defaultValue="" name="precio_compra_unid" nullable="0" physicalName="precio_compra_unid" precision="6" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks></remarks>
     </column>
-    <column id="COL23" populated="true" UUID="4fc18e3c-6fbf-449c-8355-9bfc845fceab" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_descuento_seq" defaultValue="" name="descuento" nullable="0" physicalName="descuento" precision="6" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
+    <column id="COL23" populated="true" UUID="4fc18e3c-6fbf-449c-8355-9bfc845fceab" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_descuento_seq" defaultValue="" name="descuento_unid" nullable="0" physicalName="descuento_unid" precision="6" referenceCount="1" scale="2" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Por unidad</remarks>
     </column>
     <column id="COL24" populated="true" UUID="33f6b2af-bd99-483e-b17f-cd4aaa1bf764" autoIncrement="false" autoIncrementSequenceName="t_venta_detalle_id_venta_seq" defaultValue="" name="id_venta" nullable="0" physicalName="id_venta" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >

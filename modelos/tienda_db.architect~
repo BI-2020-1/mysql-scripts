@@ -182,7 +182,7 @@
     <column id="COL49" populated="true" UUID="5be7b0cc-deb2-411e-93fd-c80231cfc5e1" autoIncrement="true" autoIncrementSequenceName="t_compra_id_compra_seq" defaultValue="" name="id_compra" nullable="0" physicalName="id_compra" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL50" populated="true" UUID="97b06d40-4d0f-4cc9-a328-ff38bcd4e108" autoIncrement="false" autoIncrementSequenceName="t_compra_fecha_seq" defaultValue="" name="fecha" nullable="0" physicalName="fecha" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+    <column id="COL50" populated="true" UUID="97b06d40-4d0f-4cc9-a328-ff38bcd4e108" autoIncrement="false" autoIncrementSequenceName="t_compra_fecha_seq" defaultValue="" name="fecha" nullable="0" physicalName="fecha" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks></remarks>
     </column>
     <column id="COL51" populated="true" UUID="b1e9b934-b502-4453-ab23-a79e0fa8919f" autoIncrement="false" autoIncrementSequenceName="t_compra_tipo_comprobante_seq" defaultValue="" name="tipo_comprobante" nullable="0" physicalName="tipo_comprobante" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
