@@ -22,21 +22,20 @@ FROM tienda_db.t_articulo as a
 INSERT INTO DTIEMPO (
 	fecha,
     mes,
-    estacion_anio,
-    anio
+    num_mes,
+    trimestre,
+    num_trimestre,
+    num_anio
 )
 SELECT 
 	date_format(v.fecha, '%Y-%m-%d') as Fecha,
-	MONTHNAME(v.fecha ) AS Mes,
-    CASE
-		WHEN MONTH(v.fecha) <= 3 THEN 'Verano'
-		WHEN MONTH(v.fecha) <= 6 THEN 'Otoño'
-        WHEN MONTH(v.fecha) <= 9 THEN 'Invierno'
-		ELSE 'Primavera'
-    END AS Estacion,
-	YEAR(v.fecha) AS Anio
-FROM tienda_db.t_venta as v WHERE v.fecha IS NOT NULL
-	GROUP BY date_format(v.fecha, '%Y-%m-%d'), Mes, Estacion, Anio
+	MONTHNAME(v.fecha) AS Mes,
+	MONTH(v.fecha) AS Num_mes,
+	CONCAT('Trimestre ', QUARTER(v.fecha)) AS Trimestre,
+	QUARTER(v.fecha) AS Num_trimestre,
+	YEAR(v.fecha) AS Num_Anio
+FROM tienda_db.t_venta AS v
+	GROUP BY date_format(v.fecha, '%Y-%m-%d'), Mes, Num_mes, Trimestre, Num_trimestre, Num_Anio
 	ORDER BY Fecha;
 
 /* DIMENSION TIENDA */

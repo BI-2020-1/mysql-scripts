@@ -1,6 +1,8 @@
+
 CREATE SCHEMA compra_dm DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 
 USE compra_dm;
+
 
 CREATE TABLE DTIENDA (
                 id_tienda INT AUTO_INCREMENT NOT NULL,
@@ -10,8 +12,6 @@ CREATE TABLE DTIENDA (
                 provincia VARCHAR(20) NOT NULL,
                 PRIMARY KEY (id_tienda)
 );
-
-ALTER TABLE DTIENDA MODIFY COLUMN id_tienda INTEGER COMMENT 'ID único de la tienda';
 
 ALTER TABLE DTIENDA MODIFY COLUMN tienda_nombre VARCHAR(50) COMMENT 'Nombre de la tienda.';
 
@@ -26,20 +26,18 @@ CREATE TABLE DTIEMPO (
                 id_tiempo INT AUTO_INCREMENT NOT NULL,
                 fecha DATE NOT NULL,
                 mes VARCHAR(10) NOT NULL,
-                estacion_anio VARCHAR(20) NOT NULL,
-                anio VARCHAR(10) NOT NULL,
+                num_mes NUMERIC(2) NOT NULL,
+                trimestre VARCHAR(20) NOT NULL,
+                num_trimestre NUMERIC(1) NOT NULL,
+                num_anio NUMERIC(4) NOT NULL,
                 PRIMARY KEY (id_tiempo)
 );
-
-ALTER TABLE DTIEMPO MODIFY COLUMN id_tiempo INTEGER COMMENT 'ID único del tiempo.';
 
 ALTER TABLE DTIEMPO MODIFY COLUMN fecha DATE COMMENT 'Fecha en formato internacional.';
 
 ALTER TABLE DTIEMPO MODIFY COLUMN mes VARCHAR(10) COMMENT 'Nombre del mes del año.';
 
-ALTER TABLE DTIEMPO MODIFY COLUMN estacion_anio VARCHAR(20) COMMENT 'Año numerico.';
-
-ALTER TABLE DTIEMPO MODIFY COLUMN anio VARCHAR(10) COMMENT 'año';
+ALTER TABLE DTIEMPO MODIFY COLUMN num_anio NUMERIC(4) COMMENT 'año';
 
 
 CREATE TABLE DPROVEEDOR (
@@ -47,8 +45,6 @@ CREATE TABLE DPROVEEDOR (
                 proveedor_nombre VARCHAR(60) NOT NULL,
                 PRIMARY KEY (id_proveedor)
 );
-
-ALTER TABLE DPROVEEDOR MODIFY COLUMN id_proveedor INTEGER COMMENT 'ID único del proveedor';
 
 ALTER TABLE DPROVEEDOR MODIFY COLUMN proveedor_nombre VARCHAR(60) COMMENT 'Nombre del proveedor';
 
@@ -62,8 +58,6 @@ CREATE TABLE DARTICULO (
                 categoria_nombre VARCHAR(25) NOT NULL,
                 PRIMARY KEY (id_articulo)
 );
-
-ALTER TABLE DARTICULO MODIFY COLUMN id_articulo INTEGER COMMENT 'ID único del articulo.';
 
 ALTER TABLE DARTICULO MODIFY COLUMN talla VARCHAR(20) COMMENT 'Talla del producto.';
 
@@ -83,14 +77,6 @@ CREATE TABLE H_COMPRA (
                 cantidad_unidades_compradas NUMERIC(10) NOT NULL,
                 PRIMARY KEY (id_tiempo, id_proveedor, id_articulo, id_tienda)
 );
-
-ALTER TABLE H_COMPRA MODIFY COLUMN id_tiempo INTEGER COMMENT 'id unico del tiempo';
-
-ALTER TABLE H_COMPRA MODIFY COLUMN id_proveedor INTEGER COMMENT 'id unico del proveedor';
-
-ALTER TABLE H_COMPRA MODIFY COLUMN id_articulo INTEGER COMMENT 'id unico del articulo';
-
-ALTER TABLE H_COMPRA MODIFY COLUMN id_tienda INTEGER COMMENT 'id unico de la tienda';
 
 ALTER TABLE H_COMPRA MODIFY COLUMN compra_soles NUMERIC(10, 2) COMMENT 'Monto total de la transacción.';
 
