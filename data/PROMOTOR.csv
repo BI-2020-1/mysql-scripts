@@ -1,12 +1,8 @@
 id_promotor,codigo,nombres,apellidos,genero,estado
 1,0,Ninguno,Ninguno,N,A
 2,2019001,Fabiola,Curueño Cañedo,F,A
-3,2019002,Lennin,Murguiondo Olaechea,M,A
+3,2019002,Eric,Murguiondo Olaechea,M,A
 4,2019003,Susana,Seron Cabredo,F,A
 5,2019004,Armando,Logroño Toribia,M,A
-6,2019005,Javier,Tumiraos Carranceja,M,A
-7,2019006,Rosa,Cuenca Arteson,F,A
-8,2019007,Ariel,Mendoza Rodriguez,M,A
-9,2019008,Eric,Truebano Aramoyana,M,A
-10,2019009,Valeria,Rosa Mariategui,F,A
-11,2019010,Blanca ,Encinas Cordon,F,A
+6,2019005,Rosa,Cuenca Arteson,F,A
+7,2019006,Valeria,Mariategui Díaz,F,A

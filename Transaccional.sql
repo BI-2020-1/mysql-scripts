@@ -2,178 +2,270 @@ CREATE SCHEMA tienda_db DEFAULT CHARACTER SET latin1 COLLATE latin1_spanish_ci;
 
 USE tienda_db;
 
-CREATE TABLE DPROMOCION (
+
+CREATE TABLE t_sistema (
+                id_sistema INT NOT NULL,
+                tienda_nombre VARCHAR(200) NOT NULL,
+                departamento VARCHAR(50) NOT NULL,
+                provincia VARCHAR(100) NOT NULL,
+                distrito VARCHAR(100) NOT NULL,
+                PRIMARY KEY (id_sistema)
+);
+
+
+CREATE TABLE t_almacen (
+                id_almacen INT AUTO_INCREMENT NOT NULL,
+                nombre VARCHAR(100) NOT NULL,
+                encargado VARCHAR(200) NOT NULL,
+                estado CHAR(1) NOT NULL,
+                PRIMARY KEY (id_almacen)
+);
+
+ALTER TABLE t_almacen MODIFY COLUMN estado CHAR(1) COMMENT 'A,I';
+
+
+CREATE TABLE t_marca (
+                id_marca INT AUTO_INCREMENT NOT NULL,
+                nombre VARCHAR(100) NOT NULL,
+                estado CHAR(1) NOT NULL,
+                PRIMARY KEY (id_marca)
+);
+
+
+CREATE TABLE t_promocion (
                 id_promocion INT AUTO_INCREMENT NOT NULL,
-                promocion_nombre VARCHAR(50) NOT NULL,
+                nombre VARCHAR(100) NOT NULL,
+                estado CHAR(1) NOT NULL,
                 PRIMARY KEY (id_promocion)
 );
 
-ALTER TABLE DPROMOCION MODIFY COLUMN id_promocion INTEGER COMMENT 'ID único de la promoción.';
 
-ALTER TABLE DPROMOCION MODIFY COLUMN promocion_nombre VARCHAR(50) COMMENT 'Nombre de la promoción.';
-
-
-CREATE TABLE DTIENDA (
-                id_tienda INT AUTO_INCREMENT NOT NULL,
-                tienda_nombre VARCHAR(50) NOT NULL,
-                departamento VARCHAR(20) NOT NULL,
-                distrito VARCHAR(20) NOT NULL,
-                provincia VARCHAR(20) NOT NULL,
-                PRIMARY KEY (id_tienda)
+CREATE TABLE t_proveedor (
+                id_proveedor INT AUTO_INCREMENT NOT NULL,
+                razon_social VARCHAR(100) NOT NULL,
+                tipo_documento VARCHAR(50) NOT NULL,
+                numero_documento VARCHAR(50) NOT NULL,
+                telefono VARCHAR(10) NOT NULL,
+                estado CHAR(1) NOT NULL,
+                PRIMARY KEY (id_proveedor)
 );
 
-ALTER TABLE DTIENDA MODIFY COLUMN id_tienda INTEGER COMMENT 'ID único de la tienda.';
-
-ALTER TABLE DTIENDA MODIFY COLUMN tienda_nombre VARCHAR(50) COMMENT 'Nombre de la tienda.';
-
-ALTER TABLE DTIENDA MODIFY COLUMN departamento VARCHAR(20) COMMENT 'Nombre del departamento donde se encuentra la tienda.';
-
-ALTER TABLE DTIENDA MODIFY COLUMN distrito VARCHAR(20) COMMENT 'Nombre del distrito donde se encuentra la tienda.';
-
-ALTER TABLE DTIENDA MODIFY COLUMN provincia VARCHAR(20) COMMENT 'Nombre de la provincia donde se encuentra la tienda.';
+ALTER TABLE t_proveedor MODIFY COLUMN estado CHAR(1) COMMENT 'A,I';
 
 
-CREATE TABLE DTIEMPO (
-                id_tiempo INT AUTO_INCREMENT NOT NULL,
-                fecha DATE NOT NULL,
-                turno_dia VARCHAR(20) NOT NULL,
-                dia_semana VARCHAR(20) NOT NULL,
-                mes VARCHAR(10) NOT NULL,
-                estacion_anio VARCHAR(20) NOT NULL,
-                anio VARCHAR(10) NOT NULL,
-                PRIMARY KEY (id_tiempo)
+CREATE TABLE t_categoria (
+                id_categoria INT AUTO_INCREMENT NOT NULL,
+                nombre VARCHAR(50) NOT NULL,
+                estado CHAR(1) NOT NULL,
+                PRIMARY KEY (id_categoria)
 );
 
-ALTER TABLE DTIEMPO MODIFY COLUMN id_tiempo INTEGER COMMENT 'ID único de la fecha.';
 
-ALTER TABLE DTIEMPO MODIFY COLUMN fecha DATE COMMENT 'Fecha en formato internacional.';
-
-ALTER TABLE DTIEMPO MODIFY COLUMN turno_dia VARCHAR(20) COMMENT 'Turno del día.';
-
-ALTER TABLE DTIEMPO MODIFY COLUMN dia_semana VARCHAR(20) COMMENT 'Nombre del día de la semana.';
-
-ALTER TABLE DTIEMPO MODIFY COLUMN mes VARCHAR(10) COMMENT 'Nombre del mes del año.';
-
-ALTER TABLE DTIEMPO MODIFY COLUMN estacion_anio VARCHAR(20) COMMENT 'Año numérico.';
-
-
-CREATE TABLE DPROMOTOR (
-                id_promotor INT AUTO_INCREMENT NOT NULL,
-                promotor_nombre VARCHAR(20) NOT NULL,
-                genero CHAR(1) NOT NULL,
-                PRIMARY KEY (id_promotor)
-);
-
-ALTER TABLE DPROMOTOR MODIFY COLUMN id_promotor INTEGER COMMENT 'ID único del atendedor.';
-
-ALTER TABLE DPROMOTOR MODIFY COLUMN promotor_nombre VARCHAR(20) COMMENT 'Nombre del atendedor.';
-
-ALTER TABLE DPROMOTOR MODIFY COLUMN genero CHAR(1) COMMENT 'Género del atendedor.';
-
-
-CREATE TABLE DCLIENTE (
-                id_cliente INT AUTO_INCREMENT NOT NULL,
-                genero_cliente CHAR(1) NOT NULL,
-                PRIMARY KEY (id_cliente)
-);
-
-ALTER TABLE DCLIENTE MODIFY COLUMN id_cliente INTEGER COMMENT 'ID único del cliente.';
-
-ALTER TABLE DCLIENTE MODIFY COLUMN genero_cliente CHAR(1) COMMENT 'Género del cliente.';
-
-
-CREATE TABLE DARTICULO (
+CREATE TABLE t_articulo (
                 id_articulo INT AUTO_INCREMENT NOT NULL,
-                codigo_articulo VARCHAR(10) NOT NULL,
-                articulo_nombre VARCHAR(50) NOT NULL,
-                categoria_nombre VARCHAR(25) NOT NULL,
-                talla VARCHAR(20) NOT NULL,
-                marca VARCHAR(20) NOT NULL,
-                material VARCHAR(20) NOT NULL,
+                codigo VARCHAR(50) NOT NULL,
+                nombre VARCHAR(100) NOT NULL,
+                material VARCHAR(100) NOT NULL,
+                id_categoria INT NOT NULL,
+                id_marca INT NOT NULL,
+                talla VARCHAR(10) NOT NULL,
+                precio_compra NUMERIC(6,2) NOT NULL,
+                precio_venta NUMERIC(6,2) NOT NULL,
+                estado CHAR(1) NOT NULL,
                 PRIMARY KEY (id_articulo)
 );
 
-ALTER TABLE DARTICULO MODIFY COLUMN id_articulo INTEGER COMMENT 'ID único del articulo.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN codigo_articulo VARCHAR(10) COMMENT 'Código único del articulo.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN articulo_nombre VARCHAR(50) COMMENT 'Nombre del producto.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN categoria_nombre VARCHAR(25) COMMENT 'Nombre de categoría del producto.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN talla VARCHAR(20) COMMENT 'Talla del producto.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN marca VARCHAR(20) COMMENT 'Marca del producto.';
-
-ALTER TABLE DARTICULO MODIFY COLUMN material VARCHAR(20) COMMENT 'Material predominante del producto.';
+ALTER TABLE t_articulo MODIFY COLUMN material VARCHAR(100) COMMENT 'Material';
 
 
-CREATE TABLE H_VENTA (
+CREATE TABLE t_almacen_detalle (
+                id_almacen_detalle INT AUTO_INCREMENT NOT NULL,
+                cantidad_actual INT NOT NULL,
+                id_almacen INT NOT NULL,
+                estado CHAR(1) NOT NULL,
                 id_articulo INT NOT NULL,
-                id_promotor INT NOT NULL,
-                id_cliente INT NOT NULL,
-                id_tienda INT NOT NULL,
-                id_tiempo INT NOT NULL,
-                id_promocion INT NOT NULL,
-                venta_monto NUMERIC(10,2) NOT NULL,
-                compra_soles NUMERIC(10,2) NOT NULL,
-                cantidad_unidades_vendidas NUMERIC(10) NOT NULL,
-                descuento NUMERIC(10,2) NOT NULL,
-                transaccion_id INT NOT NULL,
-                PRIMARY KEY (id_articulo, id_promotor, id_cliente, id_tienda, id_tiempo, id_promocion)
+                PRIMARY KEY (id_almacen_detalle)
 );
 
-ALTER TABLE H_VENTA MODIFY COLUMN id_articulo INTEGER COMMENT 'ID único del producto.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN id_promotor INTEGER COMMENT 'ID único del atendedor.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN id_cliente INTEGER COMMENT 'ID único del cliente.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN id_tienda INTEGER COMMENT 'ID único de la tienda.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN id_tiempo INTEGER COMMENT 'ID único de la fecha.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN id_promocion INTEGER COMMENT 'ID único de la promoción.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN compra_soles NUMERIC(10, 2) COMMENT 'Monto total de la transacción.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN cantidad_unidades_vendidas NUMERIC(10) COMMENT 'Número de unidades del producto de la transacción.';
-
-ALTER TABLE H_VENTA MODIFY COLUMN descuento NUMERIC(10, 2) COMMENT 'Descuento aplicado en la transacción.';
+ALTER TABLE t_almacen_detalle MODIFY COLUMN estado CHAR(1) COMMENT 'A,I';
 
 
-ALTER TABLE H_VENTA ADD CONSTRAINT promocion_venta_fk
+CREATE TABLE t_promotor (
+                id_promotor INT AUTO_INCREMENT NOT NULL,
+                codigo VARCHAR(10) NOT NULL,
+                nombres VARCHAR(100) NOT NULL,
+                apellidos VARCHAR(200) NOT NULL,
+                genero CHAR(1) NOT NULL,
+                estado CHAR(1) NOT NULL,
+                PRIMARY KEY (id_promotor)
+);
+
+ALTER TABLE t_promotor MODIFY COLUMN genero CHAR(1) COMMENT 'M,F';
+
+
+CREATE TABLE t_usuario (
+                id_usuario INT AUTO_INCREMENT NOT NULL,
+                codigo VARCHAR(10) NOT NULL,
+                usuario VARCHAR(50) NOT NULL,
+                password VARCHAR(200) NOT NULL,
+                nombres VARCHAR(100) NOT NULL,
+                apellidos VARCHAR(200) NOT NULL,
+                rol VARCHAR(20) NOT NULL,
+                estado CHAR(1) NOT NULL,
+                PRIMARY KEY (id_usuario)
+);
+
+ALTER TABLE t_usuario MODIFY COLUMN estado CHAR(1) COMMENT 'A,I';
+
+
+CREATE TABLE t_compra (
+                id_compra INT AUTO_INCREMENT NOT NULL,
+                fecha DATETIME NOT NULL,
+                tipo_comprobante VARCHAR(100) NOT NULL,
+                numero_comprobante VARCHAR(100) NOT NULL,
+                importe NUMERIC(10,2) NOT NULL,
+                id_usuario INT NOT NULL,
+                id_proveedor INT NOT NULL,
+                id_almacen INT NOT NULL,
+                PRIMARY KEY (id_compra)
+);
+
+
+CREATE TABLE t_compra_detalle (
+                id_compra_detalle INT AUTO_INCREMENT NOT NULL,
+                id_articulo INT NOT NULL,
+                cantidad INT NOT NULL,
+                precio_unid NUMERIC(6,2) NOT NULL,
+                id_compra INT NOT NULL,
+                PRIMARY KEY (id_compra_detalle)
+);
+
+
+CREATE TABLE t_cliente (
+                id_cliente INT AUTO_INCREMENT NOT NULL,
+                nombres VARCHAR(100) NOT NULL,
+                genero CHAR(1) NOT NULL,
+                PRIMARY KEY (id_cliente)
+);
+
+ALTER TABLE t_cliente MODIFY COLUMN genero CHAR(1) COMMENT 'm,f';
+
+
+CREATE TABLE t_venta (
+                id_venta INT AUTO_INCREMENT NOT NULL,
+                fecha DATETIME NOT NULL,
+                tipo_pago VARCHAR(10) NOT NULL,
+                monto_total NUMERIC(10,2) NOT NULL,
+                id_cliente INT NOT NULL,
+                id_usuario INT NOT NULL,
+                id_promotor INT NOT NULL,
+                PRIMARY KEY (id_venta)
+);
+
+ALTER TABLE t_venta MODIFY COLUMN tipo_pago VARCHAR(10) COMMENT 'efectivo,credito,debito';
+
+
+CREATE TABLE t_venta_detalle (
+                id_venta_detalle INT AUTO_INCREMENT NOT NULL,
+                id_articulo INT NOT NULL,
+                cantidad INT NOT NULL,
+                precio_venta_unid NUMERIC(6,2) NOT NULL,
+                precio_compra_unid NUMERIC(6,2) NOT NULL,
+                descuento_unid NUMERIC(6,2) NOT NULL,
+                id_venta INT NOT NULL,
+                id_promocion INT NOT NULL,
+                PRIMARY KEY (id_venta_detalle)
+);
+
+ALTER TABLE t_venta_detalle MODIFY COLUMN descuento_unid NUMERIC(6, 2) COMMENT 'Por unidad';
+
+
+ALTER TABLE t_almacen_detalle ADD CONSTRAINT almacen_almacen_detalle_fk
+FOREIGN KEY (id_almacen)
+REFERENCES t_almacen (id_almacen)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_compra ADD CONSTRAINT almacen_compra_fk
+FOREIGN KEY (id_almacen)
+REFERENCES t_almacen (id_almacen)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_articulo ADD CONSTRAINT marca_articulo_fk
+FOREIGN KEY (id_marca)
+REFERENCES t_marca (id_marca)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_venta_detalle ADD CONSTRAINT promocion_venta_detalle_fk
 FOREIGN KEY (id_promocion)
-REFERENCES DPROMOCION (id_promocion)
+REFERENCES t_promocion (id_promocion)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE H_VENTA ADD CONSTRAINT tienda_venta_fk
-FOREIGN KEY (id_tienda)
-REFERENCES DTIENDA (id_tienda)
+ALTER TABLE t_compra ADD CONSTRAINT proveedor_compra_fk
+FOREIGN KEY (id_proveedor)
+REFERENCES t_proveedor (id_proveedor)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE H_VENTA ADD CONSTRAINT fecha_venta_fk
-FOREIGN KEY (id_tiempo)
-REFERENCES DTIEMPO (id_tiempo)
+ALTER TABLE t_articulo ADD CONSTRAINT categoria_articulo_fk
+FOREIGN KEY (id_categoria)
+REFERENCES t_categoria (id_categoria)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;
 
-ALTER TABLE H_VENTA ADD CONSTRAINT atendedor_venta_fk
-FOREIGN KEY (id_promotor)
-REFERENCES DPROMOTOR (id_promotor)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION;
-
-ALTER TABLE H_VENTA ADD CONSTRAINT cliente_venta_fk
-FOREIGN KEY (id_cliente)
-REFERENCES DCLIENTE (id_cliente)
-ON DELETE NO ACTION
-ON UPDATE NO ACTION;
-
-ALTER TABLE H_VENTA ADD CONSTRAINT producto_venta_fk
+ALTER TABLE t_almacen_detalle ADD CONSTRAINT t_articulo_t_almacen_detalle_fk
 FOREIGN KEY (id_articulo)
-REFERENCES DARTICULO (id_articulo)
+REFERENCES t_articulo (id_articulo)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_venta_detalle ADD CONSTRAINT t_articulo_t_venta_detalle_fk
+FOREIGN KEY (id_articulo)
+REFERENCES t_articulo (id_articulo)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_compra_detalle ADD CONSTRAINT t_articulo_t_compra_detalle_fk
+FOREIGN KEY (id_articulo)
+REFERENCES t_articulo (id_articulo)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_venta ADD CONSTRAINT promotor_venta_fk
+FOREIGN KEY (id_promotor)
+REFERENCES t_promotor (id_promotor)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_venta ADD CONSTRAINT usuario_venta_fk
+FOREIGN KEY (id_usuario)
+REFERENCES t_usuario (id_usuario)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_compra ADD CONSTRAINT usuario_compra_fk
+FOREIGN KEY (id_usuario)
+REFERENCES t_usuario (id_usuario)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_compra_detalle ADD CONSTRAINT compra_compra_detalle_fk
+FOREIGN KEY (id_compra)
+REFERENCES t_compra (id_compra)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_venta ADD CONSTRAINT cliente_venta_fk
+FOREIGN KEY (id_cliente)
+REFERENCES t_cliente (id_cliente)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION;
+
+ALTER TABLE t_venta_detalle ADD CONSTRAINT venta_venta_detalle_fk
+FOREIGN KEY (id_venta)
+REFERENCES t_venta (id_venta)
 ON DELETE NO ACTION
 ON UPDATE NO ACTION;

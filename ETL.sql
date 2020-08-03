@@ -96,8 +96,9 @@ SELECT @@lc_time_names;
 
 set collation_connection = latin1_spanish_ci;
 
-INSERT INTO H_VENTA (
-	id_articulo,
+INSERT INTO H_VENTA (	
+    transaccion_id,
+    id_articulo,
     id_promotor,
     id_cliente,
     id_promocion,
@@ -106,10 +107,10 @@ INSERT INTO H_VENTA (
     venta_monto,
     cantidad_unidades_vendidas,    
     descuento,
-    compra_soles,
-    transaccion_id
+    compra_soles
 )
-SELECT
+SELECT	
+    G.transaccionId,
 	DART.id_articulo,
     DP.id_promotor,
     DCLI.id_cliente,
@@ -120,8 +121,7 @@ SELECT
     sum(G.Ventas) as VENTA,
     sum(G.Cantidad) as CANT_UNID,
     sum(G.Descuento) as DESCTO,
-    sum(G.Costos) as COSTO,
-    G.transaccionId
+    sum(G.Costos) as COSTO
 FROM
 	(
 		SELECT 

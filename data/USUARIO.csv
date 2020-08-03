@@ -1,13 +1,9 @@
 id_usuario,codigo,usuario,password,nombres,apellidos,rol,estado
-1,2019001,fcurueno,vf55pe89,Fabiola,Curueño Cañedo,vendedor,A
-2,2019002,lmurguiondo,mi34yg79,Lennin,Murguiondo Olaechea,vendedor,A
-3,2019003,sseron,kx51tz50,Susana,Seron Cabredo,vendedor,A
-4,2019004,alogrono,wo27as66,Armando,Logroño Toribia,vendedor,A
-5,2019005,jtumiraos,ba46vh50,Javier,Tumiraos Carranceja,vendedor,A
-6,2019006,rcuenca,bq78qn92,Rosa,Cuenca Arteson,vendedor,A
-7,2019007,amendoza,fx54ah60,Ariel,Mendoza Rodriguez,vendedor,A
-8,2019008,etruebano,xr28io45,Eric,Truebano Aramoyana,vendedor,A
-9,2019009,vrosa,gy95uk83,Valeria,Rosa Mariategui,vendedor,A
-10,2019010,bencinas,dg80ei78,Blanca ,Encinas Cordon,vendedor,A
-11,2019011,lherrera,iq28lo70,Luis,Herrera Gomez,almacen,A
-12,2019012,jcuervo,hp31qg15,Julio,Cuervo Gonzales,almacen,A
+1,2019001,fcurueno,xu17pp62,Fabiola,Curueño Cañedo,vendedor,A
+2,2019002,lmurguiondo,zd28mu85,Eric,Murguiondo Olaechea,vendedor,A
+3,2019003,sseron,hw25ju63,Susana,Seron Cabredo,vendedor,A
+4,2019004,alogrono,yi65ke35,Armando,Logroño Toribia,vendedor,A
+5,2019005,rcuenca,xs65ro49,Rosa,Cuenca Arteson,vendedor,A
+6,2019006,vmariategui,tk98ql26,Valeria,Mariategui Díaz,vendedor,A
+7,2019011,lherrera,zz30sr34,Luis,Herrera Gomez,almacen,A
+8,2019012,jcuervo,xd66jp25,Julio,Cuervo Gonzales,almacen,A

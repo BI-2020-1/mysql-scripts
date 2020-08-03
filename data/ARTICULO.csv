@@ -1,74 +1,74 @@
 id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,precio_venta,estado
-1,19000001,Polo blanco con cuello,Algodón,S,1,1,20.00,25.00,A
-2,19000002,Polo blanco con cuello,Algodón,M,1,1,20.00,25.00,A
-3,19000003,Polo negro estampado StarWars,Algodón,S,1,4,24.00,30.00,A
-4,19000004,Polo negro estampado StarWars,Algodón,M,1,4,24.00,30.00,A
-5,19000005,Polo negro estampado StarWars,Algodón,L,1,4,24.00,30.00,A
-6,19000006,Polo blanco básico,Algodón,S,1,1,14.00,19.00,A
-7,19000007,Polo blanco básico,Algodón,M,1,1,14.00,19.00,A
-8,19000008,Polo blanco básico,Algodón,L,1,1,14.00,19.00,A
-9,19000009,Polo gris básico manga larga,Algodón,S,1,1,19.00,25.00,A
-10,19000010,Polo gris básico manga larga,Algodón,M,1,1,19.00,25.00,A
-11,19000011,Polo gris básico manga larga,Algodón,L,1,1,19.00,25.00,A
-12,19000012,Polo verde con puntos,Algodón,S,1,4,18.00,24.00,A
-13,19000013,Polo verde con puntos,Algodón,M,1,4,18.00,24.00,A
-14,19000014,Polo verde con puntos,Algodón,L,1,4,18.00,24.00,A
-15,19000015,Polo oscuro con estampado,Algodón,S,1,4,20.00,25.00,A
-16,19000016,Polo oscuro con estampado,Algodón,M,1,4,20.00,25.00,A
-17,19000017,Polo oscuro con estampado,Algodón,L,1,4,20.00,25.00,A
-18,19000018,Blusa blanca básica,Algodón,S,2,8,18.00,24.00,A
-19,19000019,Blusa blanca básica,Algodón,M,2,8,18.00,24.00,A
-20,19000020,Blusa blanca básica,Algodón,L,2,8,18.00,24.00,A
-21,19000021,Blusa manga larga Delta,Algodón,S,2,8,20.00,26.00,A
-22,19000022,Blusa manga larga Delta,Algodón,M,2,8,20.00,26.00,A
-23,19000023,Blusa manga larga Delta,Algodón,L,2,8,20.00,26.00,A
-24,19000024,Blusa  a rayas manga larga cuello,Algodón,S,2,5,24.00,30.00,A
-25,19000025,Blusa  a rayas manga larga cuello,Algodón,M,2,5,24.00,30.00,A
-26,19000026,Blusa  a rayas manga larga cuello,Algodón,L,2,5,24.00,30.00,A
-27,19000027,Blusa con puntos manga puffy,Algodón,S,2,5,30.00,36.00,A
-28,19000028,Blusa con puntos manga puffy,Algodón,M,2,5,30.00,36.00,A
-29,19000029,Blusa con puntos manga puffy,Algodón,L,2,5,30.00,36.00,A
-30,19000030,Camisa varón blanca con azul manga larga,Algodón,S,3,10,25.00,30.00,A
-31,19000031,Camisa varón blanca con azul manga larga,Algodón,M,3,10,25.00,30.00,A
-32,19000032,Camisa varón blanca con azul manga larga,Algodón,L,3,10,25.00,30.00,A
-33,19000033,Camisa varón claro con lino Regular,Lino,S,3,10,25.00,30.00,A
-34,19000034,Camisa varón claro con lino Regular,Lino,M,3,10,25.00,30.00,A
-35,19000035,Camisa varón claro con lino Regular,Lino,L,3,10,25.00,30.00,A
-36,19000036,Camisa varón oscura franela de algodon,Algodón,S,3,10,35.00,40.00,A
-37,19000037,Camisa varón oscura franela de algodon,Algodón,M,3,10,35.00,40.00,A
-38,19000038,Camisa varón oscura franela de algodon,Algodón,L,3,10,35.00,40.00,A
-39,19000039,Camisa varón vaquera jean claro,Denim,S,3,10,30.00,36.00,A
-40,19000040,Camisa varón vaquera jean claro,Denim,M,3,10,30.00,36.00,A
-41,19000041,Camisa varón vaquera jean claro,Denim,L,3,10,30.00,36.00,A
-42,19000042,Camisa varón azul marino de poliester,Poliéster,S,3,2,34.00,39.00,A
-43,19000043,Camisa varón azul marino de poliester,Poliéster,M,3,2,34.00,39.00,A
-44,19000044,Camisa varón azul marino de poliester,Poliéster,L,3,2,34.00,39.00,A
-45,19000045,Camisa varón blanca rayada con lino Regular,Lino,S,3,2,24.00,29.00,A
-46,19000046,Camisa varón blanca rayada con lino Regular,Lino,M,3,2,24.00,29.00,A
-47,19000047,Camisa varón blanca rayada con lino Regular,Lino,L,3,2,24.00,29.00,A
-48,19000048,Camisa mujer en franela de algodón,Algodón,S,3,2,24.00,29.00,A
-49,19000049,Camisa mujer en franela de algodón,Algodón,M,3,2,24.00,29.00,A
-50,19000050,Camisa mujer en franela de algodón,Algodón,L,3,2,24.00,29.00,A
-51,19000051,Jeans varón básico azul,Denim,30,7,9,80.00,89.00,A
-52,19000052,Jeans varón básico azul,Denim,32,7,9,80.00,89.00,A
-53,19000053,Jeans varón básico azul,Denim,34,7,9,80.00,89.00,A
-54,19000054,Jeans varón básico azul,Denim,36,7,9,80.00,89.00,A
-55,19000055,Jeans varón rasgado azul claro,Denim,30,7,9,90.00,99.00,A
-56,19000056,Jeans varón rasgado azul claro,Denim,32,7,9,90.00,99.00,A
-57,19000057,Jeans varón rasgado azul claro,Denim,34,7,9,90.00,99.00,A
-58,19000058,Jeans varón rasgado azul claro,Denim,36,7,9,90.00,99.00,A
-59,19000059,Jeans varón oscuro rasgado con cadena,Denim,30,7,9,90.00,99.00,A
-60,19000060,Jeans varón oscuro rasgado con cadena,Denim,32,7,9,90.00,99.00,A
-61,19000061,Jeans varón oscuro rasgado con cadena,Denim,34,7,9,90.00,99.00,A
-62,19000062,Jeans varón oscuro rasgado con cadena,Denim,36,7,9,90.00,99.00,A
-63,19000063,Jeans varón slim blanco,Denim,30,7,5,110.00,120.00,A
-64,19000064,Jeans varón slim blanco,Denim,32,7,5,110.00,120.00,A
-65,19000065,Jeans varón slim blanco,Denim,34,7,5,110.00,120.00,A
-66,19000066,Jeans varón slim blanco,Denim,36,7,5,110.00,120.00,A
-67,19000067,Jeans mujer Spadedeblair azul,Denim,30,7,5,109.00,119.00,A
-68,19000068,Jeans mujer Spadedeblair azul,Denim,32,7,5,109.00,119.00,A
-69,19000069,Jeans mujer Spadedeblair azul,Denim,34,7,5,109.00,119.00,A
-70,19000070,Jeans mujer Spadedeblair azul,Denim,36,7,5,109.00,119.00,A
+1,19000001,Polo blanco con cuello,Algodón,S,1,1,18.00,25.00,A
+2,19000002,Polo blanco con cuello,Algodón,M,1,1,18.00,25.00,A
+3,19000003,Polo negro estampado StarWars,Algodón,S,1,4,22.00,30.00,A
+4,19000004,Polo negro estampado StarWars,Algodón,M,1,4,22.00,30.00,A
+5,19000005,Polo negro estampado StarWars,Algodón,L,1,4,22.00,30.00,A
+6,19000006,Polo blanco básico,Algodón,S,1,1,12.00,19.00,A
+7,19000007,Polo blanco básico,Algodón,M,1,1,12.00,19.00,A
+8,19000008,Polo blanco básico,Algodón,L,1,1,12.00,19.00,A
+9,19000009,Polo gris básico manga larga,Algodón,S,1,1,18.00,25.00,A
+10,19000010,Polo gris básico manga larga,Algodón,M,1,1,18.00,25.00,A
+11,19000011,Polo gris básico manga larga,Algodón,L,1,1,18.00,25.00,A
+12,19000012,Polo verde con puntos,Algodón,S,1,4,18.00,26.00,A
+13,19000013,Polo verde con puntos,Algodón,M,1,4,18.00,26.00,A
+14,19000014,Polo verde con puntos,Algodón,L,1,4,18.00,26.00,A
+15,19000015,Polo oscuro con estampado,Algodón,S,1,4,20.00,29.00,A
+16,19000016,Polo oscuro con estampado,Algodón,M,1,4,20.00,29.00,A
+17,19000017,Polo oscuro con estampado,Algodón,L,1,4,20.00,29.00,A
+18,19000018,Blusa blanca básica,Algodón,S,2,8,18.00,25.00,A
+19,19000019,Blusa blanca básica,Algodón,M,2,8,18.00,25.00,A
+20,19000020,Blusa blanca básica,Algodón,L,2,8,18.00,25.00,A
+21,19000021,Blusa manga larga Delta,Algodón,S,2,8,20.00,28.00,A
+22,19000022,Blusa manga larga Delta,Algodón,M,2,8,20.00,28.00,A
+23,19000023,Blusa manga larga Delta,Algodón,L,2,8,20.00,28.00,A
+24,19000024,Blusa  a rayas manga larga cuello,Algodón,S,2,5,22.00,29.00,A
+25,19000025,Blusa  a rayas manga larga cuello,Algodón,M,2,5,22.00,29.00,A
+26,19000026,Blusa  a rayas manga larga cuello,Algodón,L,2,5,22.00,29.00,A
+27,19000027,Blusa con puntos manga puffy,Algodón,S,2,5,29.00,36.00,A
+28,19000028,Blusa con puntos manga puffy,Algodón,M,2,5,29.00,36.00,A
+29,19000029,Blusa con puntos manga puffy,Algodón,L,2,5,29.00,36.00,A
+30,19000030,Camisa varón blanca con azul manga larga,Algodón,S,3,10,22.00,29.00,A
+31,19000031,Camisa varón blanca con azul manga larga,Algodón,M,3,10,22.00,29.00,A
+32,19000032,Camisa varón blanca con azul manga larga,Algodón,L,3,10,22.00,29.00,A
+33,19000033,Camisa varón claro con lino Regular,Lino,S,3,10,22.00,29.00,A
+34,19000034,Camisa varón claro con lino Regular,Lino,M,3,10,22.00,29.00,A
+35,19000035,Camisa varón claro con lino Regular,Lino,L,3,10,22.00,29.00,A
+36,19000036,Camisa varón oscura franela de Algodón,Algodón,S,3,10,33.00,40.00,A
+37,19000037,Camisa varón oscura franela de Algodón,Algodón,M,3,10,33.00,40.00,A
+38,19000038,Camisa varón oscura franela de Algodón,Algodón,L,3,10,33.00,40.00,A
+39,19000039,Camisa varón vaquera jean claro,Mezclilla,S,3,10,29.00,36.00,A
+40,19000040,Camisa varón vaquera jean claro,Mezclilla,M,3,10,29.00,36.00,A
+41,19000041,Camisa varón vaquera jean claro,Mezclilla,L,3,10,29.00,36.00,A
+42,19000042,Camisa varón azul marino de poliester,Poliéster,S,3,2,32.00,39.00,A
+43,19000043,Camisa varón azul marino de poliester,Poliéster,M,3,2,32.00,39.00,A
+44,19000044,Camisa varón azul marino de poliester,Poliéster,L,3,2,32.00,39.00,A
+45,19000045,Camisa varón blanca rayada con lino Regular,Lino,S,3,2,22.00,29.00,A
+46,19000046,Camisa varón blanca rayada con lino Regular,Lino,M,3,2,22.00,29.00,A
+47,19000047,Camisa varón blanca rayada con lino Regular,Lino,L,3,2,22.00,29.00,A
+48,19000048,Camisa mujer en franela de algodón,Algodón,S,3,2,22.00,29.00,A
+49,19000049,Camisa mujer en franela de algodón,Algodón,M,3,2,22.00,29.00,A
+50,19000050,Camisa mujer en franela de algodón,Algodón,L,3,2,22.00,29.00,A
+51,19000051,Jeans varón básico azul,Mezclilla,30,7,9,80.00,89.00,A
+52,19000052,Jeans varón básico azul,Mezclilla,32,7,9,80.00,89.00,A
+53,19000053,Jeans varón básico azul,Mezclilla,34,7,9,80.00,89.00,A
+54,19000054,Jeans varón básico azul,Mezclilla,36,7,9,80.00,89.00,A
+55,19000055,Jeans varón rasgado azul claro,Mezclilla,30,7,9,90.00,99.00,A
+56,19000056,Jeans varón rasgado azul claro,Mezclilla,32,7,9,90.00,99.00,A
+57,19000057,Jeans varón rasgado azul claro,Mezclilla,34,7,9,90.00,99.00,A
+58,19000058,Jeans varón rasgado azul claro,Mezclilla,36,7,9,90.00,99.00,A
+59,19000059,Jeans varón oscuro rasgado con cadena,Mezclilla,30,7,9,90.00,99.00,A
+60,19000060,Jeans varón oscuro rasgado con cadena,Mezclilla,32,7,9,90.00,99.00,A
+61,19000061,Jeans varón oscuro rasgado con cadena,Mezclilla,34,7,9,90.00,99.00,A
+62,19000062,Jeans varón oscuro rasgado con cadena,Mezclilla,36,7,9,90.00,99.00,A
+63,19000063,Jeans varón slim blanco,Mezclilla,30,7,5,110.00,120.00,A
+64,19000064,Jeans varón slim blanco,Mezclilla,32,7,5,110.00,120.00,A
+65,19000065,Jeans varón slim blanco,Mezclilla,34,7,5,110.00,120.00,A
+66,19000066,Jeans varón slim blanco,Mezclilla,36,7,5,110.00,120.00,A
+67,19000067,Jeans mujer Spadedeblair azul,Mezclilla,30,7,5,109.00,119.00,A
+68,19000068,Jeans mujer Spadedeblair azul,Mezclilla,32,7,5,109.00,119.00,A
+69,19000069,Jeans mujer Spadedeblair azul,Mezclilla,34,7,5,109.00,119.00,A
+70,19000070,Jeans mujer Spadedeblair azul,Mezclilla,36,7,5,109.00,119.00,A
 71,19000071,Pantalon varón de traje skinny pálido,Algodón,30,8,6,90.00,99.00,A
 72,19000072,Pantalon varón de traje skinny pálido,Algodón,32,8,6,90.00,99.00,A
 73,19000073,Pantalon varón de traje skinny pálido,Algodón,34,8,6,90.00,99.00,A
@@ -85,21 +85,21 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 84,19000084,Pantalon mujer a cuadros sport elegant,Algodón,32,8,6,140.00,150.00,A
 85,19000085,Pantalon mujer a cuadros sport elegant,Algodón,34,8,6,140.00,150.00,A
 86,19000086,Pantalon mujer a cuadros sport elegant,Algodón,36,8,6,140.00,150.00,A
-87,19000087,Short mujer Beru azul,Denim,30,9,4,45.00,55.00,A
-88,19000088,Short mujer Beru azul,Denim,32,9,4,45.00,55.00,A
-89,19000089,Short mujer Beru azul,Denim,34,9,4,45.00,55.00,A
-90,19000090,Short mujer Beru azul,Denim,36,9,4,45.00,55.00,A
-91,19000091,Short varón slim denim,Denim,30,9,4,39.00,45.00,A
-92,19000092,Short varón slim denim,Denim,32,9,4,39.00,45.00,A
-93,19000093,Short varón slim denim,Denim,34,9,4,39.00,45.00,A
-94,19000094,Short varón slim denim,Denim,36,9,4,39.00,45.00,A
+87,19000087,Short mujer Beru azul,Mezclilla,30,9,4,45.00,55.00,A
+88,19000088,Short mujer Beru azul,Mezclilla,32,9,4,45.00,55.00,A
+89,19000089,Short mujer Beru azul,Mezclilla,34,9,4,45.00,55.00,A
+90,19000090,Short mujer Beru azul,Mezclilla,36,9,4,45.00,55.00,A
+91,19000091,Short varón slim denim,Mezclilla,30,9,4,39.00,46.00,A
+92,19000092,Short varón slim denim,Mezclilla,32,9,4,39.00,46.00,A
+93,19000093,Short varón slim denim,Mezclilla,34,9,4,39.00,46.00,A
+94,19000094,Short varón slim denim,Mezclilla,36,9,4,39.00,46.00,A
 95,19000095,Falda oscura Onlamazing Taylor,Poliéster,30,10,8,50.00,59.00,A
 96,19000096,Falda oscura Onlamazing Taylor,Poliéster,32,10,8,50.00,59.00,A
 97,19000097,Falda oscura Onlamazing Taylor,Poliéster,34,10,8,50.00,59.00,A
 98,19000098,Falda oscura Onlamazing Taylor,Poliéster,36,10,8,50.00,59.00,A
-99,19000099,Falda jean azul Taylor,Denim,30,10,8,50.00,59.00,A
-100,19000100,Falda jean azul Taylor,Denim,32,10,8,50.00,59.00,A
-101,19000101,Falda jean azul Taylor,Denim,34,10,8,50.00,59.00,A
+99,19000099,Falda jean azul Taylor,Mezclilla,30,10,8,50.00,59.00,A
+100,19000100,Falda jean azul Taylor,Mezclilla,32,10,8,50.00,59.00,A
+101,19000101,Falda jean azul Taylor,Mezclilla,34,10,8,50.00,59.00,A
 102,19000102,Falda oscura lana Weijl,Lana,32,10,8,55.00,69.00,A
 103,19000103,Falda oscura lana Weijl,Lana,34,10,8,55.00,69.00,A
 104,19000104,Falda oscura lana Weijl,Lana,36,10,8,55.00,69.00,A
@@ -108,9 +108,9 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 107,19000107,Falda clara Doses,Poliéster,34,10,8,49.00,56.00,A
 108,19000108,Falda clara Doses,Poliéster,36,10,8,49.00,56.00,A
 109,19000109,Falda clara Doses,Poliéster,38,10,8,49.00,56.00,A
-110,19000110,Casaca mujer gris Ensima,Nylon,S,4,5,64.00,69.00,A
-111,19000111,Casaca mujer gris Ensima,Nylon,M,4,5,64.00,69.00,A
-112,19000112,Casaca mujer gris Ensima,Nylon,L,4,5,64.00,69.00,A
+110,19000110,Casaca mujer gris Ensima,Nylon,S,4,5,62.00,69.00,A
+111,19000111,Casaca mujer gris Ensima,Nylon,M,4,5,62.00,69.00,A
+112,19000112,Casaca mujer gris Ensima,Nylon,L,4,5,62.00,69.00,A
 113,19000113,Casaca varón clara Cortavientos,Poliéster,S,4,2,99.00,119.00,A
 114,19000114,Casaca varón clara Cortavientos,Poliéster,M,4,2,99.00,119.00,A
 115,19000115,Casaca varón clara Cortavientos,Poliéster,L,4,2,99.00,119.00,A
@@ -136,10 +136,10 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 135,19000135,Chompa mujer clara con puntos,Lana,M,5,7,69.00,77.00,A
 136,19000136,Chompa mujer clara con puntos,Lana,L,5,7,69.00,77.00,A
 137,19000137,Chompa mujer clara con puntos,Lana,XL,5,7,69.00,77.00,A
-138,19000138,Chompa varón oscura erizo,Algodón,S,5,2,79.00,85.00,A
-139,19000139,Chompa varón oscura erizo,Algodón,M,5,2,79.00,85.00,A
-140,19000140,Chompa varón oscura erizo,Algodón,L,5,2,79.00,85.00,A
-141,19000141,Chompa varón oscura erizo,Algodón,XL,5,2,79.00,85.00,A
+138,19000138,Chompa varón oscura erizo,Algodón,S,5,2,79.00,86.00,A
+139,19000139,Chompa varón oscura erizo,Algodón,M,5,2,79.00,86.00,A
+140,19000140,Chompa varón oscura erizo,Algodón,L,5,2,79.00,86.00,A
+141,19000141,Chompa varón oscura erizo,Algodón,XL,5,2,79.00,86.00,A
 142,19000142,Chompa varón Frido con franjas,Algodón,S,5,2,60.00,69.00,A
 143,19000143,Chompa varón Frido con franjas,Algodón,M,5,2,60.00,69.00,A
 144,19000144,Chompa varón Frido con franjas,Algodón,L,5,2,60.00,69.00,A
@@ -188,10 +188,10 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 187,19000187,Abrigo varón de sarga negro,Algodón,M,11,2,100.00,109.00,A
 188,19000188,Abrigo varón de sarga negro,Algodón,L,11,2,100.00,109.00,A
 189,19000189,Abrigo varón de sarga negro,Algodón,XL,11,2,100.00,109.00,A
-190,19000190,Abrigo mujer Kali piel,Lana,S,11,7,119.00,125.00,A
-191,19000191,Abrigo mujer Kali piel,Lana,M,11,7,119.00,125.00,A
-192,19000192,Abrigo mujer Kali piel,Lana,L,11,7,119.00,125.00,A
-193,19000193,Abrigo mujer Kali piel,Lana,XL,11,7,119.00,125.00,A
+190,19000190,Abrigo mujer Kali piel,Lana,S,11,7,119.00,126.00,A
+191,19000191,Abrigo mujer Kali piel,Lana,M,11,7,119.00,126.00,A
+192,19000192,Abrigo mujer Kali piel,Lana,L,11,7,119.00,126.00,A
+193,19000193,Abrigo mujer Kali piel,Lana,XL,11,7,119.00,126.00,A
 194,19000194,Abrigo mujer claro Mango,Poliéster,S,11,7,89.00,99.00,A
 195,19000195,Abrigo mujer claro Mango,Poliéster,M,11,7,89.00,99.00,A
 196,19000196,Abrigo mujer claro Mango,Poliéster,L,11,7,89.00,99.00,A
@@ -263,12 +263,12 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 262,19000262,Casaca Cussy,Algodón,XL,4,2,55.00,65.00,A
 263,19000263,Casaca Cussy,Algodón,L,4,2,55.00,65.00,A
 264,19000264,Casaca Cussy,Algodón,M,4,2,55.00,65.00,A
-265,19000265,Polo V Mujer,Algodón,S,1,1,19.00,25.00,A
-266,19000266,Polo V Mujer,Algodón,M,1,1,19.00,25.00,A
-267,19000267,Polo V Mujer,Algodón,XXL,1,1,19.00,25.00,A
-268,19000268,Polo V Mujer,Algodón,XL,1,1,19.00,25.00,A
-269,19000269,Polo V Mujer,Algodón,XS,1,1,19.00,25.00,A
-270,19000270,Polo V Mujer,Algodón,M,1,1,19.00,25.00,A
+265,19000265,Polo V Mujer,Algodón,S,1,1,18.00,25.00,A
+266,19000266,Polo V Mujer,Algodón,M,1,1,18.00,25.00,A
+267,19000267,Polo V Mujer,Algodón,XXL,1,1,18.00,25.00,A
+268,19000268,Polo V Mujer,Algodón,XL,1,1,18.00,25.00,A
+269,19000269,Polo V Mujer,Algodón,XS,1,1,18.00,25.00,A
+270,19000270,Polo V Mujer,Algodón,M,1,1,18.00,25.00,A
 271,19000271,Chompa abierta cuello neru,Lana,L,5,7,60.00,69.00,A
 272,19000272,Chompa abierta cuello neru,Lana,XL,5,7,60.00,69.00,A
 273,19000273,Chompa abierta cuello neru,Lana,S,5,7,60.00,69.00,A
@@ -288,46 +288,46 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 287,19000287,Vestido Aleman de Diana Collection,Lana,LG,12,8,35.00,45.00,A
 288,19000288,Vestido Aleman de Diana Collection,Lana,LG,12,8,35.00,45.00,A
 289,19000289,Vestido Aleman de Diana Collection,Lana,LG,12,8,35.00,45.00,A
-290,19000290,Sacones con Forro,Polar,M,4,2,70.00,80.00,A
-291,19000291,Sacones con Forro,Polar,S,4,2,70.00,80.00,A
-292,19000292,Sacones con Forro,Polar,L,4,2,70.00,80.00,A
-293,19000293,Sacones con Forro,Polar,XL,4,2,70.00,80.00,A
+290,19000290,Sacones con Forro,Poliéster,M,4,2,70.00,80.00,A
+291,19000291,Sacones con Forro,Poliéster,S,4,2,70.00,80.00,A
+292,19000292,Sacones con Forro,Poliéster,L,4,2,70.00,80.00,A
+293,19000293,Sacones con Forro,Poliéster,XL,4,2,70.00,80.00,A
 294,19000294,Casaca con Peluche,Algodón,M,4,3,80.00,90.00,A
 295,19000295,Casaca con Peluche,Algodón,S,4,3,80.00,90.00,A
 296,19000296,Casaca con Peluche,Algodón,L,4,3,80.00,90.00,A
 297,19000297,Casaca con Peluche,Algodón,XL,4,3,80.00,90.00,A
-298,19000298,Capa Sarix,Algodón,M,11,7,64.00,70.00,A
-299,19000299,Capa Sarix,Algodón,S,11,7,64.00,70.00,A
-300,19000300,Capa Sarix,Algodón,L,11,7,64.00,70.00,A
-301,19000301,Capa Sarix,Algodón,XL,11,7,64.00,70.00,A
+298,19000298,Capa Sarix,Algodón,M,11,7,64.00,71.00,A
+299,19000299,Capa Sarix,Algodón,S,11,7,64.00,71.00,A
+300,19000300,Capa Sarix,Algodón,L,11,7,64.00,71.00,A
+301,19000301,Capa Sarix,Algodón,XL,11,7,64.00,71.00,A
 302,19000302,Saco de hilo,Algodón,S,4,3,54.00,65.00,A
 303,19000303,Saco de hilo,Algodón,M,4,3,54.00,65.00,A
 304,19000304,Saco de hilo,Algodón,L,4,3,54.00,65.00,A
 305,19000305,Saco de hilo,Algodón,XL,4,3,54.00,65.00,A
-306,19000306,Abrigo Camello Con Bolsillos,Polar,X,11,7,74.00,82.00,A
-307,19000307,Abrigo Camello Con Bolsillos,Polar,L,11,7,74.00,82.00,A
-308,19000308,Abrigo Camello Con Bolsillos,Polar,M,11,7,74.00,82.00,A
-309,19000309,Pantalón culotte,Hilo,32,8,6,40.00,49.00,A
-310,19000310,Pantalón culotte,Hilo,28,8,6,40.00,49.00,A
-311,19000311,Pantalón culotte,Hilo,30,8,6,40.00,49.00,A
-312,19000312,Pantalón culotte,Hilo,34,8,6,40.00,49.00,A
-313,19000313,Blusa Spicy,Hilo,S,2,1,46.00,55.00,A
-314,19000314,Blusa Spicy,Hilo,M,2,1,46.00,55.00,A
-315,19000315,Blusa Spicy,Hilo,XL,2,1,46.00,55.00,A
-316,19000316,Blusa Spicy,Hilo,L,2,1,46.00,55.00,A
+306,19000306,Abrigo Camello Con Bolsillos,Poliéster,X,11,7,74.00,82.00,A
+307,19000307,Abrigo Camello Con Bolsillos,Poliéster,L,11,7,74.00,82.00,A
+308,19000308,Abrigo Camello Con Bolsillos,Poliéster,M,11,7,74.00,82.00,A
+309,19000309,Pantalón culotte,Algodón,32,8,6,40.00,49.00,A
+310,19000310,Pantalón culotte,Algodón,28,8,6,40.00,49.00,A
+311,19000311,Pantalón culotte,Algodón,30,8,6,40.00,49.00,A
+312,19000312,Pantalón culotte,Algodón,34,8,6,40.00,49.00,A
+313,19000313,Blusa Spicy,Algodón,S,2,1,46.00,55.00,A
+314,19000314,Blusa Spicy,Algodón,M,2,1,46.00,55.00,A
+315,19000315,Blusa Spicy,Algodón,XL,2,1,46.00,55.00,A
+316,19000316,Blusa Spicy,Algodón,L,2,1,46.00,55.00,A
 317,19000317,Chompa faja,Lana,S,5,7,50.00,57.00,A
-318,19000318,Chompa faja,Lana,M,5,7,53.00,57.00,A
-319,19000319,Chompa faja,Lana,L,5,7,53.00,57.00,A
-320,19000320,Chompa faja,Lana,XL,5,7,53.00,57.00,A
-321,19000321,Chompa faja,Lana,S,5,7,53.00,57.00,A
-322,19000322,Pantalón Jogger Cargo,Denim,32,8,9,55.00,60.00,A
-323,19000323,Pantalón Jogger Cargo,Denim,30,8,9,55.00,60.00,A
-324,19000324,Pantalón Jogger Cargo,Denim,28,8,9,55.00,60.00,A
-325,19000325,Pantalón Jogger Cargo,Denim,34,8,9,55.00,60.00,A
-326,19000326,Jeans Rossil,Denim,30,7,9,60.00,68.00,A
-327,19000327,Jeans Rossil,Denim,32,7,9,60.00,68.00,A
-328,19000328,Jeans Rossil,Denim,34,7,9,60.00,68.00,A
-329,19000329,Jeans Rossil,Denim,28,7,9,60.00,68.00,A
+318,19000318,Chompa faja,Lana,M,5,7,52.00,59.00,A
+319,19000319,Chompa faja,Lana,L,5,7,52.00,59.00,A
+320,19000320,Chompa faja,Lana,XL,5,7,52.00,59.00,A
+321,19000321,Chompa faja,Lana,S,5,7,52.00,59.00,A
+322,19000322,Pantalón Jogger Cargo,Mezclilla,32,8,9,53.00,60.00,A
+323,19000323,Pantalón Jogger Cargo,Mezclilla,30,8,9,53.00,60.00,A
+324,19000324,Pantalón Jogger Cargo,Mezclilla,28,8,9,53.00,60.00,A
+325,19000325,Pantalón Jogger Cargo,Mezclilla,34,8,9,53.00,60.00,A
+326,19000326,Jeans Rossil,Mezclilla,30,7,9,60.00,68.00,A
+327,19000327,Jeans Rossil,Mezclilla,32,7,9,60.00,68.00,A
+328,19000328,Jeans Rossil,Mezclilla,34,7,9,60.00,68.00,A
+329,19000329,Jeans Rossil,Mezclilla,28,7,9,60.00,68.00,A
 330,19000330,Polos Neru Hombres,Algodón,S,6,5,55.00,65.00,A
 331,19000331,Polos Neru Hombres,Algodón,L,6,5,55.00,65.00,A
 332,19000332,Polos Neru Hombres,Algodón,XXL,6,5,55.00,65.00,A
@@ -345,49 +345,49 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 344,19000344,Bomber jacke,Poliéster,XL,4,3,80.00,88.00,A
 345,19000345,Bomber jacke,Poliéster,M,4,3,80.00,88.00,A
 346,19000346,Bomber jacke,Poliéster,XS,4,3,80.00,88.00,A
-347,19000347,Abrigo Corto Casual,Paño,L,11,7,80.00,93.00,A
-348,19000348,Abrigo Corto Casual,Paño,M,11,7,80.00,93.00,A
-349,19000349,Abrigo Corto Casual,Paño,XL,11,7,80.00,93.00,A
-350,19000350,Abrigo Corto Casual,Paño,XXL,11,7,80.00,93.00,A
-351,19000351,Abrigo Corto Casual,Paño,S,11,7,80.00,93.00,A
+347,19000347,Abrigo Corto Casual,Lana,L,11,7,80.00,93.00,A
+348,19000348,Abrigo Corto Casual,Lana,M,11,7,80.00,93.00,A
+349,19000349,Abrigo Corto Casual,Lana,XL,11,7,80.00,93.00,A
+350,19000350,Abrigo Corto Casual,Lana,XXL,11,7,80.00,93.00,A
+351,19000351,Abrigo Corto Casual,Lana,S,11,7,80.00,93.00,A
 352,19000352,Polera con capucha marca ANONYMOUS,Algodón,S,6,5,68.00,75.00,A
 353,19000353,Polera con capucha marca ANONYMOUS,Algodón,L,6,5,68.00,75.00,A
 354,19000354,Polera con capucha marca ANONYMOUS,Algodón,XXL,6,5,68.00,75.00,A
 355,19000355,Polera con capucha marca ANONYMOUS,Algodón,XL,6,5,68.00,75.00,A
 356,19000356,Polera con capucha marca ANONYMOUS,Algodón,M,6,5,68.00,75.00,A
-357,19000357,Casaca ston con forro micro polar,Poliéster,XS,4,3,60.00,65.00,A
-358,19000358,Casaca ston con forro micro polar,Poliéster,L,4,3,60.00,65.00,A
-359,19000359,Casaca ston con forro micro polar,Poliéster,XXL,4,3,60.00,65.00,A
-360,19000360,Casaca ston con forro micro polar,Poliéster,XL,4,3,60.00,65.00,A
-361,19000361,Casaca ston con forro micro polar,Poliéster,M,4,3,60.00,65.00,A
-362,19000362,Casaca ston con forro micro polar,Poliéster,XS,4,3,63.00,68.00,A
-363,19000363,Polo De Caballero Acero Jaspeado,Algodon,S,1,10,42.00,50.00,A
-364,19000364,Polo De Caballero Acero Jaspeado,Algodon,L,1,10,42.00,50.00,A
-365,19000365,Polo De Caballero Acero Jaspeado,Algodon,XXL,1,10,42.00,50.00,A
-366,19000366,Polo De Caballero Acero Jaspeado,Algodon,XL,1,10,42.00,50.00,A
-367,19000367,Polo De Caballero Acero Jaspeado,Algodon,M,1,10,42.00,50.00,A
-368,19000368,Polo De Caballero Acero Jaspeado,Algodon,XS,1,10,42.00,50.00,A
-369,19000369,Polo camisero SLIM,Algodón,XS,1,4,35.00,38.00,A
-370,19000370,Polo camisero SLIM,Algodón,S,1,4,35.00,38.00,A
-371,19000371,Polo camisero SLIM,Algodón,L,1,4,35.00,38.00,A
-372,19000372,Polo camisero SLIM,Algodón,M,1,4,35.00,38.00,A
-373,19000373,Polo camisero SLIM,Algodón,XL,1,4,35.00,38.00,A
+357,19000357,Casaca ston con forro micro polar,Poliéster,XS,4,3,58.00,65.00,A
+358,19000358,Casaca ston con forro micro polar,Poliéster,L,4,3,58.00,65.00,A
+359,19000359,Casaca ston con forro micro polar,Poliéster,XXL,4,3,58.00,65.00,A
+360,19000360,Casaca ston con forro micro polar,Poliéster,XL,4,3,58.00,65.00,A
+361,19000361,Casaca ston con forro micro polar,Poliéster,M,4,3,58.00,65.00,A
+362,19000362,Casaca ston con forro micro polar,Poliéster,XS,4,3,58.00,68.00,A
+363,19000363,Polo De Caballero Acero Jaspeado,Algodón,S,1,10,42.00,50.00,A
+364,19000364,Polo De Caballero Acero Jaspeado,Algodón,L,1,10,42.00,50.00,A
+365,19000365,Polo De Caballero Acero Jaspeado,Algodón,XXL,1,10,42.00,50.00,A
+366,19000366,Polo De Caballero Acero Jaspeado,Algodón,XL,1,10,42.00,50.00,A
+367,19000367,Polo De Caballero Acero Jaspeado,Algodón,M,1,10,42.00,50.00,A
+368,19000368,Polo De Caballero Acero Jaspeado,Algodón,XS,1,10,42.00,50.00,A
+369,19000369,Polo camisero SLIM,Algodón,XS,1,4,35.00,49.00,A
+370,19000370,Polo camisero SLIM,Algodón,S,1,4,35.00,49.00,A
+371,19000371,Polo camisero SLIM,Algodón,L,1,4,35.00,49.00,A
+372,19000372,Polo camisero SLIM,Algodón,M,1,4,35.00,49.00,A
+373,19000373,Polo camisero SLIM,Algodón,XL,1,4,35.00,49.00,A
 374,19000374,Blazer Clasico de Corduroy,Poliéster,S,11,7,100.00,110.00,A
 375,19000375,Blazer Clasico de Corduroy,Poliéster,L,11,7,100.00,110.00,A
 376,19000376,Blazer Clasico de Corduroy,Poliéster,XXL,11,7,100.00,110.00,A
 377,19000377,Blazer Clasico de Corduroy,Poliéster,XL,11,7,100.00,110.00,A
 378,19000378,Blazer Clasico de Corduroy,Poliéster,M,11,7,100.00,110.00,A
-379,19000379,Sweater trian,Algodón,S,5,7,45.00,50.00,A
-380,19000380,Sweater trian,Algodón,L,5,7,45.00,50.00,A
-381,19000381,Sweater trian,Algodón,XXL,5,7,45.00,50.00,A
-382,19000382,Sweater trian,Algodón,XL,5,7,45.00,50.00,A
-383,19000383,Sweater trian,Algodón,M,5,7,45.00,50.00,A
-384,19000384,Polo cuello camisa STEALTH para Hombre,Hilo,S,1,1,48.00,55.00,A
-385,19000385,Polo cuello camisa STEALTH para Hombre,Hilo,L,1,1,48.00,55.00,A
-386,19000386,Polo cuello camisa STEALTH para Hombre,Hilo,XXL,1,1,48.00,55.00,A
-387,19000387,Polo cuello camisa STEALTH para Hombre,Hilo,XL,1,1,48.00,55.00,A
-388,19000388,Polo cuello camisa STEALTH para Hombre,Hilo,XS,1,1,48.00,55.00,A
-389,19000389,Polo cuello camisa STEALTH para Hombre,Hilo,M,1,1,48.00,55.00,A
+379,19000379,Sweater trian,Algodón,S,5,7,44.00,51.00,A
+380,19000380,Sweater trian,Algodón,L,5,7,44.00,51.00,A
+381,19000381,Sweater trian,Algodón,XXL,5,7,44.00,51.00,A
+382,19000382,Sweater trian,Algodón,XL,5,7,44.00,51.00,A
+383,19000383,Sweater trian,Algodón,M,5,7,44.00,51.00,A
+384,19000384,Polo cuello camisa STEALTH para Hombre,Poliéster,S,1,1,48.00,55.00,A
+385,19000385,Polo cuello camisa STEALTH para Hombre,Poliéster,L,1,1,48.00,55.00,A
+386,19000386,Polo cuello camisa STEALTH para Hombre,Poliéster,XXL,1,1,48.00,55.00,A
+387,19000387,Polo cuello camisa STEALTH para Hombre,Poliéster,XL,1,1,48.00,55.00,A
+388,19000388,Polo cuello camisa STEALTH para Hombre,Poliéster,XS,1,1,48.00,55.00,A
+389,19000389,Polo cuello camisa STEALTH para Hombre,Poliéster,M,1,1,48.00,55.00,A
 390,19000390,Jeans Azul lavado para hombre ,denim,28,7,9,70.00,80.00,A
 391,19000391,Jeans Azul lavado para hombre ,denim,30,7,9,70.00,80.00,A
 392,19000392,Jeans Azul lavado para hombre ,denim,34,7,9,70.00,80.00,A
@@ -399,308 +399,308 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 398,19000398,Polo cuello V de varón,Algodón,S,1,10,25.00,32.00,A
 399,19000399,Polo cuello V de varón,Algodón,L,1,10,25.00,32.00,A
 400,19000400,Polo cuello V de varón,Algodón,XL,1,10,25.00,32.00,A
-401,19000401,Chompa Mujer,Lana,S,5,7,25.00,30.00,A
-402,19000402,Chompa Mujer,Lana,M,5,7,25.00,30.00,A
-403,19000403,Chompa Mujer,Lana,L,5,7,25.00,30.00,A
-404,19000404,Chompa Mujer,Lana,XL,5,7,25.00,30.00,A
-405,19000405,Poncho Mujer,Algodon,S,1,7,29.00,34.00,A
-406,19000406,Poncho Mujer,Algodon,M,1,7,29.00,34.00,A
-407,19000407,Poncho Mujer,Algodon,L,1,7,29.00,34.00,A
-408,19000408,Poncho Mujer,Algodon,XL,1,7,29.00,34.00,A
-409,19000409,Cardigan Mujer,Nylon,S,3,7,30.00,35.00,A
-410,19000410,Cardigan Mujer,Nylon,M,3,7,30.00,35.00,A
-411,19000411,Cardigan Mujer,Nylon,L,3,7,30.00,35.00,A
-412,19000412,Cardigan Mujer,Nylon,XL,3,7,30.00,35.00,A
-413,19000413,Blazer Mujer ,Lino,S,2,2,23.00,28.00,A
-414,19000414,Blazer Mujer ,Lino,M,2,2,23.00,28.00,A
-415,19000415,Blazer Mujer ,Lino,L,2,2,23.00,28.00,A
-416,19000416,Blazer Mujer ,Lino,XL,2,2,23.00,28.00,A
-417,19000417,Pantalon High Mujer,Lino,S,8,6,24.00,29.00,A
-418,19000418,Pantalon High Mujer,Lino,M,8,6,24.00,29.00,A
-419,19000419,Pantalon High Mujer,Lino,L,8,6,24.00,29.00,A
-420,19000420,Pantalon Jogger Mujer,Algodon,XS,1,6,30.00,35.00,A
-421,19000421,Pantalon Jogger Mujer,Algodon,S,1,6,30.00,35.00,A
-422,19000422,Pantalon Jogger Mujer,Algodon,M,1,6,30.00,35.00,A
-423,19000423,Pantalon Jogger Mujer,Algodon,L,1,6,30.00,35.00,A
-424,19000424,Pantalon Jogger Mujer,Algodon,XL,1,6,30.00,35.00,A
-425,19000425,Pantalon Buzo Mujer,Algodon,S,1,6,19.00,24.00,A
-426,19000426,Pantalon Buzo Mujer,Algodon,M,1,6,19.00,24.00,A
-427,19000427,Pantalon Buzo Mujer,Algodon,L,1,6,19.00,24.00,A
-428,19000428,Pantalon Skinny Mujer,Algodon,S,1,6,19.00,24.00,A
-429,19000429,Pantalon Skinny Mujer,Algodon,M,1,6,19.00,24.00,A
-430,19000430,Pantalon Skinny Mujer,Algodon,L,1,6,19.00,24.00,A
-431,19000431,Casaca Hombre,Nylon,S,4,2,28.00,33.00,A
-432,19000432,Casaca Hombre,Nylon,M,4,2,28.00,33.00,A
-433,19000433,Casaca Hombre,Nylon,L,4,2,28.00,33.00,A
-434,19000434,Casaca Hombre,Nylon,XL,4,2,28.00,33.00,A
-435,19000435,Poleron Hombre,Algodon,S,6,5,23.00,27.00,A
-436,19000436,Poleron Hombre,Algodon,M,6,5,23.00,27.00,A
-437,19000437,Poleron Hombre,Algodon,L,6,5,23.00,27.00,A
-438,19000438,Poleron Hombre,Algodon,XL,6,5,23.00,27.00,A
+401,19000401,Chompa Mujer,Lana,S,5,7,23.00,30.00,A
+402,19000402,Chompa Mujer,Lana,M,5,7,23.00,30.00,A
+403,19000403,Chompa Mujer,Lana,L,5,7,23.00,30.00,A
+404,19000404,Chompa Mujer,Lana,XL,5,7,23.00,30.00,A
+405,19000405,Poncho Mujer,Algodón,S,1,7,27.00,34.00,A
+406,19000406,Poncho Mujer,Algodón,M,1,7,27.00,34.00,A
+407,19000407,Poncho Mujer,Algodón,L,1,7,27.00,34.00,A
+408,19000408,Poncho Mujer,Algodón,XL,1,7,27.00,34.00,A
+409,19000409,Cardigan Mujer,Nylon,S,3,7,28.00,35.00,A
+410,19000410,Cardigan Mujer,Nylon,M,3,7,28.00,35.00,A
+411,19000411,Cardigan Mujer,Nylon,L,3,7,28.00,35.00,A
+412,19000412,Cardigan Mujer,Nylon,XL,3,7,28.00,35.00,A
+413,19000413,Blazer Mujer ,Lino,S,2,2,21.00,28.00,A
+414,19000414,Blazer Mujer ,Lino,M,2,2,21.00,28.00,A
+415,19000415,Blazer Mujer ,Lino,L,2,2,21.00,28.00,A
+416,19000416,Blazer Mujer ,Lino,XL,2,2,21.00,28.00,A
+417,19000417,Pantalon High Mujer,Lino,S,8,6,24.00,31.00,A
+418,19000418,Pantalon High Mujer,Lino,M,8,6,24.00,31.00,A
+419,19000419,Pantalon High Mujer,Lino,L,8,6,24.00,31.00,A
+420,19000420,Pantalon Jogger Mujer,Algodón,XS,1,6,30.00,38.00,A
+421,19000421,Pantalon Jogger Mujer,Algodón,S,1,6,30.00,38.00,A
+422,19000422,Pantalon Jogger Mujer,Algodón,M,1,6,30.00,38.00,A
+423,19000423,Pantalon Jogger Mujer,Algodón,L,1,6,30.00,38.00,A
+424,19000424,Pantalon Jogger Mujer,Algodón,XL,1,6,30.00,38.00,A
+425,19000425,Pantalon Buzo Mujer,Algodón,S,1,6,19.00,26.00,A
+426,19000426,Pantalon Buzo Mujer,Algodón,M,1,6,19.00,26.00,A
+427,19000427,Pantalon Buzo Mujer,Algodón,L,1,6,19.00,26.00,A
+428,19000428,Pantalon Skinny Mujer,Algodón,S,1,6,19.00,26.00,A
+429,19000429,Pantalon Skinny Mujer,Algodón,M,1,6,19.00,26.00,A
+430,19000430,Pantalon Skinny Mujer,Algodón,L,1,6,19.00,26.00,A
+431,19000431,Casaca Hombre,Nylon,S,4,2,28.00,35.00,A
+432,19000432,Casaca Hombre,Nylon,M,4,2,28.00,35.00,A
+433,19000433,Casaca Hombre,Nylon,L,4,2,28.00,35.00,A
+434,19000434,Casaca Hombre,Nylon,XL,4,2,28.00,35.00,A
+435,19000435,Poleron Hombre,Algodón,S,6,5,22.00,29.00,A
+436,19000436,Poleron Hombre,Algodón,M,6,5,22.00,29.00,A
+437,19000437,Poleron Hombre,Algodón,L,6,5,22.00,29.00,A
+438,19000438,Poleron Hombre,Algodón,XL,6,5,22.00,29.00,A
 439,19000439,Chaleco Mujer,Nylon,S,4,3,27.00,34.00,A
 440,19000440,Chaleco Mujer,Nylon,M,4,3,27.00,34.00,A
 441,19000441,Chaleco Mujer,Nylon,L,4,3,27.00,34.00,A
 442,19000442,Chaleco Mujer,Nylon,XL,4,3,27.00,34.00,A
 443,19000443,Chaleco Mujer,Nylon,XXL,4,3,27.00,34.00,A
-444,19000444,Poleron Mujer,Algodon ,S,6,5,22.00,26.00,A
-445,19000445,Poleron Mujer,Algodon ,M,6,5,22.00,26.00,A
-446,19000446,Poleron Mujer,Algodon ,L,6,5,22.00,26.00,A
-447,19000447,Poleron Mujer,Algodon ,XL,6,5,22.00,26.00,A
-448,19000448,Denim Corte Colombiano,Denim,S,7,6,40.00,45.00,A
-449,19000449,Denim Corte Colombiano,Denim,M,7,6,40.00,45.00,A
-450,19000450,Denim Corte Colombiano,Denim,L,7,6,40.00,45.00,A
-451,19000451,Denim Corte Colombiano,Denim,XL,7,6,40.00,45.00,A
-452,19000452,Top Sin Mangas Mujer,Algodon,S,2,8,20.00,25.00,A
-453,19000453,Top Sin Mangas Mujer,Algodon,M,2,8,20.00,25.00,A
-454,19000454,Top Sin Mangas Mujer,Algodon,L,2,8,20.00,25.00,A
-455,19000455,Top Sin Mangas Mujer,Algodon,XL,2,8,20.00,25.00,A
-456,19000456,Vestido Corto Mujer,Lino,S,10,8,22.00,28.00,A
-457,19000457,Vestido Corto Mujer,Lino,M,10,8,22.00,28.00,A
-458,19000458,Vestido Corto Mujer,Lino,L,10,8,22.00,28.00,A
-459,19000459,Vestido Corto Mujer,Lino,S,10,8,22.00,28.00,A
-460,19000460,Vestido Corto Mujer,Lino,M,10,8,22.00,28.00,A
-461,19000461,Vestido Corto Mujer,Lino,L,10,8,22.00,28.00,A
-462,19000462,Polo Detroit Cuello Box Hombre,Algodon,S,1,4,24.00,29.00,A
-463,19000463,Polo Detroit Cuello Box Hombre,Algodon,M,1,4,24.00,29.00,A
-464,19000464,Polo Detroit Cuello Box Hombre,Algodon,L,1,4,24.00,29.00,A
-465,19000465,Polo Detroit Cuello Box Hombre,Algodon,XL,1,4,24.00,29.00,A
-466,19000466,Polo Manga Corta,Poliester,S,1,4,24.00,29.00,A
-467,19000467,Polo Manga Corta,Poliester,M,1,4,24.00,29.00,A
-468,19000468,Polo Manga Corta,Poliester,L,1,4,24.00,29.00,A
-469,19000469,Polo Manga Corta,Poliester,XL,1,4,24.00,29.00,A
-470,19000470,Polera Mijail Cerrado Hombre,Algodon,S,1,4,24.00,29.00,A
-471,19000471,Polera Mijail Cerrado Hombre,Algodon,M,1,4,24.00,29.00,A
-472,19000472,Polera Mijail Cerrado Hombre,Algodon,L,1,4,24.00,29.00,A
-473,19000473,Polera Mijail Cerrado Hombre,Algodon,XL,1,4,24.00,29.00,A
-474,19000474,Polera Con Capucha Hombre,Algodon,S,1,5,25.00,33.00,A
-475,19000475,Polera Con Capucha Hombre,Algodon,M,1,5,25.00,33.00,A
-476,19000476,Polera Con Capucha Hombre,Algodon,L,1,5,25.00,33.00,A
-477,19000477,Polera Con Capucha Hombre,Algodon,XL,1,5,25.00,33.00,A
-478,19000478,Bermuda Pretina Elastica Hombre,Poliester,S,9,11,22.00,30.00,A
-479,19000479,Bermuda Pretina Elastica Hombre,Poliester,M,9,11,22.00,30.00,A
-480,19000480,Bermuda Pretina Elastica Hombre,Poliester,L,9,11,22.00,30.00,A
-481,19000481,Bermuda Pretina Elastica Hombre,Poliester,XL,9,11,22.00,30.00,A
-482,19000482,Bermuda Con Bolsillos Hombre,Algodon,S,9,11,22.00,30.00,A
-483,19000483,Bermuda Con Bolsillos Hombre,Algodon,M,9,11,22.00,30.00,A
-484,19000484,Bermuda Con Bolsillos Hombre,Algodon,L,9,11,22.00,30.00,A
-485,19000485,Bermuda Con Bolsillos Hombre,Algodon,XL,9,11,22.00,30.00,A
-486,19000486,Bermuda Drill Stampada Hombre,Algodon,S,9,11,23.00,29.00,A
-487,19000487,Bermuda Drill Stampada Hombre,Algodon,M,9,11,23.00,29.00,A
-488,19000488,Bermuda Drill Stampada Hombre,Algodon,L,9,11,23.00,29.00,A
-489,19000489,Bermuda Drill Stampada Hombre,Algodon,XL,9,11,23.00,29.00,A
-490,19000490,Chaleco Grueso Hombre,Poliester,S,4,3,28.00,33.00,A
-491,19000491,Chaleco Grueso Hombre,Poliester,M,4,3,28.00,33.00,A
-492,19000492,Chaleco Grueso Hombre,Poliester,L,4,3,28.00,33.00,A
-493,19000493,Chaleco Grueso Hombre,Poliester,XL,4,3,28.00,33.00,A
-494,19000494,BVD Estampado Hombre,Algodon,S,1,4,23.00,29.00,A
-495,19000495,BVD Estampado Hombre,Algodon,M,1,4,23.00,29.00,A
-496,19000496,BVD Estampado Hombre,Algodon,L,1,4,23.00,29.00,A
-497,19000497,BVD Estampado Hombre,Algodon,XL,1,4,23.00,29.00,A
-498,19000498,Camisa Manga Corta Hombre ,Poliester,S,3,2,19.00,25.00,A
-499,19000499,Camisa Manga Corta Hombre ,Poliester,M,3,2,19.00,25.00,A
-500,19000500,Camisa Manga Corta Hombre ,Poliester,L,3,2,19.00,25.00,A
-501,19000501,Camisa Manga Corta Hombre ,Poliester,XL,3,2,19.00,25.00,A
-502,19000502,Camisa Manga Larga Hombre ,Poliester,S,3,2,22.00,29.00,A
-503,19000503,Camisa Manga Larga Hombre ,Poliester,M,3,2,22.00,29.00,A
-504,19000504,Camisa Manga Larga Hombre ,Poliester,L,3,2,22.00,29.00,A
-505,19000505,Camisa Manga Larga Hombre ,Poliester,XL,3,2,22.00,29.00,A
-506,19000506,Polo Cuello V Hombre,Algodon,S,1,4,15.00,19.00,A
-507,19000507,Polo Cuello V Hombre,Algodon,M,1,4,15.00,19.00,A
-508,19000508,Polo Cuello V Hombre,Algodon,L,1,4,15.00,19.00,A
-509,19000509,Polo Cuello V Hombre,Algodon,XL,1,4,15.00,19.00,A
-510,19000510,Susadera con Capucha,Algodon,S,6,4,35.00,40.00,A
-511,19000511,Susadera con Capucha,Algodon,M,6,4,35.00,40.00,A
-512,19000512,Susadera con Capucha,Algodon,L,6,4,35.00,40.00,A
-513,19000513,Susadera con Capucha,Algodon,XL,6,4,35.00,40.00,A
-514,19000514,Casaca Dama Jean,Denim,S,7,3,33.00,38.00,A
-515,19000515,Casaca Dama Jean,Denim,M,7,3,33.00,38.00,A
-516,19000516,Casaca Dama Jean,Denim,L,7,3,33.00,38.00,A
-517,19000517,Casaca Dama Jean,Denim,XL,7,3,33.00,38.00,A
-518,19000518,Joggers Corte casual Hombre,Algodon,S,8,6,28.00,34.00,A
-519,19000519,Joggers Corte casual Hombre,Algodon,M,8,6,28.00,34.00,A
-520,19000520,Joggers Corte casual Hombre,Algodon,L,8,6,28.00,34.00,A
-521,19000521,Joggers Corte casual Hombre,Algodon,XL,8,6,28.00,34.00,A
-522,19000522,Joggers Puños Ajustados Hombre,Nylon,S,8,6,28.00,34.00,A
-523,19000523,Joggers Puños Ajustados Hombre,Nylon,M,8,6,28.00,34.00,A
-524,19000524,Joggers Puños Ajustados Hombre,Nylon,L,8,6,28.00,34.00,A
-525,19000525,Joggers Puños Ajustados Hombre,Nylon,XL,8,6,28.00,34.00,A
-526,19000526,Pantalon con Bota Ajustada Dama,Denim,XS,8,9,38.00,44.00,A
-527,19000527,Pantalon con Bota Ajustada Dama,Denim,S,8,9,38.00,44.00,A
-528,19000528,Pantalon con Bota Ajustada Dama,Denim,M,8,9,38.00,44.00,A
-529,19000529,Pantalon con Bota Ajustada Dama,Denim,L,8,9,38.00,44.00,A
-530,19000530,Pantalon bajo con Dobles Dama,Denim,XS,8,9,38.00,44.00,A
-531,19000531,Pantalon bajo con Dobles Dama,Denim,S,8,9,38.00,44.00,A
-532,19000532,Pantalon bajo con Dobles Dama,Denim,M,8,9,38.00,44.00,A
-533,19000533,Pantalon bajo con Dobles Dama,Denim,L,8,9,38.00,44.00,A
-534,19000534,Pantalon Con Lavado Descolorido,Denim,XS,8,9,38.00,44.00,A
-535,19000535,Pantalon Con Lavado Descolorido,Denim,S,8,9,38.00,44.00,A
-536,19000536,Pantalon Con Lavado Descolorido,Denim,M,8,9,38.00,44.00,A
-537,19000537,Pantalon Con Lavado Descolorido,Denim,L,8,9,38.00,44.00,A
-538,19000538,Pantalon rasgado Dama,Denim,XS,8,9,38.00,44.00,A
-539,19000539,Pantalon rasgado Dama,Denim,S,8,9,38.00,44.00,A
-540,19000540,Pantalon rasgado Dama,Denim,M,8,9,38.00,44.00,A
-541,19000541,Pantalon rasgado Dama,Denim,L,8,9,38.00,44.00,A
-542,19000542,Top Corto Cruzado Dama,Algodon,XS,1,10,16.00,20.00,A
-543,19000543,Top Corto Cruzado Dama,Algodon,S,1,10,16.00,20.00,A
-544,19000544,Top Corto Cruzado Dama,Algodon,M,1,10,16.00,20.00,A
-545,19000545,Top Corto Cruzado Dama,Algodon,L,1,10,16.00,20.00,A
-546,19000546,Top Corto con Estampado Dama,Poliester,XS,1,10,15.00,19.00,A
-547,19000547,Top Corto con Estampado Dama,Poliester,S,1,10,15.00,19.00,A
-548,19000548,Top Corto con Estampado Dama,Poliester,M,1,10,15.00,19.00,A
-549,19000549,Top Corto con Estampado Dama,Poliester,L,1,10,15.00,19.00,A
-550,19000550,Top Corto Con Borde Dama ,Poliester,XS,1,10,15.00,19.00,A
-551,19000551,Top Corto Con Borde Dama ,Poliester,S,1,10,15.00,19.00,A
-552,19000552,Top Corto Con Borde Dama ,Poliester,M,1,10,15.00,19.00,A
-553,19000553,Top Corto Con Borde Dama ,Poliester,L,1,10,15.00,19.00,A
-554,19000554,Top Corto Con Cuello V Dama ,Algodon,XS,1,10,16.00,20.00,A
-555,19000555,Top Corto Con Cuello V Dama ,Algodon,S,1,10,16.00,20.00,A
-556,19000556,Top Corto Con Cuello V Dama ,Algodon,M,1,10,16.00,20.00,A
-557,19000557,Top Corto Con Cuello V Dama ,Algodon,L,1,10,16.00,20.00,A
-558,19000558,Jersey con Hombros Caidos Dama,Algodon,XS,5,7,18.00,24.00,A
-559,19000559,Jersey con Hombros Caidos Dama,Algodon,S,5,7,18.00,24.00,A
-560,19000560,Jersey con Hombros Caidos Dama,Algodon,M,5,7,18.00,24.00,A
-561,19000561,Jersey con Hombros Caidos Dama,Algodon,L,5,7,18.00,24.00,A
-562,19000562,Shorts con Bajo doblado Hombre ,Denim,S,9,11,16.00,22.00,A
-563,19000563,Shorts con Bajo doblado Hombre ,Denim,M,9,11,16.00,22.00,A
-564,19000564,Shorts con Bajo doblado Hombre ,Denim,L,9,11,16.00,22.00,A
-565,19000565,Shorts con Bajo doblado Hombre ,Denim,XL,9,11,16.00,22.00,A
-566,19000566,Chaketa Con Capucha y Cremallera Hombre,Poliester,S,4,3,28.00,34.00,A
-567,19000567,Chaketa Con Capucha y Cremallera Hombre,Poliester,M,4,3,28.00,34.00,A
-568,19000568,Chaketa Con Capucha y Cremallera Hombre,Poliester,L,4,3,28.00,34.00,A
-569,19000569,Chaketa Con Capucha y Cremallera Hombre,Poliester,XL,4,3,28.00,34.00,A
-570,19000570,Chaketa Con Capucha y Cremallera Hombre,Poliester,XXL,4,3,28.00,34.00,A
-571,19000571,Casaca Con Forro De Borreguito Hombre,Nylon,S,11,5,32.00,38.00,A
-572,19000572,Casaca Con Forro De Borreguito Hombre,Nylon,M,11,5,32.00,38.00,A
-573,19000573,Casaca Con Forro De Borreguito Hombre,Nylon,L,11,5,32.00,38.00,A
-574,19000574,Casaca Con Forro De Borreguito Hombre,Nylon,XL,11,5,32.00,38.00,A
-575,19000575,Jersey de Puntos Dama ,Lana,S,5,7,19.00,24.00,A
-576,19000576,Jersey de Puntos Dama ,Lana,M,5,7,19.00,24.00,A
-577,19000577,Jersey de Puntos Dama ,Lana,L,5,7,19.00,24.00,A
-578,19000578,Jersey de Puntos Con Cordon  Dama ,Lana,S,5,3,20.00,25.00,A
-579,19000579,Jersey de Puntos Con Cordon  Dama ,Lana,M,5,3,20.00,25.00,A
-580,19000580,Jersey de Puntos Con Cordon  Dama ,Lana,L,5,3,20.00,25.00,A
-581,19000581,Pantalones de Pierna Recta Hombres ,Algodon,S,8,6,33.00,39.00,A
-582,19000582,Pantalones de Pierna Recta Hombres ,Algodon,M,8,6,33.00,39.00,A
-583,19000583,Pantalones de Pierna Recta Hombres ,Algodon,L,8,6,33.00,39.00,A
-584,19000584,Pantalones de Pierna Recta Hombres ,Algodon,XL,8,6,33.00,39.00,A
-585,19000585,Pantalones de Pierna Recta Hombres ,Algodon,XXL,8,6,33.00,39.00,A
-586,19000586,Chaqueta sin Manga Estampada Hombre,Demin,S,7,2,32.00,38.00,A
-587,19000587,Chaqueta sin Manga Estampada Hombre,Demin,M,7,2,32.00,38.00,A
-588,19000588,Chaqueta sin Manga Estampada Hombre,Demin,L,7,2,32.00,38.00,A
-589,19000589,Chaqueta sin Manga Estampada Hombre,Demin,XL,7,2,32.00,38.00,A
-590,19000590,Camiseta Con Capucha Sin Manga Hombre,Poliester,S,1,4,19.00,24.00,A
-591,19000591,Camiseta Con Capucha Sin Manga Hombre,Poliester,M,1,4,19.00,24.00,A
-592,19000592,Camiseta Con Capucha Sin Manga Hombre,Poliester,L,1,4,19.00,24.00,A
-593,19000593,Camiseta Con Capucha Sin Manga Hombre,Poliester,XL,1,4,19.00,24.00,A
-594,19000594,Pantalon Cargo Con Cordon Hombre,Algodon,S,8,6,42.00,48.00,A
-595,19000595,Pantalon Cargo Con Cordon Hombre,Algodon,M,8,6,42.00,48.00,A
-596,19000596,Pantalon Cargo Con Cordon Hombre,Algodon,L,8,6,42.00,48.00,A
-597,19000597,Pantalon Cargo Con Cordon Hombre,Algodon,XL,8,6,42.00,48.00,A
-598,19000598,Camisa Polo Hombre,Lino,S,1,10,16.00,22.00,A
-599,19000599,Camisa Polo Hombre,Lino,M,1,10,16.00,22.00,A
-600,19000600,Camisa Polo Hombre,Lino,L,1,10,16.00,22.00,A
-601,19000601,Polera grande estampado rock,Algodón,S,6,4,70.00,75.00,A
-602,19000602,Polera grande estampado rock,Algodón,M,6,4,70.00,75.00,A
-603,19000603,Polera grande estampado rock,Algodón,S,6,4,70.00,75.00,A
-604,19000604,Polera grande estampado rock,Algodón,M,6,4,70.00,75.00,A
-605,19000605,Polera mujer estampado Oso Panda,Algodón,L,6,5,99.00,105.00,A
-606,19000606,Polera mujer estampado Oso Panda,Algodón,S,6,5,99.00,105.00,A
-607,19000607,Polera mujer estampado Oso Panda,Algodón,M,6,5,99.00,105.00,A
-608,19000608,Polera varonil rojo Cantante Camilo,Poliéster,L,6,5,50.00,60.00,A
-609,19000609,Polera varonil rojo Cantante Camilo,Poliéster,S,6,5,50.00,60.00,A
-610,19000610,Polera varonil rojo Cantante Camilo,Poliéster,M,6,5,50.00,60.00,A
-611,19000611,Polera varonil rojo Cantante Camilo,Poliéster,L,6,4,50.00,60.00,A
-612,19000612,Polera varonil rojo Cantante Camilo,Poliéster,S,6,4,80.00,90.00,A
-613,19000613,Polera varonil rojo Cantante Camilo,Poliéster,M,6,4,80.00,90.00,A
-614,19000614,Abrigo varonil Tipo Crack Negro,Algodón,L,11,2,69.00,75.00,A
-615,19000615,Abrigo varonil Tipo Crack Negro,Algodón,S,11,2,69.00,75.00,A
-616,19000616,Abrigo varonil Tipo Crack Negro,Algodón,M,11,2,69.00,75.00,A
-617,19000617,Abrigo varonil Tipo Crack Negro,Algodón,L,11,2,69.00,75.00,A
-618,19000618,Abrigo mujer corte princesa manteca ,Algodón,S,11,7,70.00,80.00,A
-619,19000619,Abrigo mujer corte princesa manteca ,Algodón,M,11,7,70.00,80.00,A
-620,19000620,Abrigo mujer corte princesa manteca ,Algodón,L,11,7,70.00,80.00,A
-621,19000621,Abrigo mujer corte princesa manteca ,Algodón,S,11,7,70.00,80.00,A
-622,19000622,Abrigo mujer Marron Claro,Lana,M,11,7,79.00,90.00,A
-623,19000623,Abrigo mujer Marron Claro,Lana,L,11,7,79.00,90.00,A
-624,19000624,Abrigo mujer Marron Claro,Lana,S,11,7,79.00,90.00,A
-625,19000625,Abrigo mujer Marron Claro,Lana,M,11,7,79.00,90.00,A
-626,19000626,Abrigo mujer Marron Claro,Poliéster,L,11,7,79.00,90.00,A
-627,19000627,Abrigo mujer Marron Claro,Poliéster,S,11,7,79.00,90.00,A
-628,19000628,Abrigo mujer Marron Claro,Poliéster,M,11,7,79.00,90.00,A
-629,19000629,Abrigo mujer Marron Claro,Poliéster,L,11,7,79.00,90.00,A
-630,19000630,Short varonil azul marino,Poliéster,S,9,11,100.00,105.00,A
-631,19000631,Short varonil azul marino,Poliéster,M,9,11,100.00,105.00,A
-632,19000632,Short varonil azul marino,Poliéster,L,9,11,100.00,105.00,A
-633,19000633,Polo Clasico con cuello V,Algodón,S,1,1,50.00,60.00,A
-634,19000634,Polo Clasico con cuello V,Algodón,M,1,1,50.00,60.00,A
-635,19000635,Polo Clasico con cuello O,Algodón,L,1,4,60.00,70.00,A
-636,19000636,Polo Clasico con cuello O,Algodón,S,1,4,60.00,70.00,A
-637,19000637,Polo Clasico con cuello O,Algodón,M,1,4,60.00,70.00,A
-638,19000638,Polo básico manga corta,Algodón,L,1,1,70.00,79.00,A
-639,19000639,Polo básico manga corta,Algodón,S,1,1,70.00,79.00,A
-640,19000640,Polo básico manga corta,Algodón,M,1,1,70.00,79.00,A
-641,19000641,Polo básico manga larga,Algodón,L,1,4,72.00,79.00,A
-642,19000642,Polo básico manga larga,Algodón,S,1,4,72.00,79.00,A
-643,19000643,Polo básico manga larga,Algodón,M,1,4,72.00,80.00,A
-644,19000644,Polo mujer plomo,Algodón,L,1,4,56.00,65.00,A
-645,19000645,Polo mujer plomo,Algodón,S,1,4,56.00,65.00,A
-646,19000646,Polo mujer plomo,Algodón,M,1,4,56.00,65.00,A
-647,19000647,Polo mujer plomo,Algodón,L,1,4,56.00,65.00,A
-648,19000648,Polo mujer plomo,Algodón,S,1,4,56.00,65.00,A
-649,19000649,Polo mujer plomo,Algodón,M,1,8,56.00,65.00,A
-650,19000650,Blusa rosado claro ,Algodón,L,2,8,56.00,65.00,A
-651,19000651,Blusa rosado claro ,Algodón,30,2,8,56.00,65.00,A
-652,19000652,Blusa rosado claro ,Algodón,32,2,8,56.00,65.00,A
-653,19000653,Blusa manga larga amarillo patito,Algodón,34,2,1,21.00,35.00,A
-654,19000654,Blusa manga larga amarillo patito,Algodón,36,2,1,21.00,35.00,A
-655,19000655,Blusa manga larga amarillo patito,Algodón,30,2,1,21.00,35.00,A
-656,19000656,Blusa  con estrellas negra  plomo,Algodón,32,2,1,24.00,35.00,A
-657,19000657,Blusa  con estrellas negra  plomo,Algodón,34,2,1,24.00,35.00,A
-658,19000658,Blusa  con estrellas negra  plomo,Algodón,36,2,1,24.00,35.00,A
-659,19000659,Blusa con rosas rojas blanco,Algodón,30,2,1,32.00,35.00,A
-660,19000660,Blusa con rosas rojas blanco,Algodón,32,2,1,32.00,35.00,A
-661,19000661,Blusa con rosas rojas blanco,Algodón,34,2,1,32.00,35.00,A
-662,19000662,Camisa varonil blanca manga corta,Algodón,36,3,10,26.00,35.00,A
-663,19000663,Camisa varonil blanca manga corta,Algodón,30,3,10,26.00,35.00,A
-664,19000664,Camisa varonil blanca manga corta,Algodón,32,3,10,26.00,35.00,A
-665,19000665,Camisa mujer blanco manga corta,Lino,34,3,10,26.00,35.00,A
-666,19000666,Camisa mujer blanco manga corta,Lino,36,3,10,26.00,35.00,A
-667,19000667,Camisa mujer blanco manga corta,Lino,30,3,10,26.00,35.00,A
-668,19000668,Camisa varonil celeste de algodon,Algodón,32,3,10,36.00,45.00,A
-669,19000669,Camisa varonil celeste de algodon,Algodón,34,3,10,36.00,45.00,A
-670,19000670,Camisa varonil celeste de algodon,Algodón,36,3,10,36.00,45.00,A
-671,19000671,Camisa mujer cintura princesa palo rosa,Denim,30,3,10,32.00,45.00,A
-672,19000672,Camisa mujer cintura princesa palo rosa,Denim,32,3,10,32.00,45.00,A
-673,19000673,Camisa mujer cintura princesa palo rosa,Denim,34,3,2,32.00,45.00,A
-674,19000674,Camisa varonil azul marino de poliester,Poliéster,36,3,2,36.00,45.00,A
-675,19000675,Camisa varonil azul marino de poliester,Poliéster,30,3,2,36.00,45.00,A
-676,19000676,Camisa varonil azul marino de poliester,Poliéster,32,3,2,36.00,45.00,A
-677,19000677,Camisa varonil colar negro con rayas blancas,Lino,34,3,2,26.00,35.00,A
-678,19000678,Camisa varonil colar negro con rayas blancas,Lino,36,3,2,26.00,35.00,A
-679,19000679,Camisa varonil colar negro con rayas blancas,Lino,30,3,2,26.00,35.00,A
-680,19000680,Camisa varonil colar azul,Algodón,32,3,2,26.00,35.00,A
-681,19000681,Camisa varonil colar azul,Algodón,34,3,2,26.00,35.00,A
-682,19000682,Camisa varonil colar azul,Algodón,36,3,2,26.00,35.00,A
-683,19000683,Jeans  petillo  básico azul,Denim,30,7,9,80.00,95.00,A
-684,19000684,Jeans  petillo  básico azul,Denim,32,7,9,80.00,95.00,A
-685,19000685,Jeans  petillo  básico azul,Denim,34,7,9,80.00,95.00,A
-686,19000686,Jeans  petillo  básico azul,Denim,36,7,9,80.00,95.00,A
-687,19000687,Jeans mujer semipitillo azul claro,Denim,30,7,9,90.00,95.00,A
-688,19000688,Jeans mujer semipitillo azul claro,Denim,32,7,9,90.00,95.00,A
-689,19000689,Jeans mujer semipitillo azul claro,Denim,34,7,9,90.00,95.00,A
-690,19000690,Jeans mujer semipitillo azul claro,Denim,36,7,9,90.00,95.00,A
-691,19000691,Jeans varón normales color negro,Denim,30,7,9,90.00,95.00,A
-692,19000692,Jeans varón normales color negro,Denim,32,7,9,90.00,95.00,A
-693,19000693,Jeans varón normales color negro,Denim,34,7,9,90.00,95.00,A
-694,19000694,Jeans varón normales color negro,Denim,36,7,5,90.00,95.00,A
-695,19000695,Jeans mujer pitillo azul claro,Denim,30,7,5,110.00,120.00,A
-696,19000696,Jeans mujer pitillo azul claro,Denim,32,7,5,110.00,120.00,A
-697,19000697,Jeans mujer pitillo azul claro,Denim,34,7,5,110.00,120.00,A
-698,19000698,Jeans mujer pitillo azul claro,Denim,36,7,5,110.00,120.00,A
-699,19000699,Jeans mujer recortados celeste,Denim,30,7,5,110.00,120.00,A
-700,19000700,Jeans mujer recortados celeste,Denim,32,7,5,110.00,120.00,A
-701,19000701,Jeans mujer recortados celeste,Denim,34,7,5,110.00,120.00,A
-702,19000702,Jeans mujer recortados celeste,Denim,36,7,5,110.00,120.00,A
+444,19000444,Poleron Mujer,Algodón ,S,6,5,22.00,29.00,A
+445,19000445,Poleron Mujer,Algodón ,M,6,5,22.00,29.00,A
+446,19000446,Poleron Mujer,Algodón ,L,6,5,22.00,29.00,A
+447,19000447,Poleron Mujer,Algodón ,XL,6,5,22.00,29.00,A
+448,19000448,Mezclilla Corte Colombiano,Mezclilla,S,7,6,36.00,45.00,A
+449,19000449,Mezclilla Corte Colombiano,Mezclilla,M,7,6,36.00,45.00,A
+450,19000450,Mezclilla Corte Colombiano,Mezclilla,L,7,6,36.00,45.00,A
+451,19000451,Mezclilla Corte Colombiano,Mezclilla,XL,7,6,36.00,45.00,A
+452,19000452,Top Sin Mangas Mujer,Algodón,S,2,8,19.00,26.00,A
+453,19000453,Top Sin Mangas Mujer,Algodón,M,2,8,19.00,26.00,A
+454,19000454,Top Sin Mangas Mujer,Algodón,L,2,8,19.00,26.00,A
+455,19000455,Top Sin Mangas Mujer,Algodón,XL,2,8,19.00,26.00,A
+456,19000456,Vestido Corto Mujer,Lino,S,10,8,23.00,30.00,A
+457,19000457,Vestido Corto Mujer,Lino,M,10,8,23.00,30.00,A
+458,19000458,Vestido Corto Mujer,Lino,L,10,8,23.00,30.00,A
+459,19000459,Vestido Corto Mujer,Lino,S,10,8,23.00,30.00,A
+460,19000460,Vestido Corto Mujer,Lino,M,10,8,23.00,30.00,A
+461,19000461,Vestido Corto Mujer,Lino,L,10,8,23.00,30.00,A
+462,19000462,Polo Detroit Cuello Box Hombre,Algodón,S,1,4,24.00,31.00,A
+463,19000463,Polo Detroit Cuello Box Hombre,Algodón,M,1,4,24.00,31.00,A
+464,19000464,Polo Detroit Cuello Box Hombre,Algodón,L,1,4,24.00,31.00,A
+465,19000465,Polo Detroit Cuello Box Hombre,Algodón,XL,1,4,24.00,31.00,A
+466,19000466,Polo Manga Corta,Poliéster,S,1,4,24.00,31.00,A
+467,19000467,Polo Manga Corta,Poliéster,M,1,4,24.00,31.00,A
+468,19000468,Polo Manga Corta,Poliéster,L,1,4,24.00,31.00,A
+469,19000469,Polo Manga Corta,Poliéster,XL,1,4,22.00,29.00,A
+470,19000470,Polera Mijail Cerrado Hombre,Algodón,S,1,4,22.00,29.00,A
+471,19000471,Polera Mijail Cerrado Hombre,Algodón,M,1,4,22.00,29.00,A
+472,19000472,Polera Mijail Cerrado Hombre,Algodón,L,1,4,22.00,29.00,A
+473,19000473,Polera Mijail Cerrado Hombre,Algodón,XL,1,4,22.00,29.00,A
+474,19000474,Polera Con Capucha Hombre,Algodón,S,1,5,25.00,33.00,A
+475,19000475,Polera Con Capucha Hombre,Algodón,M,1,5,25.00,33.00,A
+476,19000476,Polera Con Capucha Hombre,Algodón,L,1,5,25.00,33.00,A
+477,19000477,Polera Con Capucha Hombre,Algodón,XL,1,5,25.00,33.00,A
+478,19000478,Bermuda Pretina Elastica Hombre,Poliéster,S,9,11,22.00,30.00,A
+479,19000479,Bermuda Pretina Elastica Hombre,Poliéster,M,9,11,22.00,30.00,A
+480,19000480,Bermuda Pretina Elastica Hombre,Poliéster,L,9,11,22.00,30.00,A
+481,19000481,Bermuda Pretina Elastica Hombre,Poliéster,XL,9,11,22.00,30.00,A
+482,19000482,Bermuda Con Bolsillos Hombre,Algodón,S,9,11,22.00,30.00,A
+483,19000483,Bermuda Con Bolsillos Hombre,Algodón,M,9,11,22.00,30.00,A
+484,19000484,Bermuda Con Bolsillos Hombre,Algodón,L,9,11,22.00,30.00,A
+485,19000485,Bermuda Con Bolsillos Hombre,Algodón,XL,9,11,22.00,30.00,A
+486,19000486,Bermuda Drill Stampada Hombre,Algodón,S,9,11,22.00,29.00,A
+487,19000487,Bermuda Drill Stampada Hombre,Algodón,M,9,11,22.00,29.00,A
+488,19000488,Bermuda Drill Stampada Hombre,Algodón,L,9,11,22.00,29.00,A
+489,19000489,Bermuda Drill Stampada Hombre,Algodón,XL,9,11,22.00,29.00,A
+490,19000490,Chaleco Grueso Hombre,Poliéster,S,4,3,28.00,35.00,A
+491,19000491,Chaleco Grueso Hombre,Poliéster,M,4,3,28.00,35.00,A
+492,19000492,Chaleco Grueso Hombre,Poliéster,L,4,3,28.00,35.00,A
+493,19000493,Chaleco Grueso Hombre,Poliéster,XL,4,3,28.00,35.00,A
+494,19000494,BVD Estampado Hombre,Algodón,S,1,4,22.00,29.00,A
+495,19000495,BVD Estampado Hombre,Algodón,M,1,4,22.00,29.00,A
+496,19000496,BVD Estampado Hombre,Algodón,L,1,4,22.00,29.00,A
+497,19000497,BVD Estampado Hombre,Algodón,XL,1,4,22.00,29.00,A
+498,19000498,Camisa Manga Corta Hombre ,Poliéster,S,3,2,19.00,26.00,A
+499,19000499,Camisa Manga Corta Hombre ,Poliéster,M,3,2,19.00,26.00,A
+500,19000500,Camisa Manga Corta Hombre ,Poliéster,L,3,2,19.00,26.00,A
+501,19000501,Camisa Manga Corta Hombre ,Poliéster,XL,3,2,19.00,26.00,A
+502,19000502,Camisa Manga Larga Hombre ,Lino,S,3,2,22.00,29.00,A
+503,19000503,Camisa Manga Larga Hombre ,Lino,M,3,2,22.00,29.00,A
+504,19000504,Camisa Manga Larga Hombre ,Lino,L,3,2,22.00,29.00,A
+505,19000505,Camisa Manga Larga Hombre ,Lino,XL,3,2,22.00,29.00,A
+506,19000506,Polo Cuello V Hombre,Algodón,S,1,4,15.00,25.00,A
+507,19000507,Polo Cuello V Hombre,Algodón,M,1,4,15.00,25.00,A
+508,19000508,Polo Cuello V Hombre,Algodón,L,1,4,15.00,25.00,A
+509,19000509,Polo Cuello V Hombre,Algodón,XL,1,4,15.00,25.00,A
+510,19000510,Susadera con Capucha,Algodón,S,6,4,33.00,42.00,A
+511,19000511,Susadera con Capucha,Algodón,M,6,4,33.00,42.00,A
+512,19000512,Susadera con Capucha,Algodón,L,6,4,33.00,42.00,A
+513,19000513,Susadera con Capucha,Algodón,XL,6,4,33.00,42.00,A
+514,19000514,Casaca Dama Jean,Mezclilla,S,7,3,33.00,42.00,A
+515,19000515,Casaca Dama Jean,Mezclilla,M,7,3,30.00,38.00,A
+516,19000516,Casaca Dama Jean,Mezclilla,L,7,3,30.00,38.00,A
+517,19000517,Casaca Dama Jean,Mezclilla,XL,7,3,30.00,38.00,A
+518,19000518,Joggers Corte casual Hombre,Algodón,S,8,6,28.00,35.00,A
+519,19000519,Joggers Corte casual Hombre,Algodón,M,8,6,28.00,35.00,A
+520,19000520,Joggers Corte casual Hombre,Algodón,L,8,6,28.00,35.00,A
+521,19000521,Joggers Corte casual Hombre,Algodón,XL,8,6,28.00,35.00,A
+522,19000522,Joggers Puños Ajustados Hombre,Nylon,S,8,6,28.00,35.00,A
+523,19000523,Joggers Puños Ajustados Hombre,Nylon,M,8,6,28.00,35.00,A
+524,19000524,Joggers Puños Ajustados Hombre,Nylon,L,8,6,28.00,35.00,A
+525,19000525,Joggers Puños Ajustados Hombre,Nylon,XL,8,6,28.00,35.00,A
+526,19000526,Pantalon con Bota Ajustada Dama,Mezclilla,XS,8,9,38.00,45.00,A
+527,19000527,Pantalon con Bota Ajustada Dama,Mezclilla,S,8,9,38.00,45.00,A
+528,19000528,Pantalon con Bota Ajustada Dama,Mezclilla,M,8,9,38.00,45.00,A
+529,19000529,Pantalon con Bota Ajustada Dama,Mezclilla,L,8,9,38.00,45.00,A
+530,19000530,Pantalon bajo con Dobles Dama,Mezclilla,XS,8,9,38.00,45.00,A
+531,19000531,Pantalon bajo con Dobles Dama,Mezclilla,S,8,9,38.00,45.00,A
+532,19000532,Pantalon bajo con Dobles Dama,Mezclilla,M,8,9,38.00,45.00,A
+533,19000533,Pantalon bajo con Dobles Dama,Mezclilla,L,8,9,38.00,45.00,A
+534,19000534,Pantalon Con Lavado Descolorido,Mezclilla,XS,8,9,39.00,46.00,A
+535,19000535,Pantalon Con Lavado Descolorido,Mezclilla,S,8,9,39.00,46.00,A
+536,19000536,Pantalon Con Lavado Descolorido,Mezclilla,M,8,9,39.00,46.00,A
+537,19000537,Pantalon Con Lavado Descolorido,Mezclilla,L,8,9,39.00,46.00,A
+538,19000538,Pantalon rasgado Dama,Mezclilla,XS,8,9,39.00,49.00,A
+539,19000539,Pantalon rasgado Dama,Mezclilla,S,8,9,39.00,49.00,A
+540,19000540,Pantalon rasgado Dama,Mezclilla,M,8,9,39.00,49.00,A
+541,19000541,Pantalon rasgado Dama,Mezclilla,L,8,9,39.00,49.00,A
+542,19000542,Top Corto Cruzado Dama,Algodón,XS,1,10,16.00,25.00,A
+543,19000543,Top Corto Cruzado Dama,Algodón,S,1,10,16.00,25.00,A
+544,19000544,Top Corto Cruzado Dama,Algodón,M,1,10,16.00,25.00,A
+545,19000545,Top Corto Cruzado Dama,Algodón,L,1,10,16.00,25.00,A
+546,19000546,Top Corto con Estampado Dama,Poliéster,XS,1,10,15.00,25.00,A
+547,19000547,Top Corto con Estampado Dama,Poliéster,S,1,10,15.00,25.00,A
+548,19000548,Top Corto con Estampado Dama,Poliéster,M,1,10,15.00,25.00,A
+549,19000549,Top Corto con Estampado Dama,Poliéster,L,1,10,15.00,25.00,A
+550,19000550,Top Corto Con Borde Dama ,Poliéster,XS,1,10,15.00,25.00,A
+551,19000551,Top Corto Con Borde Dama ,Poliéster,S,1,10,15.00,25.00,A
+552,19000552,Top Corto Con Borde Dama ,Poliéster,M,1,10,15.00,25.00,A
+553,19000553,Top Corto Con Borde Dama ,Poliéster,L,1,10,15.00,25.00,A
+554,19000554,Top Corto Con Cuello V Dama ,Algodón,XS,1,10,16.00,24.00,A
+555,19000555,Top Corto Con Cuello V Dama ,Algodón,S,1,10,16.00,24.00,A
+556,19000556,Top Corto Con Cuello V Dama ,Algodón,M,1,10,16.00,24.00,A
+557,19000557,Top Corto Con Cuello V Dama ,Algodón,L,1,10,16.00,24.00,A
+558,19000558,Jersey con Hombros Caidos Dama,Algodón,XS,5,7,20.00,29.00,A
+559,19000559,Jersey con Hombros Caidos Dama,Algodón,S,5,7,20.00,29.00,A
+560,19000560,Jersey con Hombros Caidos Dama,Algodón,M,5,7,20.00,29.00,A
+561,19000561,Jersey con Hombros Caidos Dama,Algodón,L,5,7,20.00,29.00,A
+562,19000562,Shorts con Bajo doblado Hombre ,Mezclilla,S,9,11,18.00,25.00,A
+563,19000563,Shorts con Bajo doblado Hombre ,Mezclilla,M,9,11,18.00,25.00,A
+564,19000564,Shorts con Bajo doblado Hombre ,Mezclilla,L,9,11,18.00,25.00,A
+565,19000565,Shorts con Bajo doblado Hombre ,Mezclilla,XL,9,11,18.00,25.00,A
+566,19000566,Chaketa Con Capucha y Cremallera Hombre,Poliéster,S,4,3,28.00,35.00,A
+567,19000567,Chaketa Con Capucha y Cremallera Hombre,Poliéster,M,4,3,28.00,35.00,A
+568,19000568,Chaketa Con Capucha y Cremallera Hombre,Poliéster,L,4,3,28.00,35.00,A
+569,19000569,Chaketa Con Capucha y Cremallera Hombre,Poliéster,XL,4,3,28.00,35.00,A
+570,19000570,Chaketa Con Capucha y Cremallera Hombre,Poliéster,XXL,4,3,28.00,35.00,A
+571,19000571,Casaca Con Forro De Borreguito Hombre,Nylon,S,11,5,32.00,39.00,A
+572,19000572,Casaca Con Forro De Borreguito Hombre,Nylon,M,11,5,32.00,39.00,A
+573,19000573,Casaca Con Forro De Borreguito Hombre,Nylon,L,11,5,32.00,39.00,A
+574,19000574,Casaca Con Forro De Borreguito Hombre,Nylon,XL,11,5,32.00,39.00,A
+575,19000575,Jersey de Puntos Dama ,Lana,S,5,7,19.00,26.00,A
+576,19000576,Jersey de Puntos Dama ,Lana,M,5,7,19.00,26.00,A
+577,19000577,Jersey de Puntos Dama ,Lana,L,5,7,19.00,26.00,A
+578,19000578,Jersey de Puntos Con Cordon  Dama ,Lana,S,5,3,20.00,27.00,A
+579,19000579,Jersey de Puntos Con Cordon  Dama ,Lana,M,5,3,20.00,27.00,A
+580,19000580,Jersey de Puntos Con Cordon  Dama ,Lana,L,5,3,20.00,27.00,A
+581,19000581,Pantalones de Pierna Recta Hombres ,Algodón,S,8,6,30.00,39.00,A
+582,19000582,Pantalones de Pierna Recta Hombres ,Algodón,M,8,6,30.00,39.00,A
+583,19000583,Pantalones de Pierna Recta Hombres ,Algodón,L,8,6,30.00,39.00,A
+584,19000584,Pantalones de Pierna Recta Hombres ,Algodón,XL,8,6,30.00,39.00,A
+585,19000585,Pantalones de Pierna Recta Hombres ,Algodón,XXL,8,6,30.00,39.00,A
+586,19000586,Chaqueta sin Manga Estampada Hombre,Mezclilla,S,7,2,32.00,44.00,A
+587,19000587,Chaqueta sin Manga Estampada Hombre,Mezclilla,M,7,2,32.00,44.00,A
+588,19000588,Chaqueta sin Manga Estampada Hombre,Mezclilla,L,7,2,32.00,44.00,A
+589,19000589,Chaqueta sin Manga Estampada Hombre,,XL,7,2,32.00,44.00,A
+590,19000590,Camiseta Con Capucha Sin Manga Hombre,Poliéster,S,1,4,19.00,26.00,A
+591,19000591,Camiseta Con Capucha Sin Manga Hombre,Poliéster,M,1,4,19.00,26.00,A
+592,19000592,Camiseta Con Capucha Sin Manga Hombre,Poliéster,L,1,4,19.00,26.00,A
+593,19000593,Camiseta Con Capucha Sin Manga Hombre,Poliéster,XL,1,4,19.00,26.00,A
+594,19000594,Pantalon Cargo Con Cordon Hombre,Algodón,S,8,6,42.00,50.00,A
+595,19000595,Pantalon Cargo Con Cordon Hombre,Algodón,M,8,6,42.00,50.00,A
+596,19000596,Pantalon Cargo Con Cordon Hombre,Algodón,L,8,6,42.00,50.00,A
+597,19000597,Pantalon Cargo Con Cordon Hombre,Algodón,XL,8,6,42.00,50.00,A
+598,19000598,Camisa Polo Hombre,Lino,S,1,10,16.00,24.00,A
+599,19000599,Camisa Polo Hombre,Lino,M,1,10,16.00,24.00,A
+600,19000600,Camisa Polo Hombre,Lino,L,1,10,16.00,24.00,A
+601,19000601,Polera grande estampado rock,Algodón,S,6,4,70.00,85.00,A
+602,19000602,Polera grande estampado rock,Algodón,M,6,4,70.00,85.00,A
+603,19000603,Polera grande estampado rock,Algodón,S,6,4,70.00,85.00,A
+604,19000604,Polera grande estampado rock,Algodón,M,6,4,70.00,85.00,A
+605,19000605,Polera mujer estampado Oso Panda,Algodón,L,6,5,99.00,114.00,A
+606,19000606,Polera mujer estampado Oso Panda,Algodón,S,6,5,99.00,114.00,A
+607,19000607,Polera mujer estampado Oso Panda,Algodón,M,6,5,99.00,114.00,A
+608,19000608,Polera varonil rojo Cantante Camilo,Poliéster,L,6,5,50.00,65.00,A
+609,19000609,Polera varonil rojo Cantante Camilo,Poliéster,S,6,5,50.00,65.00,A
+610,19000610,Polera varonil rojo Cantante Camilo,Poliéster,M,6,5,50.00,65.00,A
+611,19000611,Polera varonil rojo Cantante Camilo,Poliéster,L,6,4,50.00,65.00,A
+612,19000612,Polera varonil rojo Cantante Camilo,Poliéster,S,6,4,80.00,95.00,A
+613,19000613,Polera varonil rojo Cantante Camilo,Poliéster,M,6,4,80.00,95.00,A
+614,19000614,Abrigo varonil Tipo Crack Negro,Algodón,L,11,2,69.00,84.00,A
+615,19000615,Abrigo varonil Tipo Crack Negro,Algodón,S,11,2,69.00,84.00,A
+616,19000616,Abrigo varonil Tipo Crack Negro,Algodón,M,11,2,69.00,84.00,A
+617,19000617,Abrigo varonil Tipo Crack Negro,Algodón,L,11,2,69.00,84.00,A
+618,19000618,Abrigo mujer corte princesa manteca ,Algodón,S,11,7,70.00,85.00,A
+619,19000619,Abrigo mujer corte princesa manteca ,Algodón,M,11,7,70.00,85.00,A
+620,19000620,Abrigo mujer corte princesa manteca ,Algodón,L,11,7,70.00,85.00,A
+621,19000621,Abrigo mujer corte princesa manteca ,Algodón,S,11,7,70.00,85.00,A
+622,19000622,Abrigo mujer Marron Claro,Lana,M,11,7,79.00,94.00,A
+623,19000623,Abrigo mujer Marron Claro,Lana,L,11,7,79.00,94.00,A
+624,19000624,Abrigo mujer Marron Claro,Lana,S,11,7,79.00,94.00,A
+625,19000625,Abrigo mujer Marron Claro,Lana,M,11,7,79.00,94.00,A
+626,19000626,Abrigo mujer Marron Claro,Poliéster,L,11,7,79.00,94.00,A
+627,19000627,Abrigo mujer Marron Claro,Poliéster,S,11,7,79.00,94.00,A
+628,19000628,Abrigo mujer Marron Claro,Poliéster,M,11,7,79.00,94.00,A
+629,19000629,Abrigo mujer Marron Claro,Poliéster,L,11,7,79.00,94.00,A
+630,19000630,Short varonil azul marino,Poliéster,S,9,11,100.00,115.00,A
+631,19000631,Short varonil azul marino,Poliéster,M,9,11,100.00,115.00,A
+632,19000632,Short varonil azul marino,Poliéster,L,9,11,100.00,115.00,A
+633,19000633,Polo Clasico con cuello V,Algodón,S,1,1,50.00,65.00,A
+634,19000634,Polo Clasico con cuello V,Algodón,M,1,1,50.00,65.00,A
+635,19000635,Polo Clasico con cuello O,Algodón,L,1,4,60.00,75.00,A
+636,19000636,Polo Clasico con cuello O,Algodón,S,1,4,60.00,75.00,A
+637,19000637,Polo Clasico con cuello O,Algodón,M,1,4,60.00,75.00,A
+638,19000638,Polo básico manga corta,Algodón,L,1,1,70.00,85.00,A
+639,19000639,Polo básico manga corta,Algodón,S,1,1,70.00,85.00,A
+640,19000640,Polo básico manga corta,Algodón,M,1,1,70.00,85.00,A
+641,19000641,Polo básico manga larga,Algodón,L,1,4,72.00,87.00,A
+642,19000642,Polo básico manga larga,Algodón,S,1,4,72.00,87.00,A
+643,19000643,Polo básico manga larga,Algodón,M,1,4,72.00,87.00,A
+644,19000644,Polo mujer plomo,Algodón,L,1,4,56.00,71.00,A
+645,19000645,Polo mujer plomo,Algodón,S,1,4,56.00,71.00,A
+646,19000646,Polo mujer plomo,Algodón,M,1,4,56.00,71.00,A
+647,19000647,Polo mujer plomo,Algodón,L,1,4,56.00,71.00,A
+648,19000648,Polo mujer plomo,Algodón,S,1,4,56.00,71.00,A
+649,19000649,Polo mujer plomo,Algodón,M,1,8,56.00,71.00,A
+650,19000650,Blusa rosado claro ,Algodón,L,2,8,56.00,71.00,A
+651,19000651,Blusa rosado claro ,Algodón,30,2,8,56.00,71.00,A
+652,19000652,Blusa rosado claro ,Algodón,32,2,8,56.00,71.00,A
+653,19000653,Blusa manga larga amarillo patito,Algodón,34,2,1,21.00,36.00,A
+654,19000654,Blusa manga larga amarillo patito,Algodón,36,2,1,21.00,36.00,A
+655,19000655,Blusa manga larga amarillo patito,Algodón,30,2,1,21.00,36.00,A
+656,19000656,Blusa  con estrellas negra  plomo,Algodón,32,2,1,24.00,39.00,A
+657,19000657,Blusa  con estrellas negra  plomo,Algodón,34,2,1,24.00,39.00,A
+658,19000658,Blusa  con estrellas negra  plomo,Algodón,36,2,1,24.00,39.00,A
+659,19000659,Blusa con rosas rojas blanco,Algodón,30,2,1,32.00,47.00,A
+660,19000660,Blusa con rosas rojas blanco,Algodón,32,2,1,32.00,47.00,A
+661,19000661,Blusa con rosas rojas blanco,Algodón,34,2,1,32.00,47.00,A
+662,19000662,Camisa varonil blanca manga corta,Lino,36,3,10,26.00,41.00,A
+663,19000663,Camisa varonil blanca manga corta,Lino,30,3,10,26.00,41.00,A
+664,19000664,Camisa varonil blanca manga corta,Lino,32,3,10,26.00,41.00,A
+665,19000665,Camisa mujer blanco manga corta,Lino,34,3,10,26.00,41.00,A
+666,19000666,Camisa mujer blanco manga corta,Lino,36,3,10,26.00,41.00,A
+667,19000667,Camisa mujer blanco manga corta,Lino,30,3,10,26.00,41.00,A
+668,19000668,Camisa varonil celeste de Algodón,Algodón,32,3,10,36.00,51.00,A
+669,19000669,Camisa varonil celeste de Algodón,Algodón,34,3,10,36.00,51.00,A
+670,19000670,Camisa varonil celeste de Algodón,Algodón,36,3,10,36.00,51.00,A
+671,19000671,Camisa mujer cintura princesa palo rosa,Mezclilla,30,3,10,32.00,47.00,A
+672,19000672,Camisa mujer cintura princesa palo rosa,Mezclilla,32,3,10,32.00,47.00,A
+673,19000673,Camisa mujer cintura princesa palo rosa,Mezclilla,34,3,2,32.00,47.00,A
+674,19000674,Camisa varonil azul marino de poliester,Poliéster,36,3,2,36.00,51.00,A
+675,19000675,Camisa varonil azul marino de poliester,Poliéster,30,3,2,36.00,51.00,A
+676,19000676,Camisa varonil azul marino de poliester,Poliéster,32,3,2,36.00,51.00,A
+677,19000677,Camisa varonil colar negro con rayas blancas,Lino,34,3,2,26.00,41.00,A
+678,19000678,Camisa varonil colar negro con rayas blancas,Lino,36,3,2,26.00,41.00,A
+679,19000679,Camisa varonil colar negro con rayas blancas,Lino,30,3,2,26.00,41.00,A
+680,19000680,Camisa varonil colar azul,Algodón,32,3,2,26.00,41.00,A
+681,19000681,Camisa varonil colar azul,Algodón,34,3,2,26.00,41.00,A
+682,19000682,Camisa varonil colar azul,Algodón,36,3,2,26.00,41.00,A
+683,19000683,Jeans  petillo  básico azul,Mezclilla,30,7,9,80.00,95.00,A
+684,19000684,Jeans  petillo  básico azul,Mezclilla,32,7,9,80.00,95.00,A
+685,19000685,Jeans  petillo  básico azul,Mezclilla,34,7,9,80.00,95.00,A
+686,19000686,Jeans  petillo  básico azul,Mezclilla,36,7,9,80.00,95.00,A
+687,19000687,Jeans mujer semipitillo azul claro,Mezclilla,30,7,9,90.00,105.00,A
+688,19000688,Jeans mujer semipitillo azul claro,Mezclilla,32,7,9,90.00,105.00,A
+689,19000689,Jeans mujer semipitillo azul claro,Mezclilla,34,7,9,90.00,105.00,A
+690,19000690,Jeans mujer semipitillo azul claro,Mezclilla,36,7,9,90.00,105.00,A
+691,19000691,Jeans varón normales color negro,Mezclilla,30,7,9,90.00,105.00,A
+692,19000692,Jeans varón normales color negro,Mezclilla,32,7,9,90.00,105.00,A
+693,19000693,Jeans varón normales color negro,Mezclilla,34,7,9,90.00,105.00,A
+694,19000694,Jeans varón normales color negro,Mezclilla,36,7,5,90.00,105.00,A
+695,19000695,Jeans mujer pitillo azul claro,Mezclilla,30,7,5,110.00,125.00,A
+696,19000696,Jeans mujer pitillo azul claro,Mezclilla,32,7,5,110.00,125.00,A
+697,19000697,Jeans mujer pitillo azul claro,Mezclilla,34,7,5,110.00,125.00,A
+698,19000698,Jeans mujer pitillo azul claro,Mezclilla,36,7,5,110.00,125.00,A
+699,19000699,Jeans mujer recortados celeste,Mezclilla,30,7,5,110.00,125.00,A
+700,19000700,Jeans mujer recortados celeste,Mezclilla,32,7,5,110.00,125.00,A
+701,19000701,Jeans mujer recortados celeste,Mezclilla,34,7,5,110.00,125.00,A
+702,19000702,Jeans mujer recortados celeste,Mezclilla,36,7,5,110.00,125.00,A
 703,19000703,Pantalon de vestir varonil negro,Algodón,30,8,6,90.00,105.00,A
 704,19000704,Pantalon de vestir varonil negro,Algodón,32,8,6,90.00,105.00,A
 705,19000705,Pantalon de vestir varonil negro,Algodón,34,8,6,90.00,105.00,A
@@ -709,93 +709,93 @@ id_articulo,codigo,nombre,material,talla,id_categoria,id_marca,precio_compra,pre
 708,19000708,Pantalon de vestir varonil plomo,Poliéster,32,8,6,90.00,105.00,A
 709,19000709,Pantalon de vestir varonil plomo,Poliéster,34,8,6,90.00,105.00,A
 710,19000710,Pantalon de vestir varonil plomo,Poliéster,36,8,6,90.00,105.00,A
-711,19000711,Pantalon mujer gris oscuro,Algodón,30,8,9,140.00,150.00,A
-712,19000712,Pantalon mujer gris oscuro,Algodón,32,8,9,140.00,150.00,A
-713,19000713,Pantalon mujer gris oscuro,Algodón,34,8,9,140.00,150.00,A
-714,19000714,Pantalon mujer gris oscuro,Algodón,36,8,9,140.00,150.00,A
-715,19000715,Pantalon mujer celeste,Algodón,30,8,9,140.00,150.00,A
-716,19000716,Pantalon mujer celeste,Algodón,32,8,9,140.00,150.00,A
-717,19000717,Pantalon mujer celeste,Algodón,34,8,9,140.00,150.00,A
-718,19000718,Pantalon mujer celeste,Algodón,36,8,9,140.00,150.00,A
-719,19000719,Short mujer azul claro,Denim,30,9,6,35.00,45.00,A
-720,19000720,Short mujer azul claro,Denim,32,9,6,35.00,45.00,A
-721,19000721,Short mujer azul claro,Denim,34,9,6,35.00,45.00,A
-722,19000722,Short mujer negro,Denim,36,9,6,35.00,45.00,A
-723,19000723,Short mujer negro,Denim,30,9,6,25.00,45.00,A
-724,19000724,Short mujer negro,Denim,32,9,6,25.00,45.00,A
-725,19000725,Short mujer negro,Denim,34,9,6,25.00,45.00,A
-726,19000726,Falda negro oscura ,Denim,36,10,8,75.00,80.00,A
-727,19000727,Falda negro oscura ,Poliéster,30,10,8,75.00,80.00,A
-728,19000728,Falda negro oscura ,Poliéster,32,10,8,75.00,80.00,A
-729,19000729,Falda negro oscura ,Poliéster,34,10,8,75.00,80.00,A
-730,19000730,Falda azul presidencial,Poliéster,36,10,8,70.00,80.00,A
-731,19000731,Falda azul presidencial,Denim,30,10,8,70.00,80.00,A
-732,19000732,Falda azul presidencial,Denim,32,10,8,70.00,80.00,A
-733,19000733,Falda blanco grueso,Denim,34,10,8,65.00,75.00,A
-734,19000734,Falda blanco grueso,Lana,32,10,8,65.00,75.00,A
-735,19000735,Falda blanco grueso,Lana,34,10,8,65.00,75.00,A
-736,19000736,Falda blanco grueso,Lana,36,10,8,65.00,75.00,A
-737,19000737,Falda blanco grueso,Lana,38,10,8,65.00,75.00,A
-738,19000738,Falda azul claro,Poliéster,32,10,8,63.00,75.00,A
-739,19000739,Falda azul claro,Poliéster,34,10,8,63.00,75.00,A
-740,19000740,Falda azul claro,Poliéster,36,10,8,63.00,75.00,A
-741,19000741,Falda azul claro,Poliéster,38,10,8,63.00,75.00,A
-742,19000742,Casaca mujer gris oscuro,Nylon,S,4,5,84.00,90.00,A
-743,19000743,Casaca mujer gris oscuro,Nylon,M,4,5,84.00,90.00,A
-744,19000744,Casaca mujer gris oscuro,Nylon,L,4,5,84.00,90.00,A
-745,19000745,Casaca varonil negro marachi,Poliéster,S,4,2,120.00,125.00,A
-746,19000746,Casaca varonil negro marachi,Poliéster,M,4,2,120.00,125.00,A
-747,19000747,Casaca varonil negro marachi,Poliéster,L,4,2,120.00,125.00,A
+711,19000711,Pantalon mujer gris oscuro,Algodón,30,8,9,140.00,155.00,A
+712,19000712,Pantalon mujer gris oscuro,Algodón,32,8,9,140.00,155.00,A
+713,19000713,Pantalon mujer gris oscuro,Algodón,34,8,9,140.00,155.00,A
+714,19000714,Pantalon mujer gris oscuro,Algodón,36,8,9,140.00,155.00,A
+715,19000715,Pantalon mujer celeste,Algodón,30,8,9,140.00,155.00,A
+716,19000716,Pantalon mujer celeste,Algodón,32,8,9,140.00,155.00,A
+717,19000717,Pantalon mujer celeste,Algodón,34,8,9,140.00,155.00,A
+718,19000718,Pantalon mujer celeste,Algodón,36,8,9,140.00,155.00,A
+719,19000719,Short mujer azul claro,Mezclilla,30,9,6,35.00,50.00,A
+720,19000720,Short mujer azul claro,Mezclilla,32,9,6,35.00,50.00,A
+721,19000721,Short mujer azul claro,Mezclilla,34,9,6,35.00,50.00,A
+722,19000722,Short mujer negro,Mezclilla,36,9,6,35.00,50.00,A
+723,19000723,Short mujer negro,Mezclilla,30,9,6,25.00,40.00,A
+724,19000724,Short mujer negro,Mezclilla,32,9,6,25.00,40.00,A
+725,19000725,Short mujer negro,Mezclilla,34,9,6,25.00,40.00,A
+726,19000726,Falda negro oscura ,Mezclilla,36,10,8,75.00,90.00,A
+727,19000727,Falda negro oscura ,Poliéster,30,10,8,75.00,90.00,A
+728,19000728,Falda negro oscura ,Poliéster,32,10,8,75.00,90.00,A
+729,19000729,Falda negro oscura ,Poliéster,34,10,8,75.00,90.00,A
+730,19000730,Falda azul presidencial,Poliéster,36,10,8,70.00,85.00,A
+731,19000731,Falda azul presidencial,Mezclilla,30,10,8,70.00,85.00,A
+732,19000732,Falda azul presidencial,Mezclilla,32,10,8,70.00,85.00,A
+733,19000733,Falda blanco grueso,Mezclilla,34,10,8,65.00,80.00,A
+734,19000734,Falda blanco grueso,Lana,32,10,8,65.00,80.00,A
+735,19000735,Falda blanco grueso,Lana,34,10,8,65.00,80.00,A
+736,19000736,Falda blanco grueso,Lana,36,10,8,65.00,80.00,A
+737,19000737,Falda blanco grueso,Lana,38,10,8,65.00,80.00,A
+738,19000738,Falda azul claro,Poliéster,32,10,8,63.00,78.00,A
+739,19000739,Falda azul claro,Poliéster,34,10,8,63.00,78.00,A
+740,19000740,Falda azul claro,Poliéster,36,10,8,63.00,78.00,A
+741,19000741,Falda azul claro,Poliéster,38,10,8,63.00,78.00,A
+742,19000742,Casaca mujer gris oscuro,Nylon,S,4,5,84.00,99.00,A
+743,19000743,Casaca mujer gris oscuro,Nylon,M,4,5,84.00,99.00,A
+744,19000744,Casaca mujer gris oscuro,Nylon,L,4,5,84.00,99.00,A
+745,19000745,Casaca varonil negro marachi,Poliéster,S,4,2,120.00,135.00,A
+746,19000746,Casaca varonil negro marachi,Poliéster,M,4,2,120.00,135.00,A
+747,19000747,Casaca varonil negro marachi,Poliéster,L,4,2,120.00,135.00,A
 748,19000748,Casaca mujer coloresverde petroleo,Nylon,S,4,5,95.00,110.00,A
 749,19000749,Casaca mujer coloresverde petroleo,Nylon,M,4,5,95.00,110.00,A
 750,19000750,Casaca mujer coloresverde petroleo,Nylon,L,4,5,95.00,110.00,A
 751,19000751,Casaca mujer coloresverde petroleo,Nylon,S,4,5,95.00,110.00,A
 752,19000752,Casaca mujer coloresverde petroleo,Nylon,M,4,5,95.00,110.00,A
-753,19000753,Casaca varonil plomo con capucha larga,Nylon,L,4,2,105.00,110.00,A
-754,19000754,Casaca varonil plomo con capucha larga,Nylon,S,4,2,105.00,110.00,A
-755,19000755,Casaca varonil plomo con capucha larga,Nylon,M,4,2,105.00,110.00,A
-756,19000756,Casaca varonil azul marino sin capucha,Nylon,L,4,3,145.00,170.00,A
-757,19000757,Casaca varonil azul marino sin capucha,Nylon,S,4,3,145.00,170.00,A
-758,19000758,Casaca varonil azul marino sin capucha,Nylon,M,4,3,145.00,170.00,A
-759,19000759,Casaca varonil azul marino sin capucha,Nylon,L,4,3,145.00,170.00,A
-760,19000760,Casaca varonil azul marino sin capucha,Nylon,S,4,3,145.00,170.00,A
-761,19000761,Casaca varonil azul marino sin capucha,Nylon,M,4,3,145.00,170.00,A
-762,19000762,Casaca mujer corte princesa palo rosa ,Nylon,L,4,5,100.00,119.00,A
-763,19000763,Casaca mujer corte princesa palo rosa ,Poliéster,S,4,5,100.00,119.00,A
-764,19000764,Casaca mujer corte princesa palo rosa ,Poliéster,M,4,5,100.00,119.00,A
-765,19000765,Chompa mujer morado con puntos bicolores,Poliéster,L,5,7,150.00,160.00,A
-766,19000766,Chompa mujer morado con puntos bicolores,Lana,S,5,7,150.00,160.00,A
-767,19000767,Chompa mujer morado con puntos bicolores,Lana,M,5,7,150.00,160.00,A
-768,19000768,Chompa mujer morado con puntos bicolores,Lana,L,5,7,150.00,160.00,A
-769,19000769,Chompa mujer morado con puntos bicolores,Lana,XL,5,7,150.00,160.00,A
-770,19000770,Chompa varonil negro oscuro,Algodón,S,5,3,90.00,110.00,A
-771,19000771,Chompa varonil negro oscuro,Algodón,M,5,3,90.00,110.00,A
-772,19000772,Chompa varonil negro oscuro,Algodón,L,5,3,90.00,110.00,A
-773,19000773,Chompa varón delgado rojo,Algodón,XL,5,3,90.00,110.00,A
-774,19000774,Chompa varón delgado rojo,Algodón,S,5,3,45.00,55.00,A
-775,19000775,Chompa varón delgado rojo,Algodón,M,5,3,45.00,55.00,A
-776,19000776,Chompa varón delgado rojo,Algodón,L,5,3,45.00,55.00,A
-777,19000777,Chompa varón delgado rojo,Algodón,XL,5,3,45.00,55.00,A
-778,19000778,Chompa mujer yessica blanco,Lana,S,5,7,56.00,62.00,A
-779,19000779,Chompa mujer yessica blanco,Lana,M,5,7,56.00,62.00,A
-780,19000780,Chompa mujer yessica blanco,Lana,L,5,7,56.00,62.00,A
-781,19000781,Chompa mujer yessica blanco,Lana,XL,5,7,56.00,62.00,A
-782,19000782,Chompa mujer manteca,Algodón,S,5,7,60.00,69.00,A
-783,19000783,Chompa mujer manteca,Algodón,M,5,7,60.00,69.00,A
-784,19000784,Chompa mujer manteca,Algodón,L,5,7,60.00,69.00,A
-785,19000785,Chompa mujer manteca,Algodón,XL,5,7,60.00,69.00,A
-786,19000786,Polera mujer rosado,Poliéster,S,6,5,35.00,45.00,A
-787,19000787,Polera mujer rosado,Poliéster,M,6,5,35.00,45.00,A
-788,19000788,Polera mujer rosado,Poliéster,L,6,5,35.00,45.00,A
-789,19000789,Polera varonil estampado jugadores de futbol,Poliéster,XL,6,5,40.00,46.00,A
-790,19000790,Polera varonil estampado jugadores de futbol,Poliéster,S,6,5,40.00,46.00,A
-791,19000791,Polera varonil estampado jugadores de futbol,Poliéster,M,6,5,40.00,46.00,A
-792,19000792,Polera varonil estampado jugadores de futbol,Poliéster,L,6,5,40.00,46.00,A
-793,19000793,Polera mujer delgado deportiva,Algodón,S,6,5,50.00,60.00,A
-794,19000794,Polera mujer delgado deportiva,Algodón,M,6,5,50.00,60.00,A
-795,19000795,Polera mujer delgado deportiva,Algodón,L,6,5,50.00,60.00,A
-796,19000796,Polera varonil letras tik tok negra y blanca,Algodón,S,6,4,59.00,69.00,A
-797,19000797,Polera varonil letras tik tok negra y blanca,Algodón,M,6,4,59.00,69.00,A
-798,19000798,Polera varonil letras tik tok negra y blanca,Algodón,L,6,4,59.00,69.00,A
-799,19000799,Polera mujer letras tik tok negra y blanca,Algodón,S,6,4,59.00,69.00,A
-800,19000800,Polera mujer letras tik tok negra y blanca,Algodón,M,6,4,59.00,69.00,A
+753,19000753,Casaca varonil plomo con capucha larga,Nylon,L,4,2,105.00,120.00,A
+754,19000754,Casaca varonil plomo con capucha larga,Nylon,S,4,2,105.00,120.00,A
+755,19000755,Casaca varonil plomo con capucha larga,Nylon,M,4,2,105.00,120.00,A
+756,19000756,Casaca varonil azul marino sin capucha,Nylon,L,4,3,145.00,160.00,A
+757,19000757,Casaca varonil azul marino sin capucha,Nylon,S,4,3,145.00,160.00,A
+758,19000758,Casaca varonil azul marino sin capucha,Nylon,M,4,3,145.00,160.00,A
+759,19000759,Casaca varonil azul marino sin capucha,Nylon,L,4,3,145.00,160.00,A
+760,19000760,Casaca varonil azul marino sin capucha,Nylon,S,4,3,145.00,160.00,A
+761,19000761,Casaca varonil azul marino sin capucha,Nylon,M,4,3,145.00,160.00,A
+762,19000762,Casaca mujer corte princesa palo rosa ,Nylon,L,4,5,100.00,115.00,A
+763,19000763,Casaca mujer corte princesa palo rosa ,Poliéster,S,4,5,100.00,115.00,A
+764,19000764,Casaca mujer corte princesa palo rosa ,Poliéster,M,4,5,100.00,115.00,A
+765,19000765,Chompa mujer morado con puntos bicolores,Poliéster,L,5,7,150.00,165.00,A
+766,19000766,Chompa mujer morado con puntos bicolores,Lana,S,5,7,150.00,165.00,A
+767,19000767,Chompa mujer morado con puntos bicolores,Lana,M,5,7,150.00,165.00,A
+768,19000768,Chompa mujer morado con puntos bicolores,Lana,L,5,7,150.00,165.00,A
+769,19000769,Chompa mujer morado con puntos bicolores,Lana,XL,5,7,150.00,165.00,A
+770,19000770,Chompa varonil negro oscuro,Algodón,S,5,3,90.00,105.00,A
+771,19000771,Chompa varonil negro oscuro,Algodón,M,5,3,90.00,105.00,A
+772,19000772,Chompa varonil negro oscuro,Algodón,L,5,3,90.00,105.00,A
+773,19000773,Chompa varón delgado rojo,Algodón,XL,5,3,90.00,105.00,A
+774,19000774,Chompa varón delgado rojo,Algodón,S,5,3,45.00,60.00,A
+775,19000775,Chompa varón delgado rojo,Algodón,M,5,3,45.00,60.00,A
+776,19000776,Chompa varón delgado rojo,Algodón,L,5,3,45.00,60.00,A
+777,19000777,Chompa varón delgado rojo,Algodón,XL,5,3,45.00,60.00,A
+778,19000778,Chompa mujer yessica blanco,Lana,S,5,7,56.00,71.00,A
+779,19000779,Chompa mujer yessica blanco,Lana,M,5,7,56.00,71.00,A
+780,19000780,Chompa mujer yessica blanco,Lana,L,5,7,56.00,71.00,A
+781,19000781,Chompa mujer yessica blanco,Lana,XL,5,7,56.00,71.00,A
+782,19000782,Chompa mujer manteca,Algodón,S,5,7,60.00,75.00,A
+783,19000783,Chompa mujer manteca,Algodón,M,5,7,60.00,75.00,A
+784,19000784,Chompa mujer manteca,Algodón,L,5,7,60.00,75.00,A
+785,19000785,Chompa mujer manteca,Algodón,XL,5,7,60.00,75.00,A
+786,19000786,Polera mujer rosado,Poliéster,S,6,5,35.00,50.00,A
+787,19000787,Polera mujer rosado,Poliéster,M,6,5,35.00,50.00,A
+788,19000788,Polera mujer rosado,Poliéster,L,6,5,35.00,50.00,A
+789,19000789,Polera varonil estampado jugadores de futbol,Poliéster,XL,6,5,40.00,55.00,A
+790,19000790,Polera varonil estampado jugadores de futbol,Poliéster,S,6,5,40.00,55.00,A
+791,19000791,Polera varonil estampado jugadores de futbol,Poliéster,M,6,5,40.00,55.00,A
+792,19000792,Polera varonil estampado jugadores de futbol,Poliéster,L,6,5,40.00,55.00,A
+793,19000793,Polera mujer delgado deportiva,Algodón,S,6,5,50.00,65.00,A
+794,19000794,Polera mujer delgado deportiva,Algodón,M,6,5,50.00,65.00,A
+795,19000795,Polera mujer delgado deportiva,Algodón,L,6,5,50.00,65.00,A
+796,19000796,Polera varonil letras tik tok negra y blanca,Algodón,S,6,4,59.00,74.00,A
+797,19000797,Polera varonil letras tik tok negra y blanca,Algodón,M,6,4,59.00,74.00,A
+798,19000798,Polera varonil letras tik tok negra y blanca,Algodón,L,6,4,59.00,74.00,A
+799,19000799,Polera mujer letras tik tok negra y blanca,Algodón,S,6,4,59.00,74.00,A
+800,19000800,Polera mujer letras tik tok negra y blanca,Algodón,M,6,4,59.00,74.00,A
