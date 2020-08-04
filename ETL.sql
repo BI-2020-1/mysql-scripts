@@ -135,7 +135,7 @@ FROM
 			a.codigo,
 	        vdet.cantidad as Cantidad,
 	        vdet.cantidad*vdet.precio_compra_unid as Costos,
-	        (vdet.cantidad*vdet.precio_venta_unid) - vdet.descuento_unid as Ventas,
+	        vdet.cantidad*(vdet.precio_venta_unid - vdet.descuento_unid) as Ventas,
 	        vdet.cantidad*(vdet.descuento_unid) as Descuento,
 	        cli.genero,
 	        pr.nombres as nombrePromotor,
